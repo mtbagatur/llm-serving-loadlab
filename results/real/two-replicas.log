@@ -1,0 +1,17 @@
+[two-replicas] prompt~  128 conc= 1 ok=8/8 p50_latency=  3.93s cell_time=  27.4s
+[two-replicas] prompt~  128 conc= 2 ok=8/8 p50_latency=  5.22s cell_time=  19.6s
+[two-replicas] prompt~  128 conc= 4 ok=8/8 p50_latency=  5.86s cell_time=  15.0s
+[two-replicas] prompt~  128 conc= 8 ok=8/8 p50_latency=  8.38s cell_time=   8.5s
+[two-replicas] prompt~  512 conc= 1 ok=8/8 p50_latency=  4.46s cell_time=  35.9s
+[two-replicas] prompt~  512 conc= 2 ok=8/8 p50_latency=  6.52s cell_time=  28.4s
+[two-replicas] prompt~  512 conc= 4 ok=8/8 p50_latency= 11.89s cell_time=  24.9s
+[two-replicas] prompt~  512 conc= 8 ok=8/8 p50_latency= 23.75s cell_time=  23.8s
+[two-replicas] prompt~ 1024 conc= 1 ok=8/8 p50_latency=  9.26s cell_time=  74.4s
+[two-replicas] prompt~ 1024 conc= 2 ok=8/8 p50_latency= 13.17s cell_time=  53.8s
+[two-replicas] prompt~ 1024 conc= 4 ok=8/8 p50_latency= 26.11s cell_time=  50.7s
+[two-replicas] prompt~ 1024 conc= 8 ok=8/8 p50_latency= 50.85s cell_time=  51.0s
+[two-replicas] prompt~ 2048 conc= 1 ok=8/8 p50_latency= 20.71s cell_time= 165.7s
+[two-replicas] prompt~ 2048 conc= 2 ok=8/8 p50_latency= 28.56s cell_time= 128.2s
+[two-replicas] prompt~ 2048 conc= 4 ok=8/8 p50_latency= 63.63s cell_time= 125.4s
+[two-replicas] prompt~ 2048 conc= 8 ok=8/8 p50_latency=120.66s cell_time= 120.9s
+wrote results/real/two-replicas.csv and results/real/two-replicas.json: 128 requests, 0 errors

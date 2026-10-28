@@ -1,0 +1,52 @@
+# One model server replica = one Ollama pod serving qwen2.5:0.5b (public model).
+# On a GPU cluster you would swap the image for vLLM and request nvidia.com/gpu: 1;
+# the shape of the experiment (1 vs 2 replicas behind one Service) stays the same.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: llm-server
+  labels: {app: llm-server}
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: llm-server}
+  template:
+    metadata:
+      labels: {app: llm-server}
+    spec:
+      # Spread replicas over nodes: a second replica only helps if it lands on
+      # *idle* compute (another node / another GPU), not on the same saturated one.
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: kubernetes.io/hostname
+          whenUnsatisfiable: ScheduleAnyway
+          labelSelector:
+            matchLabels: {app: llm-server}
+      initContainers:
+        - name: pull-model
+          image: ollama/ollama:0.6.8
+          command: ["/bin/sh", "-c"]
+          args:
+            - ollama serve & sleep 3 && ollama pull qwen2.5:0.5b && kill %1
+          volumeMounts:
+            - {name: models, mountPath: /root/.ollama}
+      containers:
+        - name: ollama
+          image: ollama/ollama:0.6.8
+          ports:
+            - {name: http, containerPort: 11434}
+          env:
+            - {name: OLLAMA_NUM_PARALLEL, value: "4"}
+            - {name: OLLAMA_CONTEXT_LENGTH, value: "8192"}
+            - {name: OLLAMA_KEEP_ALIVE, value: "-1"}
+          resources:
+            requests: {cpu: "4", memory: 3Gi}
+            limits: {cpu: "4", memory: 4Gi}
+          readinessProbe:
+            httpGet: {path: /api/tags, port: http}
+            periodSeconds: 5
+          volumeMounts:
+            - {name: models, mountPath: /root/.ollama}
+      volumes:
+        - name: models
+          emptyDir: {}
