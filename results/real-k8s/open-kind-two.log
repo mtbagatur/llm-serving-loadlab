@@ -1,0 +1,6 @@
+[open-kind-two] prompt~  512 rate=0.05/s ok=24/24 p50_latency=  6.41s max_inflight=4 cell_time= 477.2s
+[open-kind-two] prompt~  512 rate=0.1/s ok=24/24 p50_latency=  9.49s max_inflight=7 cell_time= 249.4s
+[open-kind-two] prompt~  512 rate=0.15/s ok=24/24 p50_latency= 16.20s max_inflight=11 cell_time= 162.5s
+[open-kind-two] prompt~  512 rate=0.25/s ok=24/24 p50_latency= 28.78s max_inflight=11 cell_time= 105.5s
+[open-kind-two] prompt~  512 rate=0.4/s ok=24/24 p50_latency= 42.28s max_inflight=15 cell_time= 103.6s
+wrote results/real-k8s/open-kind-two.csv and results/real-k8s/open-kind-two.json: 120 requests, 0 errors

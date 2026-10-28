@@ -1,0 +1,62 @@
+# kind variant (JSON 6902 patch on the base Deployment):
+# - no download: the model comes read-only from the node (k8s/kind/kind-config.yaml
+#   mounts it from the host). An init container copies it into a pod-local emptyDir
+#   and re-creates `qwen2.5:0.5b` with `PARAMETER num_thread 6` (same weights, same
+#   template). Why: llama.cpp sizes its thread pool from the *host's* core count (it
+#   started 8 threads in a pod that owns 6 CPUs). More threads than CPUs makes
+#   llama.cpp's per-layer barriers wait on descheduled threads.
+# - CPU request = limit = 6 (integer, Guaranteed QoS): with the static CPU manager
+#   (k8s/kind/kind-config.yaml) each replica gets 6 *exclusive* logical CPUs
+#   (3 physical cores). This is the "one accelerator" stand-in; a second replica
+#   gets another, disjoint set ("the idle accelerator").
+- op: replace
+  path: /spec/template/spec/initContainers
+  value:
+    - name: prepare-model
+      image: ollama/ollama:0.6.8
+      imagePullPolicy: IfNotPresent
+      command: ["/bin/sh", "-c"]
+      args:
+        - |
+          set -e
+          cp -r /host-models/models/. /work/
+          printf 'FROM qwen2.5:0.5b\nPARAMETER num_thread 6\n' > /tmp/Modelfile
+          ollama serve & pid=$!; sleep 3
+          ollama create qwen2.5:0.5b -f /tmp/Modelfile
+          ollama show qwen2.5:0.5b --parameters
+          kill $pid
+      env:
+        - {name: OLLAMA_MODELS, value: /work}
+      # requests == limits on *every* container, init included; otherwise the pod is
+      # Burstable and the static CPU manager does not hand out exclusive CPUs.
+      resources:
+        requests: {cpu: "1", memory: 1Gi}
+        limits: {cpu: "1", memory: 1Gi}
+      volumeMounts:
+        - {name: host-models, mountPath: /host-models, readOnly: true}
+        - {name: models, mountPath: /work}
+- op: replace
+  path: /spec/template/spec/volumes
+  value:
+    - name: host-models
+      hostPath: {path: /models, type: Directory}
+    - name: models
+      emptyDir: {sizeLimit: 1Gi}
+- op: replace
+  path: /spec/template/spec/containers/0/volumeMounts
+  value:
+    - {name: models, mountPath: /work}
+- op: add
+  path: /spec/template/spec/containers/0/env/-
+  value: {name: OLLAMA_MODELS, value: /work}
+- op: add
+  path: /spec/template/spec/containers/0/env/-
+  value: {name: OLLAMA_NOPRUNE, value: "1"}
+- op: add
+  path: /spec/template/spec/containers/0/imagePullPolicy
+  value: IfNotPresent
+- op: replace
+  path: /spec/template/spec/containers/0/resources
+  value:
+    requests: {cpu: "6", memory: 3Gi}
+    limits: {cpu: "6", memory: 3Gi}

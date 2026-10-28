@@ -1,0 +1,27 @@
+# kind cluster "loadlab": ONE node (see README: a 3-node cluster did not start on
+# this laptop, containerd hit the host's inotify instance limit, fixing that needs sudo).
+#
+# "One accelerator" stand-in = an exclusive set of physical CPU cores:
+# kubelet runs the *static* CPU manager, so a Guaranteed pod with an integer CPU
+# request gets dedicated cores that no other pod can use. Two replicas therefore
+# land on two disjoint core sets on the same node (replica 2 = "the idle accelerator").
+#
+# The model directory is mounted read-only from the host, so nothing is downloaded.
+# __MODEL_DIR__ is replaced by the Makefile (kind needs an absolute host path).
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+name: loadlab
+nodes:
+  - role: control-plane
+    extraMounts:
+      - {hostPath: __MODEL_DIR__, containerPath: /models, readOnly: true}
+    extraPortMappings:
+      # NodePort of svc/llm-server -> localhost. Goes through kube-proxy, so
+      # requests are balanced by the Service itself (not by the client).
+      - {containerPort: 30080, hostPort: 18080, listenAddress: "127.0.0.1"}
+    kubeadmConfigPatches:
+      - |
+        kind: KubeletConfiguration
+        cpuManagerPolicy: static
+        # physical core 0 (logical CPUs 0,1) for kubelet / system pods
+        reservedSystemCPUs: "0-1"

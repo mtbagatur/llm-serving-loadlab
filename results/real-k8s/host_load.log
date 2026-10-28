@@ -1,0 +1,4038 @@
+== 2026-10-28T12:24:21Z 6.00 8.29 5.91
+loadlab-control-plane 8.88%
+lead-hunter-scraper 0.16%
+llm-prod-readiness-kit-ollama-1 437.37%
+n8n 0.19%
+platform-lab-worker2 0.92%
+platform-lab-worker 2.83%
+platform-lab-control-plane 9.87%
+== 2026-10-28T12:24:53Z 8.41 8.59 6.10
+loadlab-control-plane 619.35%
+lead-hunter-scraper 0.15%
+llm-prod-readiness-kit-ollama-1 635.33%
+n8n 0.17%
+platform-lab-worker2 1.23%
+platform-lab-worker 0.72%
+platform-lab-control-plane 13.41%
+== 2026-10-28T12:25:26Z 8.81 8.75 6.24
+loadlab-control-plane 15.41%
+lead-hunter-scraper 0.20%
+llm-prod-readiness-kit-postgres-1 0.28%
+llm-prod-readiness-kit-ollama-1 669.73%
+n8n 0.17%
+platform-lab-worker2 1.36%
+platform-lab-worker 1.11%
+platform-lab-control-plane 15.94%
+== 2026-10-28T12:25:58Z 9.19 8.82 6.35
+loadlab-control-plane 41.96%
+lead-hunter-scraper 0.18%
+llm-prod-readiness-kit-postgres-1 0.10%
+llm-prod-readiness-kit-ollama-1 722.62%
+n8n 0.14%
+platform-lab-worker2 2.54%
+platform-lab-worker 2.77%
+platform-lab-control-plane 16.44%
+== 2026-10-28T12:26:30Z 8.65 8.71 6.40
+loadlab-control-plane 24.65%
+lead-hunter-scraper 0.27%
+llm-prod-readiness-kit-ollama-1 713.47%
+n8n 0.22%
+platform-lab-worker2 4.47%
+platform-lab-worker 3.03%
+platform-lab-control-plane 21.91%
+== 2026-10-28T12:27:02Z 7.93 8.55 6.43
+loadlab-control-plane 10.70%
+lead-hunter-scraper 0.19%
+llm-prod-readiness-kit-postgres-1 6.57%
+n8n 0.22%
+platform-lab-worker2 2.14%
+platform-lab-worker 2.42%
+platform-lab-control-plane 15.21%
+== 2026-10-28T12:27:34Z 7.05 8.25 6.39
+loadlab-control-plane 14.13%
+lead-hunter-scraper 0.27%
+llm-prod-readiness-kit-ollama-1 752.99%
+n8n 0.32%
+platform-lab-worker2 2.08%
+platform-lab-worker 2.47%
+platform-lab-control-plane 17.42%
+== 2026-10-28T12:28:06Z 7.72 8.30 6.47
+loadlab-control-plane 25.73%
+lead-hunter-scraper 0.17%
+llm-prod-readiness-kit-ollama-1 766.18%
+platform-lab-worker2 1.68%
+platform-lab-worker 2.54%
+platform-lab-control-plane 15.79%
+== 2026-10-28T12:28:38Z 5.68 7.78 6.37
+loadlab-control-plane 12.65%
+lead-hunter-scraper 0.17%
+llm-prod-readiness-kit-postgres-1 3.46%
+n8n 0.16%
+platform-lab-worker2 1.69%
+platform-lab-worker 1.90%
+platform-lab-control-plane 12.53%
+== 2026-10-28T12:29:10Z 3.63 7.08 6.18
+loadlab-control-plane 18.34%
+lead-hunter-scraper 0.17%
+n8n 0.16%
+platform-lab-worker2 3.59%
+platform-lab-worker 2.30%
+platform-lab-control-plane 13.52%
+== 2026-10-28T12:29:43Z 2.37 6.39 5.98
+loadlab-control-plane 16.71%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 2.33%
+platform-lab-worker 2.33%
+platform-lab-control-plane 12.87%
+== 2026-10-28T12:30:15Z 1.51 5.80 5.80
+loadlab-control-plane 14.66%
+lead-hunter-scraper 0.20%
+n8n 0.20%
+platform-lab-worker2 2.46%
+platform-lab-worker 2.02%
+platform-lab-control-plane 17.44%
+== 2026-10-28T12:30:47Z 0.98 5.26 5.62
+loadlab-control-plane 12.91%
+lead-hunter-scraper 0.18%
+n8n 0.25%
+platform-lab-worker2 3.71%
+platform-lab-worker 3.79%
+platform-lab-control-plane 15.73%
+== 2026-10-28T12:31:19Z 1.12 4.83 5.46
+loadlab-control-plane 35.72%
+lead-hunter-scraper 0.18%
+n8n 0.16%
+platform-lab-worker2 1.70%
+platform-lab-worker 3.13%
+platform-lab-control-plane 14.01%
+== 2026-10-28T12:31:51Z 2.57 4.84 5.44
+loadlab-control-plane 12.63%
+lead-hunter-scraper 0.14%
+n8n 0.23%
+platform-lab-worker2 3.14%
+platform-lab-worker 3.01%
+platform-lab-control-plane 8.86%
+== 2026-10-28T12:32:23Z 2.57 4.59 5.34
+loadlab-control-plane 15.11%
+lead-hunter-scraper 0.20%
+n8n 0.18%
+platform-lab-worker2 3.47%
+platform-lab-worker 1.49%
+platform-lab-control-plane 11.10%
+== 2026-10-28T12:32:55Z 3.57 4.62 5.32
+loadlab-control-plane 586.78%
+lead-hunter-scraper 0.19%
+n8n 0.26%
+platform-lab-worker2 2.25%
+platform-lab-worker 2.11%
+platform-lab-control-plane 11.64%
+== 2026-10-28T12:33:27Z 5.05 4.87 5.38
+loadlab-control-plane 620.33%
+lead-hunter-scraper 0.16%
+n8n 0.27%
+platform-lab-worker2 1.73%
+platform-lab-worker 1.72%
+platform-lab-control-plane 11.14%
+== 2026-10-28T12:33:59Z 6.44 5.23 5.48
+loadlab-control-plane 622.65%
+lead-hunter-scraper 0.16%
+n8n 0.14%
+platform-lab-worker2 0.80%
+platform-lab-worker 0.92%
+platform-lab-control-plane 12.82%
+== 2026-10-28T12:34:31Z 7.29 5.56 5.59
+loadlab-control-plane 562.55%
+lead-hunter-scraper 0.19%
+n8n 0.14%
+platform-lab-worker2 1.48%
+platform-lab-worker 0.88%
+platform-lab-control-plane 13.40%
+== 2026-10-28T12:35:03Z 7.45 5.81 5.67
+loadlab-control-plane 581.71%
+lead-hunter-scraper 0.18%
+n8n 0.15%
+platform-lab-worker2 1.40%
+platform-lab-worker 1.23%
+platform-lab-control-plane 11.80%
+== 2026-10-28T12:35:35Z 7.32 5.94 5.72
+loadlab-control-plane 601.10%
+lead-hunter-scraper 0.15%
+n8n 0.23%
+platform-lab-worker2 1.40%
+platform-lab-worker 1.37%
+platform-lab-control-plane 12.27%
+== 2026-10-28T12:36:07Z 7.32 6.09 5.78
+loadlab-control-plane 619.89%
+lead-hunter-scraper 0.15%
+n8n 0.13%
+platform-lab-worker2 1.10%
+platform-lab-worker 1.17%
+platform-lab-control-plane 10.38%
+== 2026-10-28T12:36:39Z 7.24 6.18 5.82
+loadlab-control-plane 588.75%
+lead-hunter-scraper 0.14%
+n8n 0.33%
+platform-lab-worker2 1.13%
+platform-lab-worker 1.01%
+platform-lab-control-plane 11.61%
+== 2026-10-28T12:37:12Z 7.34 6.31 5.88
+loadlab-control-plane 627.87%
+lead-hunter-scraper 0.15%
+n8n 0.26%
+platform-lab-worker2 1.09%
+platform-lab-worker 1.55%
+platform-lab-control-plane 11.39%
+== 2026-10-28T12:37:44Z 7.45 6.45 5.94
+loadlab-control-plane 620.36%
+lead-hunter-scraper 0.15%
+n8n 0.16%
+platform-lab-worker2 1.81%
+platform-lab-worker 1.07%
+platform-lab-control-plane 15.24%
+== 2026-10-28T12:38:16Z 7.24 6.48 5.97
+loadlab-control-plane 572.33%
+lead-hunter-scraper 0.15%
+n8n 0.26%
+platform-lab-worker2 1.55%
+platform-lab-worker 1.24%
+platform-lab-control-plane 12.33%
+== 2026-10-28T12:38:48Z 8.04 6.75 6.08
+loadlab-control-plane 622.62%
+lead-hunter-scraper 0.16%
+n8n 0.15%
+platform-lab-worker2 1.12%
+platform-lab-worker 1.13%
+platform-lab-control-plane 9.09%
+== 2026-10-28T12:39:20Z 7.91 6.85 6.14
+loadlab-control-plane 609.27%
+lead-hunter-scraper 0.15%
+n8n 0.10%
+platform-lab-worker2 2.32%
+platform-lab-worker 2.80%
+platform-lab-control-plane 11.07%
+== 2026-10-28T12:39:52Z 7.83 6.93 6.19
+loadlab-control-plane 622.25%
+lead-hunter-scraper 0.15%
+n8n 0.28%
+platform-lab-worker2 2.85%
+platform-lab-worker 3.04%
+platform-lab-control-plane 10.00%
+== 2026-10-28T12:40:24Z 7.75 7.01 6.24
+loadlab-control-plane 621.35%
+lead-hunter-scraper 0.15%
+n8n 0.19%
+platform-lab-worker2 0.79%
+platform-lab-worker 0.85%
+platform-lab-control-plane 11.06%
+== 2026-10-28T12:40:56Z 7.57 7.04 6.27
+loadlab-control-plane 619.90%
+lead-hunter-scraper 0.18%
+n8n 0.10%
+platform-lab-worker2 1.77%
+platform-lab-worker 1.50%
+platform-lab-control-plane 14.59%
+== 2026-10-28T12:41:28Z 7.41 7.05 6.31
+loadlab-control-plane 617.90%
+lead-hunter-scraper 0.15%
+n8n 0.20%
+platform-lab-worker2 4.23%
+platform-lab-worker 1.79%
+platform-lab-control-plane 11.83%
+== 2026-10-28T12:42:00Z 7.47 7.11 6.35
+loadlab-control-plane 623.79%
+lead-hunter-scraper 0.14%
+n8n 0.20%
+platform-lab-worker2 2.20%
+platform-lab-worker 2.70%
+platform-lab-control-plane 15.45%
+== 2026-10-28T12:42:32Z 7.08 7.05 6.36
+loadlab-control-plane 618.39%
+lead-hunter-scraper 0.16%
+n8n 0.10%
+platform-lab-worker2 2.21%
+platform-lab-worker 1.99%
+platform-lab-control-plane 10.52%
+== 2026-10-28T12:43:04Z 7.39 7.12 6.41
+loadlab-control-plane 618.61%
+lead-hunter-scraper 0.15%
+n8n 0.40%
+platform-lab-worker2 1.60%
+platform-lab-worker 1.42%
+platform-lab-control-plane 14.62%
+== 2026-10-28T12:43:36Z 7.95 7.31 6.50
+loadlab-control-plane 624.90%
+lead-hunter-scraper 0.16%
+platform-lab-worker2 1.47%
+platform-lab-worker 1.91%
+platform-lab-control-plane 12.81%
+== 2026-10-28T12:44:09Z 7.98 7.39 6.55
+loadlab-control-plane 619.91%
+lead-hunter-scraper 0.18%
+n8n 0.13%
+platform-lab-worker2 1.19%
+platform-lab-worker 3.30%
+platform-lab-control-plane 8.92%
+== 2026-10-28T12:44:41Z 7.76 7.40 6.58
+loadlab-control-plane 620.46%
+lead-hunter-scraper 0.16%
+n8n 0.23%
+platform-lab-worker2 1.45%
+platform-lab-worker 1.91%
+platform-lab-control-plane 11.63%
+== 2026-10-28T12:45:13Z 8.16 7.52 6.65
+loadlab-control-plane 625.78%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 2.00%
+platform-lab-worker 2.05%
+platform-lab-control-plane 10.16%
+== 2026-10-28T12:45:45Z 7.94 7.52 6.68
+loadlab-control-plane 619.63%
+lead-hunter-scraper 0.14%
+n8n 0.18%
+platform-lab-worker2 2.08%
+platform-lab-worker 1.81%
+platform-lab-control-plane 10.52%
+== 2026-10-28T12:46:17Z 8.41 7.66 6.76
+loadlab-control-plane 620.12%
+lead-hunter-scraper 0.16%
+platform-lab-worker2 1.60%
+platform-lab-worker 1.84%
+platform-lab-control-plane 12.60%
+== 2026-10-28T12:46:49Z 8.75 7.81 6.84
+loadlab-control-plane 624.75%
+lead-hunter-scraper 0.15%
+platform-lab-worker2 1.49%
+platform-lab-worker 3.20%
+platform-lab-control-plane 9.35%
+== 2026-10-28T12:47:21Z 8.09 7.74 6.85
+loadlab-control-plane 621.13%
+lead-hunter-scraper 0.16%
+n8n 0.14%
+platform-lab-worker2 2.95%
+platform-lab-worker 2.14%
+platform-lab-control-plane 11.50%
+== 2026-10-28T12:47:53Z 7.54 7.64 6.85
+loadlab-control-plane 621.16%
+lead-hunter-scraper 0.16%
+n8n 0.11%
+platform-lab-worker2 1.57%
+platform-lab-worker 1.28%
+platform-lab-control-plane 11.62%
+== 2026-10-28T12:48:25Z 7.63 7.64 6.87
+loadlab-control-plane 619.13%
+lead-hunter-scraper 0.15%
+n8n 0.12%
+platform-lab-worker2 1.94%
+platform-lab-worker 1.74%
+platform-lab-control-plane 10.64%
+== 2026-10-28T12:48:57Z 7.72 7.66 6.91
+loadlab-control-plane 626.77%
+lead-hunter-scraper 0.14%
+n8n 0.27%
+platform-lab-worker2 1.35%
+platform-lab-worker 1.37%
+platform-lab-control-plane 15.56%
+== 2026-10-28T12:49:29Z 7.49 7.62 6.92
+loadlab-control-plane 583.71%
+lead-hunter-scraper 0.15%
+n8n 0.37%
+platform-lab-worker2 1.06%
+platform-lab-worker 3.03%
+platform-lab-control-plane 9.34%
+== 2026-10-28T12:50:01Z 7.29 7.56 6.92
+loadlab-control-plane 616.44%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 2.42%
+platform-lab-worker 1.49%
+platform-lab-control-plane 13.58%
+== 2026-10-28T12:50:33Z 7.35 7.55 6.94
+loadlab-control-plane 627.03%
+lead-hunter-scraper 0.15%
+n8n 0.12%
+platform-lab-worker2 1.88%
+platform-lab-worker 1.03%
+platform-lab-control-plane 12.23%
+== 2026-10-28T12:51:05Z 7.59 7.60 6.98
+loadlab-control-plane 618.65%
+lead-hunter-scraper 0.17%
+n8n 0.18%
+platform-lab-worker2 1.45%
+platform-lab-worker 1.28%
+platform-lab-control-plane 11.10%
+== 2026-10-28T12:51:38Z 7.40 7.55 6.99
+loadlab-control-plane 627.99%
+lead-hunter-scraper 0.16%
+n8n 0.19%
+platform-lab-worker2 1.15%
+platform-lab-worker 1.39%
+platform-lab-control-plane 11.55%
+== 2026-10-28T12:52:10Z 7.88 7.64 7.04
+loadlab-control-plane 621.68%
+lead-hunter-scraper 0.15%
+n8n 0.37%
+platform-lab-worker2 2.17%
+platform-lab-worker 3.77%
+platform-lab-control-plane 10.29%
+== 2026-10-28T12:52:42Z 7.65 7.60 7.04
+loadlab-control-plane 621.43%
+lead-hunter-scraper 0.17%
+n8n 0.22%
+platform-lab-worker2 2.61%
+platform-lab-worker 1.72%
+platform-lab-control-plane 10.73%
+== 2026-10-28T12:53:14Z 7.23 7.50 7.03
+loadlab-control-plane 620.80%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 1.17%
+platform-lab-worker 1.21%
+platform-lab-control-plane 11.57%
+== 2026-10-28T12:53:46Z 7.62 7.56 7.06
+loadlab-control-plane 622.33%
+lead-hunter-scraper 0.16%
+n8n 0.15%
+platform-lab-worker2 1.07%
+platform-lab-worker 0.82%
+platform-lab-control-plane 14.46%
+== 2026-10-28T12:54:18Z 7.62 7.56 7.08
+loadlab-control-plane 620.23%
+lead-hunter-scraper 0.16%
+n8n 0.15%
+platform-lab-worker2 1.09%
+platform-lab-worker 1.11%
+platform-lab-control-plane 10.07%
+== 2026-10-28T12:54:50Z 7.36 7.51 7.08
+loadlab-control-plane 621.14%
+lead-hunter-scraper 0.15%
+n8n 0.25%
+platform-lab-worker2 2.59%
+platform-lab-worker 4.87%
+platform-lab-control-plane 11.09%
+== 2026-10-28T12:55:22Z 7.61 7.54 7.11
+loadlab-control-plane 617.07%
+lead-hunter-scraper 0.16%
+n8n 0.24%
+platform-lab-worker2 3.38%
+platform-lab-worker 2.03%
+platform-lab-control-plane 12.34%
+== 2026-10-28T12:55:54Z 7.67 7.54 7.12
+loadlab-control-plane 624.51%
+lead-hunter-scraper 0.15%
+n8n 0.27%
+platform-lab-worker2 1.52%
+platform-lab-worker 1.93%
+platform-lab-control-plane 10.86%
+== 2026-10-28T12:56:26Z 8.05 7.65 7.17
+loadlab-control-plane 604.33%
+lead-hunter-scraper 0.15%
+platform-lab-worker2 1.62%
+platform-lab-worker 1.33%
+platform-lab-control-plane 16.64%
+== 2026-10-28T12:56:58Z 7.83 7.62 7.18
+loadlab-control-plane 623.05%
+lead-hunter-scraper 0.17%
+n8n 0.20%
+platform-lab-worker2 1.59%
+platform-lab-worker 2.92%
+platform-lab-control-plane 12.63%
+== 2026-10-28T12:57:30Z 7.87 7.65 7.20
+loadlab-control-plane 614.63%
+lead-hunter-scraper 0.17%
+n8n 0.25%
+platform-lab-worker2 2.02%
+platform-lab-worker 5.74%
+platform-lab-control-plane 13.73%
+== 2026-10-28T12:58:02Z 7.98 7.70 7.24
+loadlab-control-plane 618.52%
+lead-hunter-scraper 0.16%
+n8n 0.16%
+platform-lab-worker2 4.66%
+platform-lab-worker 3.18%
+platform-lab-control-plane 11.82%
+== 2026-10-28T12:58:35Z 7.67 7.65 7.24
+loadlab-control-plane 15.53%
+lead-hunter-scraper 0.13%
+n8n 0.36%
+platform-lab-worker2 1.92%
+platform-lab-worker 1.69%
+platform-lab-control-plane 12.60%
+== 2026-10-28T12:59:07Z 5.15 7.05 7.05
+loadlab-control-plane 19.26%
+lead-hunter-scraper 0.17%
+n8n 0.12%
+platform-lab-worker2 1.60%
+platform-lab-worker 2.68%
+platform-lab-control-plane 15.83%
+== 2026-10-28T12:59:39Z 3.41 6.40 6.83
+loadlab-control-plane 10.74%
+lead-hunter-scraper 0.18%
+platform-lab-worker2 1.67%
+platform-lab-worker 1.32%
+platform-lab-control-plane 10.99%
+== 2026-10-28T13:00:11Z 2.60 5.91 6.65
+loadlab-control-plane 15.08%
+lead-hunter-scraper 0.18%
+n8n 0.19%
+platform-lab-worker2 1.57%
+platform-lab-worker 1.74%
+platform-lab-control-plane 12.48%
+== 2026-10-28T13:00:43Z 1.69 5.31 6.42
+loadlab-control-plane 11.62%
+lead-hunter-scraper 0.16%
+platform-lab-worker2 2.09%
+platform-lab-worker 2.06%
+platform-lab-control-plane 12.13%
+== 2026-10-28T13:01:15Z 1.47 4.92 6.25
+loadlab-control-plane 14.84%
+lead-hunter-scraper 0.15%
+n8n 0.30%
+platform-lab-worker2 1.04%
+platform-lab-worker 2.65%
+platform-lab-control-plane 13.35%
+== 2026-10-28T13:01:47Z 1.22 4.52 6.08
+loadlab-control-plane 14.19%
+lead-hunter-scraper 0.18%
+n8n 0.16%
+platform-lab-worker2 2.03%
+platform-lab-worker 4.29%
+platform-lab-control-plane 12.52%
+== 2026-10-28T13:02:19Z 1.06 4.13 5.89
+loadlab-control-plane 16.85%
+lead-hunter-scraper 0.19%
+n8n 0.17%
+platform-lab-worker2 1.56%
+platform-lab-worker 1.89%
+platform-lab-control-plane 14.36%
+== 2026-10-28T13:02:51Z 1.30 3.88 5.75
+loadlab-control-plane 12.05%
+lead-hunter-scraper 0.18%
+n8n 0.29%
+platform-lab-worker2 2.08%
+platform-lab-worker 2.21%
+platform-lab-control-plane 11.26%
+== 2026-10-28T13:03:23Z 1.14 3.56 5.57
+loadlab-control-plane 12.30%
+lead-hunter-scraper 0.19%
+n8n 0.12%
+platform-lab-worker2 1.90%
+platform-lab-worker 1.12%
+platform-lab-control-plane 11.86%
+== 2026-10-28T13:03:55Z 1.19 3.34 5.44
+loadlab-control-plane 17.95%
+lead-hunter-scraper 0.17%
+n8n 0.14%
+platform-lab-worker2 1.64%
+platform-lab-worker 1.60%
+platform-lab-control-plane 14.60%
+== 2026-10-28T13:04:27Z 1.20 3.13 5.30
+loadlab-control-plane 13.34%
+lead-hunter-scraper 0.17%
+n8n 0.12%
+platform-lab-worker2 1.27%
+platform-lab-worker 1.97%
+platform-lab-control-plane 12.99%
+== 2026-10-28T13:04:59Z 1.28 2.96 5.16
+loadlab-control-plane 12.85%
+lead-hunter-scraper 0.20%
+n8n 0.18%
+platform-lab-worker2 1.36%
+platform-lab-worker 1.23%
+platform-lab-control-plane 13.02%
+== 2026-10-28T13:05:31Z 1.83 2.93 5.08
+loadlab-control-plane 11.64%
+lead-hunter-scraper 0.17%
+n8n 0.14%
+platform-lab-worker2 0.85%
+platform-lab-worker 1.34%
+platform-lab-control-plane 13.06%
+== 2026-10-28T13:06:03Z 1.46 2.71 4.93
+loadlab-control-plane 12.11%
+lead-hunter-scraper 0.16%
+n8n 0.12%
+platform-lab-worker2 3.39%
+platform-lab-worker 0.92%
+platform-lab-control-plane 11.09%
+== 2026-10-28T13:06:36Z 1.50 2.61 4.82
+loadlab-control-plane 17.31%
+lead-hunter-scraper 0.15%
+n8n 0.26%
+platform-lab-worker2 2.03%
+platform-lab-worker 1.49%
+platform-lab-control-plane 13.20%
+== 2026-10-28T13:07:08Z 1.94 2.60 4.74
+loadlab-control-plane 10.71%
+lead-hunter-scraper 0.16%
+n8n 0.20%
+platform-lab-worker2 1.26%
+platform-lab-worker 1.56%
+platform-lab-control-plane 11.31%
+== 2026-10-28T13:07:40Z 1.61 2.46 4.62
+loadlab-control-plane 12.05%
+lead-hunter-scraper 0.18%
+n8n 0.36%
+platform-lab-worker2 1.33%
+platform-lab-worker 1.52%
+platform-lab-control-plane 10.09%
+== 2026-10-28T13:08:12Z 1.78 2.42 4.54
+loadlab-control-plane 12.75%
+lead-hunter-scraper 0.18%
+n8n 0.21%
+platform-lab-worker2 1.32%
+platform-lab-worker 1.43%
+platform-lab-control-plane 11.15%
+== 2026-10-28T13:08:44Z 1.54 2.27 4.41
+loadlab-control-plane 10.62%
+lead-hunter-scraper 0.16%
+n8n 0.23%
+platform-lab-worker2 1.11%
+platform-lab-worker 1.31%
+platform-lab-control-plane 12.57%
+== 2026-10-28T13:09:16Z 1.26 2.13 4.29
+loadlab-control-plane 17.44%
+lead-hunter-scraper 0.17%
+n8n 0.28%
+platform-lab-worker2 1.18%
+platform-lab-worker 1.67%
+platform-lab-control-plane 13.10%
+== 2026-10-28T13:09:48Z 1.70 2.13 4.21
+loadlab-control-plane 12.84%
+lead-hunter-scraper 0.16%
+n8n 0.19%
+platform-lab-worker2 1.20%
+platform-lab-worker 1.31%
+platform-lab-control-plane 11.80%
+== 2026-10-28T13:10:20Z 1.14 1.96 4.09
+loadlab-control-plane 10.84%
+lead-hunter-scraper 0.14%
+n8n 0.32%
+platform-lab-worker2 2.73%
+platform-lab-worker 2.89%
+platform-lab-control-plane 12.19%
+== 2026-10-28T13:10:52Z 1.64 2.02 4.04
+loadlab-control-plane 11.95%
+lead-hunter-scraper 0.18%
+n8n 0.18%
+platform-lab-worker2 4.06%
+platform-lab-worker 4.19%
+platform-lab-control-plane 11.01%
+== 2026-10-28T13:11:24Z 1.13 1.84 3.91
+loadlab-control-plane 20.40%
+lead-hunter-scraper 0.16%
+n8n 0.17%
+platform-lab-worker2 1.78%
+platform-lab-worker 1.57%
+platform-lab-control-plane 12.87%
+== 2026-10-28T13:11:56Z 1.27 1.82 3.83
+loadlab-control-plane 14.43%
+lead-hunter-scraper 0.16%
+n8n 0.25%
+platform-lab-worker2 1.71%
+platform-lab-worker 1.97%
+platform-lab-control-plane 15.43%
+== 2026-10-28T13:12:28Z 1.43 1.81 3.75
+loadlab-control-plane 12.05%
+lead-hunter-scraper 0.14%
+n8n 0.19%
+platform-lab-worker2 2.01%
+platform-lab-worker 2.10%
+platform-lab-control-plane 12.10%
+== 2026-10-28T13:13:00Z 2.00 1.92 3.73
+loadlab-control-plane 11.00%
+lead-hunter-scraper 0.17%
+n8n 0.29%
+platform-lab-worker2 1.96%
+platform-lab-worker 2.36%
+platform-lab-control-plane 13.37%
+== 2026-10-28T13:13:32Z 1.83 1.88 3.65
+loadlab-control-plane 11.07%
+lead-hunter-scraper 0.15%
+n8n 0.22%
+platform-lab-worker2 4.37%
+platform-lab-worker 1.74%
+platform-lab-control-plane 13.53%
+== 2026-10-28T13:14:04Z 2.46 2.04 3.64
+loadlab-control-plane 9.83%
+lead-hunter-scraper 0.18%
+n8n 0.58%
+platform-lab-worker2 1.95%
+platform-lab-worker 1.71%
+platform-lab-control-plane 12.82%
+== 2026-10-28T13:14:37Z 1.67 1.89 3.54
+loadlab-control-plane 13.63%
+lead-hunter-scraper 0.13%
+n8n 0.16%
+platform-lab-worker2 1.44%
+platform-lab-worker 1.65%
+platform-lab-control-plane 14.13%
+== 2026-10-28T13:15:09Z 2.49 2.02 3.52
+loadlab-control-plane 582.52%
+lead-hunter-scraper 0.15%
+n8n 0.15%
+platform-lab-worker2 1.66%
+platform-lab-worker 1.43%
+platform-lab-control-plane 12.23%
+== 2026-10-28T13:15:41Z 4.58 2.55 3.65
+loadlab-control-plane 746.64%
+lead-hunter-scraper 0.16%
+n8n 0.24%
+platform-lab-worker2 2.53%
+platform-lab-worker 2.51%
+platform-lab-control-plane 12.77%
+== 2026-10-28T13:16:13Z 7.99 3.62 3.96
+loadlab-control-plane 1218.96%
+lead-hunter-scraper 0.15%
+n8n 0.21%
+platform-lab-worker2 2.64%
+platform-lab-worker 1.67%
+platform-lab-control-plane 10.71%
+== 2026-10-28T13:16:45Z 8.30 4.10 4.12
+loadlab-control-plane 588.21%
+lead-hunter-scraper 0.13%
+n8n 0.30%
+platform-lab-worker2 2.06%
+platform-lab-worker 2.17%
+platform-lab-control-plane 14.20%
+== 2026-10-28T13:17:17Z 8.60 4.57 4.27
+loadlab-control-plane 624.39%
+lead-hunter-scraper 0.16%
+n8n 0.16%
+platform-lab-worker2 1.65%
+platform-lab-worker 1.82%
+platform-lab-control-plane 12.27%
+== 2026-10-28T13:17:49Z 12.06 5.84 4.70
+loadlab-control-plane 1220.98%
+lead-hunter-scraper 0.18%
+n8n 0.13%
+platform-lab-worker2 1.83%
+platform-lab-worker 1.70%
+platform-lab-control-plane 12.86%
+== 2026-10-28T13:18:21Z 13.16 6.70 5.03
+loadlab-control-plane 1224.33%
+lead-hunter-scraper 0.16%
+n8n 0.16%
+platform-lab-worker2 2.44%
+platform-lab-worker 4.17%
+platform-lab-control-plane 14.34%
+== 2026-10-28T13:18:53Z 11.45 7.03 5.21
+loadlab-control-plane 546.38%
+lead-hunter-scraper 0.17%
+n8n 0.17%
+platform-lab-worker2 3.18%
+platform-lab-worker 1.09%
+platform-lab-control-plane 11.49%
+== 2026-10-28T13:19:25Z 9.56 7.00 5.25
+loadlab-control-plane 589.55%
+lead-hunter-scraper 0.17%
+n8n 0.16%
+platform-lab-worker2 1.38%
+platform-lab-worker 2.09%
+platform-lab-control-plane 13.02%
+== 2026-10-28T13:19:57Z 8.22 6.92 5.28
+loadlab-control-plane 621.52%
+lead-hunter-scraper 0.14%
+n8n 0.21%
+platform-lab-worker2 0.99%
+platform-lab-worker 1.19%
+platform-lab-control-plane 12.89%
+== 2026-10-28T13:20:30Z 9.49 7.35 5.49
+loadlab-control-plane 1061.80%
+lead-hunter-scraper 0.16%
+n8n 0.28%
+platform-lab-worker2 1.22%
+platform-lab-worker 1.42%
+platform-lab-control-plane 13.56%
+== 2026-10-28T13:21:02Z 11.18 7.97 5.75
+loadlab-control-plane 1135.14%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 0.93%
+platform-lab-worker 4.00%
+platform-lab-control-plane 15.87%
+== 2026-10-28T13:21:34Z 11.67 8.46 6.00
+loadlab-control-plane 1224.73%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 3.46%
+platform-lab-worker 1.39%
+platform-lab-control-plane 9.91%
+== 2026-10-28T13:22:06Z 14.25 9.43 6.41
+loadlab-control-plane 1152.86%
+lead-hunter-scraper 0.16%
+n8n 0.15%
+platform-lab-worker2 1.17%
+platform-lab-worker 1.47%
+platform-lab-control-plane 15.27%
+== 2026-10-28T13:22:38Z 13.62 9.79 6.64
+loadlab-control-plane 1207.84%
+lead-hunter-scraper 0.17%
+n8n 0.14%
+platform-lab-worker2 1.85%
+platform-lab-worker 1.28%
+platform-lab-control-plane 14.72%
+== 2026-10-28T13:23:10Z 13.91 10.23 6.89
+loadlab-control-plane 1229.98%
+lead-hunter-scraper 0.21%
+n8n 0.75%
+platform-lab-worker2 3.16%
+platform-lab-worker 3.08%
+platform-lab-control-plane 15.06%
+== 2026-10-28T13:23:42Z 13.33 10.50 7.09
+loadlab-control-plane 622.27%
+lead-hunter-scraper 0.14%
+n8n 0.19%
+platform-lab-worker2 1.75%
+platform-lab-worker 5.20%
+platform-lab-control-plane 9.99%
+== 2026-10-28T13:24:14Z 10.94 10.21 7.11
+loadlab-control-plane 619.09%
+lead-hunter-scraper 0.16%
+n8n 0.35%
+platform-lab-worker2 3.27%
+platform-lab-worker 1.96%
+platform-lab-control-plane 11.22%
+== 2026-10-28T13:24:46Z 9.63 9.96 7.13
+loadlab-control-plane 624.49%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 2.38%
+platform-lab-worker 2.74%
+platform-lab-control-plane 12.39%
+== 2026-10-28T13:25:18Z 8.86 9.73 7.16
+loadlab-control-plane 621.63%
+lead-hunter-scraper 0.15%
+n8n 0.25%
+platform-lab-worker2 2.98%
+platform-lab-worker 2.87%
+platform-lab-control-plane 10.16%
+== 2026-10-28T13:25:51Z 8.32 9.51 7.17
+loadlab-control-plane 621.78%
+lead-hunter-scraper 0.15%
+n8n 0.23%
+platform-lab-worker2 2.63%
+platform-lab-worker 2.72%
+platform-lab-control-plane 13.86%
+== 2026-10-28T13:26:23Z 8.53 9.43 7.23
+loadlab-control-plane 620.77%
+lead-hunter-scraper 0.15%
+n8n 0.13%
+platform-lab-worker2 1.84%
+platform-lab-worker 3.91%
+platform-lab-control-plane 10.67%
+== 2026-10-28T13:26:55Z 8.28 9.27 7.25
+loadlab-control-plane 620.55%
+lead-hunter-scraper 0.19%
+n8n 0.25%
+platform-lab-worker2 3.64%
+platform-lab-worker 2.36%
+platform-lab-control-plane 12.61%
+== 2026-10-28T13:27:27Z 10.24 9.65 7.44
+loadlab-control-plane 1225.31%
+lead-hunter-scraper 0.15%
+n8n 0.14%
+platform-lab-worker2 1.68%
+platform-lab-worker 2.03%
+platform-lab-control-plane 11.21%
+== 2026-10-28T13:27:59Z 10.38 9.75 7.55
+loadlab-control-plane 624.53%
+lead-hunter-scraper 0.16%
+n8n 0.24%
+platform-lab-worker2 1.20%
+platform-lab-worker 1.42%
+platform-lab-control-plane 11.18%
+== 2026-10-28T13:28:31Z 11.76 10.13 7.75
+loadlab-control-plane 1221.69%
+lead-hunter-scraper 0.19%
+n8n 0.23%
+platform-lab-worker2 2.07%
+platform-lab-worker 1.76%
+platform-lab-control-plane 9.60%
+== 2026-10-28T13:29:03Z 12.07 10.41 7.93
+loadlab-control-plane 1222.63%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 1.72%
+platform-lab-worker 1.34%
+platform-lab-control-plane 10.28%
+== 2026-10-28T13:29:35Z 11.59 10.48 8.04
+loadlab-control-plane 619.91%
+lead-hunter-scraper 0.18%
+n8n 0.28%
+platform-lab-worker2 2.03%
+platform-lab-worker 1.24%
+platform-lab-control-plane 12.78%
+== 2026-10-28T13:30:07Z 12.29 10.75 8.21
+loadlab-control-plane 1217.55%
+lead-hunter-scraper 0.18%
+n8n 0.16%
+platform-lab-worker2 1.39%
+platform-lab-worker 1.15%
+platform-lab-control-plane 18.09%
+== 2026-10-28T13:30:39Z 13.38 11.19 8.45
+loadlab-control-plane 1201.99%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 4.65%
+platform-lab-worker 2.22%
+platform-lab-control-plane 14.08%
+== 2026-10-28T13:31:11Z 14.25 11.60 8.67
+loadlab-control-plane 1229.82%
+lead-hunter-scraper 0.19%
+n8n 0.29%
+platform-lab-worker2 3.92%
+platform-lab-worker 2.60%
+platform-lab-control-plane 14.70%
+== 2026-10-28T13:31:43Z 12.18 11.42 8.72
+loadlab-control-plane 612.13%
+lead-hunter-scraper 0.14%
+n8n 0.17%
+platform-lab-worker2 2.02%
+platform-lab-worker 4.98%
+platform-lab-control-plane 10.74%
+== 2026-10-28T13:32:15Z 10.32 11.04 8.68
+loadlab-control-plane 619.51%
+lead-hunter-scraper 0.16%
+n8n 0.37%
+platform-lab-worker2 4.36%
+platform-lab-worker 4.03%
+platform-lab-control-plane 11.85%
+== 2026-10-28T13:32:47Z 10.51 10.99 8.74
+loadlab-control-plane 1226.70%
+lead-hunter-scraper 0.17%
+n8n 0.28%
+platform-lab-worker2 2.84%
+platform-lab-worker 5.15%
+platform-lab-control-plane 27.10%
+== 2026-10-28T13:33:19Z 11.42 11.16 8.88
+loadlab-control-plane 1237.05%
+lead-hunter-scraper 0.20%
+n8n 0.16%
+platform-lab-worker2 0.99%
+platform-lab-worker 3.13%
+platform-lab-control-plane 13.67%
+== 2026-10-28T13:33:51Z 12.17 11.37 9.02
+loadlab-control-plane 1220.10%
+lead-hunter-scraper 0.16%
+n8n 0.29%
+platform-lab-worker2 1.09%
+platform-lab-worker 1.11%
+platform-lab-control-plane 16.39%
+== 2026-10-28T13:34:23Z 12.32 11.50 9.15
+loadlab-control-plane 1217.21%
+lead-hunter-scraper 0.18%
+n8n 0.14%
+platform-lab-worker2 1.77%
+platform-lab-worker 5.35%
+platform-lab-control-plane 13.11%
+== 2026-10-28T13:34:55Z 9.93 11.06 9.08
+loadlab-control-plane 13.93%
+lead-hunter-scraper 0.20%
+n8n 0.11%
+platform-lab-worker2 4.50%
+platform-lab-worker 1.83%
+platform-lab-control-plane 17.73%
+== 2026-10-28T13:35:28Z 6.07 10.02 8.80
+loadlab-control-plane 589.55%
+lead-hunter-scraper 0.17%
+n8n 0.13%
+platform-lab-worker2 0.90%
+platform-lab-worker 1.25%
+platform-lab-control-plane 12.39%
+== 2026-10-28T13:36:00Z 3.51 8.94 8.48
+loadlab-control-plane 16.71%
+lead-hunter-scraper 0.19%
+n8n 0.33%
+platform-lab-worker2 2.13%
+platform-lab-worker 1.38%
+platform-lab-control-plane 13.95%
+== 2026-10-28T13:36:32Z 3.02 8.30 8.29
+loadlab-control-plane 13.00%
+lead-hunter-scraper 0.21%
+n8n 0.29%
+platform-lab-worker2 1.64%
+platform-lab-worker 1.71%
+platform-lab-control-plane 20.31%
+== 2026-10-28T13:37:04Z 4.53 8.06 8.20
+loadlab-control-plane 230.14%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 1.37%
+platform-lab-worker 3.07%
+platform-lab-control-plane 10.66%
+== 2026-10-28T13:37:36Z 4.65 7.75 8.09
+loadlab-control-plane 12.34%
+lead-hunter-scraper 0.17%
+n8n 0.10%
+platform-lab-worker2 1.25%
+platform-lab-worker 1.13%
+platform-lab-control-plane 17.30%
+== 2026-10-28T13:38:08Z 4.53 7.36 7.95
+loadlab-control-plane 348.99%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 1.12%
+platform-lab-worker 1.49%
+platform-lab-control-plane 10.97%
+== 2026-10-28T13:38:40Z 4.38 7.06 7.83
+loadlab-control-plane 17.77%
+lead-hunter-scraper 0.17%
+n8n 0.27%
+platform-lab-worker2 1.38%
+platform-lab-worker 2.14%
+platform-lab-control-plane 12.85%
+== 2026-10-28T13:39:12Z 2.79 6.42 7.59
+loadlab-control-plane 11.36%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 1.34%
+platform-lab-worker 2.52%
+platform-lab-control-plane 15.81%
+== 2026-10-28T13:39:44Z 4.37 6.38 7.53
+loadlab-control-plane 561.97%
+lead-hunter-scraper 0.16%
+n8n 0.14%
+platform-lab-worker2 0.82%
+platform-lab-worker 2.91%
+platform-lab-control-plane 12.57%
+== 2026-10-28T13:40:16Z 3.82 6.03 7.38
+loadlab-control-plane 12.49%
+lead-hunter-scraper 0.15%
+n8n 0.16%
+platform-lab-worker2 4.14%
+platform-lab-worker 2.35%
+platform-lab-control-plane 18.77%
+== 2026-10-28T13:40:48Z 4.00 5.84 7.26
+loadlab-control-plane 14.25%
+lead-hunter-scraper 0.24%
+n8n 0.13%
+platform-lab-worker2 2.31%
+platform-lab-worker 1.89%
+platform-lab-control-plane 14.94%
+== 2026-10-28T13:41:20Z 3.09 5.42 7.08
+loadlab-control-plane 618.35%
+lead-hunter-scraper 0.20%
+n8n 0.48%
+platform-lab-worker2 3.28%
+platform-lab-worker 3.46%
+platform-lab-control-plane 11.73%
+== 2026-10-28T13:41:52Z 2.45 5.06 6.90
+loadlab-control-plane 11.81%
+lead-hunter-scraper 0.18%
+n8n 0.20%
+platform-lab-worker2 3.69%
+platform-lab-worker 6.23%
+platform-lab-control-plane 16.67%
+== 2026-10-28T13:42:24Z 1.53 4.54 6.66
+loadlab-control-plane 16.90%
+lead-hunter-scraper 0.21%
+n8n 0.27%
+platform-lab-worker2 2.40%
+platform-lab-worker 1.89%
+platform-lab-control-plane 14.66%
+== 2026-10-28T13:42:56Z 2.25 4.41 6.55
+loadlab-control-plane 12.14%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 2.06%
+platform-lab-worker 2.48%
+platform-lab-control-plane 14.77%
+== 2026-10-28T13:43:29Z 2.22 4.16 6.39
+loadlab-control-plane 11.93%
+lead-hunter-scraper 0.20%
+n8n 0.24%
+platform-lab-worker2 1.91%
+platform-lab-worker 2.28%
+platform-lab-control-plane 16.81%
+== 2026-10-28T13:44:01Z 2.41 4.00 6.26
+loadlab-control-plane 617.95%
+lead-hunter-scraper 0.20%
+n8n 0.40%
+platform-lab-worker2 2.14%
+platform-lab-worker 2.46%
+platform-lab-control-plane 13.05%
+== 2026-10-28T13:44:33Z 2.03 3.77 6.11
+loadlab-control-plane 634.90%
+lead-hunter-scraper 0.20%
+n8n 0.18%
+platform-lab-worker2 1.31%
+platform-lab-worker 3.13%
+platform-lab-control-plane 13.02%
+== 2026-10-28T13:45:05Z 3.12 3.84 6.05
+loadlab-control-plane 567.32%
+lead-hunter-scraper 0.18%
+n8n 0.28%
+platform-lab-worker2 1.89%
+platform-lab-worker 2.08%
+platform-lab-control-plane 13.96%
+== 2026-10-28T13:45:37Z 4.25 4.00 6.02
+loadlab-control-plane 623.21%
+lead-hunter-scraper 0.17%
+n8n 0.20%
+platform-lab-worker2 3.43%
+platform-lab-worker 1.94%
+platform-lab-control-plane 11.19%
+== 2026-10-28T13:46:09Z 4.40 4.07 5.98
+loadlab-control-plane 13.51%
+lead-hunter-scraper 0.19%
+n8n 0.14%
+platform-lab-worker2 1.74%
+platform-lab-worker 1.64%
+platform-lab-control-plane 12.41%
+== 2026-10-28T13:46:41Z 6.82 4.63 6.10
+loadlab-control-plane 1167.90%
+lead-hunter-scraper 0.17%
+n8n 0.30%
+platform-lab-worker2 2.68%
+platform-lab-worker 2.88%
+platform-lab-control-plane 11.37%
+== 2026-10-28T13:47:13Z 5.11 4.49 6.00
+loadlab-control-plane 13.11%
+lead-hunter-scraper 0.14%
+n8n 0.22%
+platform-lab-worker2 1.47%
+platform-lab-worker 2.10%
+platform-lab-control-plane 14.73%
+== 2026-10-28T13:47:45Z 6.74 4.91 6.09
+loadlab-control-plane 339.53%
+lead-hunter-scraper 0.17%
+n8n 0.28%
+platform-lab-worker2 1.57%
+platform-lab-worker 1.85%
+platform-lab-control-plane 11.24%
+== 2026-10-28T13:48:17Z 6.33 4.93 6.05
+loadlab-control-plane 1202.93%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 1.35%
+platform-lab-worker 1.17%
+platform-lab-control-plane 9.09%
+== 2026-10-28T13:48:49Z 7.70 5.43 6.18
+loadlab-control-plane 581.84%
+lead-hunter-scraper 0.18%
+n8n 0.12%
+platform-lab-worker2 1.38%
+platform-lab-worker 1.55%
+platform-lab-control-plane 11.70%
+== 2026-10-28T13:49:21Z 8.32 5.75 6.26
+loadlab-control-plane 868.01%
+lead-hunter-scraper 0.17%
+n8n 0.18%
+platform-lab-worker2 1.42%
+platform-lab-worker 3.67%
+platform-lab-control-plane 12.68%
+== 2026-10-28T13:49:53Z 9.18 6.21 6.40
+loadlab-control-plane 1174.74%
+lead-hunter-scraper 0.17%
+n8n 0.35%
+platform-lab-worker2 1.48%
+platform-lab-worker 1.07%
+platform-lab-control-plane 11.87%
+== 2026-10-28T13:50:26Z 9.54 6.58 6.51
+loadlab-control-plane 1216.41%
+lead-hunter-scraper 0.23%
+n8n 0.28%
+platform-lab-worker2 2.52%
+platform-lab-worker 1.58%
+platform-lab-control-plane 14.19%
+== 2026-10-28T13:50:58Z 9.52 6.89 6.62
+loadlab-control-plane 809.32%
+lead-hunter-scraper 0.18%
+n8n 0.61%
+platform-lab-worker2 1.20%
+platform-lab-worker 1.20%
+platform-lab-control-plane 15.29%
+== 2026-10-28T13:51:30Z 9.30 7.12 6.70
+loadlab-control-plane 1225.77%
+lead-hunter-scraper 0.16%
+n8n 0.26%
+platform-lab-worker2 1.62%
+platform-lab-worker 1.67%
+platform-lab-control-plane 15.86%
+== 2026-10-28T13:52:02Z 10.19 7.55 6.86
+loadlab-control-plane 700.28%
+lead-hunter-scraper 0.15%
+n8n 0.12%
+platform-lab-worker2 0.95%
+platform-lab-worker 2.00%
+platform-lab-control-plane 12.97%
+== 2026-10-28T13:52:34Z 11.16 8.09 7.07
+loadlab-control-plane 1221.85%
+lead-hunter-scraper 0.16%
+n8n 0.32%
+platform-lab-worker2 1.51%
+platform-lab-worker 1.82%
+platform-lab-control-plane 17.36%
+== 2026-10-28T13:53:06Z 11.12 8.37 7.20
+loadlab-control-plane 1216.98%
+lead-hunter-scraper 0.18%
+n8n 0.22%
+platform-lab-worker2 3.40%
+platform-lab-worker 2.23%
+platform-lab-control-plane 15.10%
+== 2026-10-28T13:53:38Z 11.03 8.67 7.34
+loadlab-control-plane 1226.28%
+lead-hunter-scraper 0.16%
+n8n 0.16%
+platform-lab-worker2 3.16%
+platform-lab-worker 2.14%
+platform-lab-control-plane 14.16%
+== 2026-10-28T13:54:10Z 11.48 9.01 7.50
+loadlab-control-plane 11.24%
+lead-hunter-scraper 0.19%
+n8n 0.28%
+platform-lab-worker2 1.52%
+platform-lab-worker 2.97%
+platform-lab-control-plane 11.94%
+== 2026-10-28T13:54:42Z 7.24 8.22 7.28
+loadlab-control-plane 16.27%
+lead-hunter-scraper 0.21%
+n8n 0.11%
+platform-lab-worker2 1.99%
+platform-lab-worker 1.72%
+platform-lab-control-plane 12.84%
+== 2026-10-28T13:55:15Z 4.17 7.34 7.02
+loadlab-control-plane 13.86%
+lead-hunter-scraper 0.19%
+n8n 0.23%
+platform-lab-worker2 2.63%
+platform-lab-worker 4.13%
+platform-lab-control-plane 13.36%
+== 2026-10-28T13:55:47Z 3.13 6.78 6.85
+loadlab-control-plane 29.18%
+lead-hunter-scraper 0.20%
+n8n 0.14%
+platform-lab-worker2 5.35%
+platform-lab-worker 5.34%
+platform-lab-control-plane 14.21%
+== 2026-10-28T13:56:19Z 1.94 6.08 6.61
+loadlab-control-plane 14.12%
+lead-hunter-scraper 0.16%
+n8n 0.13%
+platform-lab-worker2 1.93%
+platform-lab-worker 2.33%
+platform-lab-control-plane 12.05%
+== 2026-10-28T13:56:51Z 1.77 5.64 6.44
+loadlab-control-plane 12.46%
+lead-hunter-scraper 0.21%
+n8n 0.41%
+platform-lab-worker2 3.22%
+platform-lab-worker 2.99%
+platform-lab-control-plane 17.18%
+== 2026-10-28T13:57:23Z 1.19 5.13 6.25
+loadlab-control-plane 15.75%
+lead-hunter-scraper 0.22%
+n8n 0.10%
+platform-lab-worker2 2.83%
+platform-lab-worker 1.61%
+platform-lab-control-plane 14.49%
+== 2026-10-28T13:57:55Z 1.31 4.72 6.07
+loadlab-control-plane 13.25%
+lead-hunter-scraper 0.20%
+n8n 0.24%
+platform-lab-worker2 3.81%
+platform-lab-worker 4.50%
+platform-lab-control-plane 14.16%
+== 2026-10-28T13:58:27Z 0.91 4.30 5.88
+loadlab-control-plane 16.32%
+lead-hunter-scraper 0.20%
+n8n 0.22%
+platform-lab-worker2 5.57%
+platform-lab-worker 1.93%
+platform-lab-control-plane 13.16%
+== 2026-10-28T13:58:59Z 0.95 3.92 5.70
+loadlab-control-plane 15.26%
+lead-hunter-scraper 0.18%
+n8n 0.23%
+platform-lab-worker2 2.55%
+platform-lab-worker 1.81%
+platform-lab-control-plane 15.35%
+== 2026-10-28T13:59:31Z 2.28 3.92 5.64
+loadlab-control-plane 101.24%
+lead-hunter-scraper 0.19%
+n8n 0.37%
+platform-lab-worker2 1.66%
+platform-lab-worker 1.78%
+platform-lab-control-plane 10.85%
+== 2026-10-28T14:00:03Z 3.60 4.09 5.63
+loadlab-control-plane 17.53%
+lead-hunter-scraper 0.16%
+n8n 0.20%
+platform-lab-worker2 2.05%
+platform-lab-worker 1.36%
+platform-lab-control-plane 12.18%
+== 2026-10-28T14:00:35Z 2.36 3.74 5.47
+loadlab-control-plane 243.09%
+lead-hunter-scraper 0.17%
+n8n 0.39%
+platform-lab-worker2 1.57%
+platform-lab-worker 4.87%
+platform-lab-control-plane 18.24%
+== 2026-10-28T14:01:07Z 2.41 3.63 5.38
+loadlab-control-plane 14.27%
+lead-hunter-scraper 0.19%
+n8n 0.11%
+platform-lab-worker2 4.07%
+platform-lab-worker 1.79%
+platform-lab-control-plane 14.09%
+== 2026-10-28T14:01:39Z 3.09 3.66 5.32
+loadlab-control-plane 14.59%
+lead-hunter-scraper 0.20%
+n8n 0.19%
+platform-lab-worker2 1.66%
+platform-lab-worker 1.70%
+platform-lab-control-plane 16.28%
+== 2026-10-28T14:02:11Z 2.39 3.42 5.19
+loadlab-control-plane 10.94%
+lead-hunter-scraper 0.20%
+n8n 0.17%
+platform-lab-worker2 1.55%
+platform-lab-worker 2.05%
+platform-lab-control-plane 12.63%
+== 2026-10-28T14:02:43Z 2.20 3.25 5.06
+loadlab-control-plane 18.65%
+lead-hunter-scraper 0.20%
+n8n 0.19%
+platform-lab-worker2 2.25%
+platform-lab-worker 1.59%
+platform-lab-control-plane 12.70%
+== 2026-10-28T14:03:16Z 2.43 3.20 4.99
+loadlab-control-plane 400.06%
+lead-hunter-scraper 0.15%
+n8n 0.16%
+platform-lab-worker2 1.65%
+platform-lab-worker 4.98%
+platform-lab-control-plane 11.23%
+== 2026-10-28T14:03:48Z 3.73 3.42 5.00
+loadlab-control-plane 13.70%
+lead-hunter-scraper 0.16%
+n8n 0.19%
+platform-lab-worker2 0.97%
+platform-lab-worker 1.21%
+platform-lab-control-plane 11.66%
+== 2026-10-28T14:04:20Z 4.03 3.51 4.97
+loadlab-control-plane 13.72%
+lead-hunter-scraper 0.18%
+n8n 0.34%
+platform-lab-worker2 2.18%
+platform-lab-worker 4.06%
+platform-lab-control-plane 11.17%
+== 2026-10-28T14:04:52Z 5.04 3.80 5.02
+loadlab-control-plane 12.99%
+lead-hunter-scraper 0.16%
+n8n 0.14%
+platform-lab-worker2 3.35%
+platform-lab-worker 5.02%
+platform-lab-control-plane 13.72%
+== 2026-10-28T14:05:24Z 3.35 3.50 4.88
+loadlab-control-plane 15.73%
+lead-hunter-scraper 0.19%
+n8n 0.24%
+platform-lab-worker2 1.72%
+platform-lab-worker 3.47%
+platform-lab-control-plane 12.12%
+== 2026-10-28T14:05:56Z 3.87 3.59 4.86
+loadlab-control-plane 620.40%
+lead-hunter-scraper 0.16%
+n8n 0.25%
+platform-lab-worker2 1.27%
+platform-lab-worker 2.01%
+platform-lab-control-plane 18.35%
+== 2026-10-28T14:06:28Z 3.96 3.67 4.85
+loadlab-control-plane 12.49%
+lead-hunter-scraper 0.21%
+n8n 0.20%
+platform-lab-worker2 2.98%
+platform-lab-worker 3.03%
+platform-lab-control-plane 16.00%
+== 2026-10-28T14:07:00Z 2.60 3.37 4.70
+loadlab-control-plane 14.50%
+lead-hunter-scraper 0.17%
+n8n 0.11%
+platform-lab-worker2 1.71%
+platform-lab-worker 3.18%
+platform-lab-control-plane 16.98%
+== 2026-10-28T14:07:32Z 4.72 3.81 4.81
+loadlab-control-plane 12.58%
+lead-hunter-scraper 0.18%
+n8n 0.29%
+platform-lab-worker2 2.05%
+platform-lab-worker 3.73%
+platform-lab-control-plane 11.30%
+== 2026-10-28T14:08:04Z 3.58 3.62 4.71
+loadlab-control-plane 254.67%
+lead-hunter-scraper 0.16%
+n8n 0.22%
+platform-lab-worker2 1.24%
+platform-lab-worker 1.24%
+platform-lab-control-plane 9.11%
+== 2026-10-28T14:08:36Z 7.49 4.55 4.98
+loadlab-control-plane 10.16%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 1.33%
+platform-lab-worker 2.70%
+platform-lab-control-plane 13.01%
+== 2026-10-28T14:09:08Z 6.79 4.71 5.02
+loadlab-control-plane 1218.06%
+lead-hunter-scraper 0.15%
+n8n 0.10%
+platform-lab-worker2 1.51%
+platform-lab-worker 2.22%
+platform-lab-control-plane 10.98%
+== 2026-10-28T14:09:40Z 8.01 5.25 5.19
+loadlab-control-plane 1230.11%
+lead-hunter-scraper 0.17%
+n8n 0.23%
+platform-lab-worker2 3.26%
+platform-lab-worker 3.56%
+platform-lab-control-plane 13.52%
+== 2026-10-28T14:10:13Z 10.42 6.10 5.48
+loadlab-control-plane 1163.51%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 1.13%
+platform-lab-worker 2.24%
+platform-lab-control-plane 10.30%
+== 2026-10-28T14:10:45Z 8.90 6.28 5.57
+loadlab-control-plane 14.92%
+lead-hunter-scraper 0.20%
+n8n 0.19%
+platform-lab-worker2 2.30%
+platform-lab-worker 2.54%
+platform-lab-control-plane 12.14%
+== 2026-10-28T14:11:17Z 8.71 6.49 5.66
+loadlab-control-plane 575.19%
+lead-hunter-scraper 0.16%
+n8n 0.19%
+platform-lab-worker2 1.61%
+platform-lab-worker 3.71%
+platform-lab-control-plane 12.63%
+== 2026-10-28T14:11:49Z 9.25 6.90 5.83
+loadlab-control-plane 1167.35%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 1.95%
+platform-lab-worker 1.67%
+platform-lab-control-plane 12.60%
+== 2026-10-28T14:12:21Z 10.09 7.30 6.00
+loadlab-control-plane 1226.30%
+lead-hunter-scraper 0.16%
+n8n 0.35%
+platform-lab-worker2 3.00%
+platform-lab-worker 2.52%
+platform-lab-control-plane 17.57%
+== 2026-10-28T14:12:53Z 10.61 7.69 6.17
+loadlab-control-plane 1215.05%
+lead-hunter-scraper 0.16%
+n8n 0.14%
+platform-lab-worker2 3.54%
+platform-lab-worker 1.27%
+platform-lab-control-plane 9.35%
+== 2026-10-28T14:13:25Z 12.07 8.38 6.46
+loadlab-control-plane 1229.32%
+lead-hunter-scraper 0.16%
+n8n 0.19%
+platform-lab-worker2 3.28%
+platform-lab-worker 1.77%
+platform-lab-control-plane 17.10%
+== 2026-10-28T14:13:57Z 12.72 8.91 6.69
+loadlab-control-plane 1233.48%
+lead-hunter-scraper 0.17%
+n8n 0.11%
+platform-lab-worker2 5.06%
+platform-lab-worker 1.03%
+platform-lab-control-plane 23.66%
+== 2026-10-28T14:14:29Z 13.00 9.37 6.93
+loadlab-control-plane 1232.16%
+lead-hunter-scraper 0.16%
+n8n 0.42%
+platform-lab-worker2 1.37%
+platform-lab-worker 1.30%
+platform-lab-control-plane 16.49%
+== 2026-10-28T14:15:02Z 14.65 10.14 7.27
+loadlab-control-plane 1226.79%
+lead-hunter-scraper 0.21%
+n8n 0.17%
+platform-lab-worker2 2.18%
+platform-lab-worker 1.72%
+platform-lab-control-plane 12.76%
+== 2026-10-28T14:15:34Z 14.39 10.58 7.52
+loadlab-control-plane 1154.88%
+lead-hunter-scraper 0.17%
+n8n 0.17%
+platform-lab-worker2 2.15%
+platform-lab-worker 1.81%
+platform-lab-control-plane 12.04%
+== 2026-10-28T14:16:06Z 9.78 9.86 7.38
+loadlab-control-plane 14.89%
+lead-hunter-scraper 0.18%
+n8n 0.27%
+platform-lab-worker2 1.27%
+platform-lab-worker 1.50%
+platform-lab-control-plane 16.00%
+== 2026-10-28T14:16:38Z 6.48 9.05 7.19
+loadlab-control-plane 13.56%
+lead-hunter-scraper 0.14%
+n8n 0.12%
+platform-lab-worker2 3.27%
+platform-lab-worker 1.30%
+platform-lab-control-plane 9.55%
+== 2026-10-28T14:17:10Z 4.22 8.20 6.97
+loadlab-control-plane 13.25%
+lead-hunter-scraper 0.14%
+n8n 0.23%
+platform-lab-worker2 1.33%
+platform-lab-worker 2.16%
+platform-lab-control-plane 13.42%
+== 2026-10-28T14:17:42Z 3.25 7.59 6.81
+loadlab-control-plane 9.92%
+lead-hunter-scraper 0.14%
+n8n 0.24%
+platform-lab-worker2 1.47%
+platform-lab-worker 1.64%
+platform-lab-control-plane 10.83%
+== 2026-10-28T14:18:14Z 2.26 6.86 6.59
+loadlab-control-plane 26.13%
+lead-hunter-scraper 0.13%
+n8n 0.22%
+platform-lab-worker2 1.31%
+platform-lab-worker 1.72%
+platform-lab-control-plane 11.61%
+== 2026-10-28T14:18:46Z 2.13 6.38 6.44
+loadlab-control-plane 24.59%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 2.11%
+platform-lab-worker 3.65%
+platform-lab-control-plane 13.30%
+== 2026-10-28T14:19:18Z 2.35 6.03 6.32
+loadlab-control-plane 10.65%
+lead-hunter-scraper 0.14%
+n8n 0.16%
+platform-lab-worker2 3.17%
+platform-lab-worker 1.52%
+platform-lab-control-plane 15.27%
+== 2026-10-28T14:19:50Z 1.93 5.52 6.13
+loadlab-control-plane 11.84%
+lead-hunter-scraper 0.15%
+n8n 0.32%
+platform-lab-worker2 4.42%
+platform-lab-worker 2.86%
+platform-lab-control-plane 14.00%
+== 2026-10-28T14:20:22Z 1.51 5.07 5.96
+loadlab-control-plane 11.97%
+lead-hunter-scraper 0.20%
+n8n 0.13%
+platform-lab-worker2 1.67%
+platform-lab-worker 2.09%
+platform-lab-control-plane 14.75%
+== 2026-10-28T14:20:54Z 1.65 4.71 5.81
+loadlab-control-plane 11.36%
+lead-hunter-scraper 0.20%
+n8n 0.16%
+platform-lab-worker2 3.37%
+platform-lab-worker 2.01%
+platform-lab-control-plane 9.54%
+== 2026-10-28T14:21:26Z 1.76 4.46 5.69
+loadlab-control-plane 16.06%
+lead-hunter-scraper 0.16%
+n8n 0.17%
+platform-lab-worker2 1.63%
+platform-lab-worker 2.95%
+platform-lab-control-plane 10.64%
+== 2026-10-28T14:21:58Z 1.03 3.98 5.49
+loadlab-control-plane 13.25%
+lead-hunter-scraper 0.20%
+n8n 0.24%
+platform-lab-worker2 3.11%
+platform-lab-worker 1.46%
+platform-lab-control-plane 11.32%
+== 2026-10-28T14:22:31Z 1.09 3.71 5.35
+loadlab-control-plane 12.10%
+lead-hunter-scraper 0.18%
+n8n 0.35%
+platform-lab-worker2 2.43%
+platform-lab-worker 3.52%
+platform-lab-control-plane 12.56%
+== 2026-10-28T14:23:03Z 1.21 3.48 5.22
+loadlab-control-plane 11.68%
+lead-hunter-scraper 0.18%
+n8n 0.22%
+platform-lab-worker2 2.86%
+platform-lab-worker 2.08%
+platform-lab-control-plane 12.19%
+== 2026-10-28T14:23:35Z 1.06 3.19 5.06
+loadlab-control-plane 10.33%
+lead-hunter-scraper 0.19%
+n8n 0.54%
+platform-lab-worker2 2.51%
+platform-lab-worker 1.86%
+platform-lab-control-plane 14.24%
+== 2026-10-28T14:24:07Z 1.17 3.01 4.94
+loadlab-control-plane 15.17%
+lead-hunter-scraper 0.19%
+n8n 0.17%
+platform-lab-worker2 1.56%
+platform-lab-worker 2.32%
+platform-lab-control-plane 15.98%
+== 2026-10-28T14:24:39Z 0.81 2.72 4.77
+loadlab-control-plane 12.87%
+lead-hunter-scraper 0.15%
+n8n 0.13%
+platform-lab-worker2 3.87%
+platform-lab-worker 1.52%
+platform-lab-control-plane 10.92%
+== 2026-10-28T14:25:11Z 0.73 2.52 4.63
+loadlab-control-plane 12.46%
+lead-hunter-scraper 0.17%
+n8n 0.18%
+platform-lab-worker2 2.22%
+platform-lab-worker 2.10%
+platform-lab-control-plane 11.88%
+== 2026-10-28T14:25:43Z 0.80 2.36 4.51
+loadlab-control-plane 12.61%
+lead-hunter-scraper 0.19%
+n8n 0.10%
+platform-lab-worker2 2.10%
+platform-lab-worker 1.43%
+platform-lab-control-plane 13.52%
+== 2026-10-28T14:26:15Z 0.84 2.20 4.38
+loadlab-control-plane 12.03%
+lead-hunter-scraper 0.15%
+n8n 0.29%
+platform-lab-worker2 2.28%
+platform-lab-worker 3.89%
+platform-lab-control-plane 10.81%
+== 2026-10-28T14:26:47Z 1.07 2.13 4.28
+loadlab-control-plane 15.78%
+lead-hunter-scraper 0.16%
+n8n 0.13%
+platform-lab-worker2 0.81%
+platform-lab-worker 3.24%
+platform-lab-control-plane 13.43%
+== 2026-10-28T14:27:19Z 0.79 1.94 4.14
+loadlab-control-plane 15.51%
+lead-hunter-scraper 0.20%
+platform-lab-worker2 2.69%
+platform-lab-worker 1.37%
+platform-lab-control-plane 12.98%
+== 2026-10-28T14:27:51Z 0.82 1.83 4.03
+loadlab-control-plane 11.62%
+lead-hunter-scraper 0.15%
+n8n 0.16%
+platform-lab-worker2 1.92%
+platform-lab-worker 2.25%
+platform-lab-control-plane 11.21%
+== 2026-10-28T14:28:23Z 1.07 1.80 3.95
+loadlab-control-plane 13.38%
+lead-hunter-scraper 0.19%
+n8n 0.15%
+platform-lab-worker2 1.44%
+platform-lab-worker 1.41%
+platform-lab-control-plane 11.70%
+== 2026-10-28T14:28:55Z 0.99 1.69 3.83
+loadlab-control-plane 14.54%
+lead-hunter-scraper 0.19%
+n8n 0.25%
+platform-lab-worker2 1.72%
+platform-lab-worker 1.96%
+platform-lab-control-plane 15.08%
+== 2026-10-28T14:29:27Z 1.37 1.72 3.77
+loadlab-control-plane 14.46%
+lead-hunter-scraper 0.17%
+n8n 0.11%
+platform-lab-worker2 1.06%
+platform-lab-worker 3.09%
+platform-lab-control-plane 10.37%
+== 2026-10-28T14:29:59Z 1.56 1.74 3.70
+loadlab-control-plane 12.52%
+lead-hunter-scraper 0.15%
+n8n 0.10%
+platform-lab-worker2 1.73%
+platform-lab-worker 1.44%
+platform-lab-control-plane 10.55%
+== 2026-10-28T14:30:32Z 1.17 1.62 3.60
+loadlab-control-plane 10.51%
+lead-hunter-scraper 0.17%
+n8n 0.30%
+platform-lab-worker2 2.26%
+platform-lab-worker 2.43%
+platform-lab-control-plane 11.33%
+== 2026-10-28T14:31:04Z 1.18 1.58 3.51
+loadlab-control-plane 11.25%
+lead-hunter-scraper 0.14%
+platform-lab-worker2 1.61%
+platform-lab-worker 1.51%
+platform-lab-control-plane 11.29%
+== 2026-10-28T14:31:36Z 1.08 1.52 3.43
+loadlab-control-plane 11.99%
+lead-hunter-scraper 0.19%
+n8n 0.10%
+platform-lab-worker2 1.31%
+platform-lab-worker 1.24%
+platform-lab-control-plane 18.07%
+== 2026-10-28T14:32:08Z 0.93 1.44 3.34
+loadlab-control-plane 16.05%
+lead-hunter-scraper 0.19%
+n8n 0.14%
+platform-lab-worker2 0.90%
+platform-lab-worker 2.98%
+platform-lab-control-plane 11.67%
+== 2026-10-28T14:32:40Z 1.52 1.51 3.29
+loadlab-control-plane 12.81%
+lead-hunter-scraper 0.17%
+n8n 0.22%
+platform-lab-worker2 1.24%
+platform-lab-worker 2.09%
+platform-lab-control-plane 19.04%
+== 2026-10-28T14:33:12Z 1.67 1.55 3.25
+loadlab-control-plane 13.17%
+lead-hunter-scraper 0.18%
+n8n 0.22%
+platform-lab-worker2 1.25%
+platform-lab-worker 2.03%
+platform-lab-control-plane 9.99%
+== 2026-10-28T14:33:44Z 1.66 1.55 3.18
+loadlab-control-plane 12.94%
+lead-hunter-scraper 0.19%
+n8n 0.27%
+platform-lab-worker2 1.62%
+platform-lab-worker 1.64%
+platform-lab-control-plane 11.80%
+== 2026-10-28T14:34:16Z 1.20 1.45 3.10
+loadlab-control-plane 13.97%
+lead-hunter-scraper 0.22%
+n8n 0.23%
+platform-lab-worker2 2.13%
+platform-lab-worker 2.04%
+platform-lab-control-plane 14.08%
+== 2026-10-28T14:34:48Z 0.98 1.38 3.02
+loadlab-control-plane 21.83%
+lead-hunter-scraper 0.22%
+n8n 0.25%
+platform-lab-worker2 1.46%
+platform-lab-worker 3.99%
+platform-lab-control-plane 22.70%
+== 2026-10-28T14:35:20Z 0.55 1.22 2.90
+loadlab-control-plane 21.83%
+lead-hunter-scraper 0.17%
+n8n 0.40%
+platform-lab-worker2 2.53%
+platform-lab-worker 2.77%
+platform-lab-control-plane 18.09%
+== 2026-10-28T14:35:52Z 0.56 1.15 2.83
+loadlab-control-plane 14.13%
+lead-hunter-scraper 0.22%
+n8n 0.14%
+platform-lab-worker2 4.13%
+platform-lab-worker 3.96%
+platform-lab-control-plane 12.88%
+== 2026-10-28T14:36:24Z 0.44 1.06 2.73
+loadlab-control-plane 12.00%
+lead-hunter-scraper 0.18%
+n8n 0.15%
+platform-lab-worker2 2.52%
+platform-lab-worker 2.15%
+platform-lab-control-plane 17.29%
+== 2026-10-28T14:36:56Z 0.66 1.05 2.68
+loadlab-control-plane 10.86%
+lead-hunter-scraper 0.19%
+n8n 0.21%
+platform-lab-worker2 2.00%
+platform-lab-worker 2.07%
+platform-lab-control-plane 14.65%
+== 2026-10-28T14:37:28Z 1.11 1.15 2.65
+loadlab-control-plane 16.17%
+lead-hunter-scraper 0.20%
+n8n 0.24%
+platform-lab-worker2 2.04%
+platform-lab-worker 3.74%
+platform-lab-control-plane 14.43%
+== 2026-10-28T14:38:01Z 0.73 1.05 2.57
+loadlab-control-plane 11.70%
+lead-hunter-scraper 0.17%
+n8n 0.51%
+platform-lab-worker2 1.72%
+platform-lab-worker 2.22%
+platform-lab-control-plane 19.58%
+== 2026-10-28T14:38:33Z 0.52 0.97 2.49
+loadlab-control-plane 13.77%
+lead-hunter-scraper 0.17%
+n8n 0.25%
+platform-lab-worker2 2.04%
+platform-lab-worker 2.42%
+platform-lab-control-plane 15.25%
+== 2026-10-28T14:39:05Z 0.42 0.89 2.41
+loadlab-control-plane 12.56%
+lead-hunter-scraper 0.17%
+n8n 0.42%
+platform-lab-worker2 2.78%
+platform-lab-worker 3.15%
+platform-lab-control-plane 14.90%
+== 2026-10-28T14:39:37Z 0.53 0.87 2.35
+loadlab-control-plane 14.08%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 1.94%
+platform-lab-worker 2.78%
+platform-lab-control-plane 21.14%
+== 2026-10-28T14:40:09Z 0.91 0.92 2.31
+loadlab-control-plane 16.01%
+lead-hunter-scraper 0.21%
+n8n 0.15%
+platform-lab-worker2 1.91%
+platform-lab-worker 4.16%
+platform-lab-control-plane 18.51%
+== 2026-10-28T14:40:41Z 0.68 0.86 2.25
+loadlab-control-plane 14.22%
+lead-hunter-scraper 0.15%
+n8n 0.35%
+platform-lab-worker2 3.47%
+platform-lab-worker 2.49%
+platform-lab-control-plane 14.79%
+== 2026-10-28T14:41:13Z 0.85 0.88 2.20
+loadlab-control-plane 12.23%
+lead-hunter-scraper 0.20%
+n8n 0.26%
+platform-lab-worker2 2.75%
+platform-lab-worker 1.91%
+platform-lab-control-plane 13.83%
+== 2026-10-28T14:41:45Z 0.84 0.89 2.16
+loadlab-control-plane 13.87%
+lead-hunter-scraper 0.18%
+n8n 0.15%
+platform-lab-worker2 2.68%
+platform-lab-worker 2.35%
+platform-lab-control-plane 16.00%
+== 2026-10-28T14:42:17Z 0.64 0.84 2.10
+loadlab-control-plane 13.58%
+lead-hunter-scraper 0.22%
+platform-lab-worker2 1.78%
+platform-lab-worker 1.59%
+platform-lab-control-plane 12.69%
+== 2026-10-28T14:42:49Z 0.48 0.77 2.03
+loadlab-control-plane 15.08%
+lead-hunter-scraper 0.20%
+platform-lab-worker2 2.07%
+platform-lab-worker 3.74%
+platform-lab-control-plane 13.58%
+== 2026-10-28T14:43:21Z 1.32 0.95 2.05
+loadlab-control-plane 21.44%
+lead-hunter-scraper 0.15%
+n8n 0.12%
+platform-lab-worker2 2.15%
+platform-lab-worker 2.46%
+platform-lab-control-plane 14.71%
+== 2026-10-28T14:43:53Z 1.14 0.94 2.01
+loadlab-control-plane 10.60%
+lead-hunter-scraper 0.19%
+n8n 0.12%
+platform-lab-worker2 1.39%
+platform-lab-worker 0.99%
+platform-lab-control-plane 11.76%
+== 2026-10-28T14:44:25Z 0.88 0.90 1.96
+loadlab-control-plane 11.16%
+lead-hunter-scraper 0.18%
+n8n 0.14%
+platform-lab-worker2 1.41%
+platform-lab-worker 1.83%
+platform-lab-control-plane 11.87%
+== 2026-10-28T14:44:57Z 0.84 0.89 1.92
+loadlab-control-plane 10.57%
+lead-hunter-scraper 0.14%
+n8n 0.22%
+platform-lab-worker2 0.92%
+platform-lab-worker 1.24%
+platform-lab-control-plane 14.47%
+== 2026-10-28T14:45:29Z 1.09 0.95 1.90
+loadlab-control-plane 18.35%
+lead-hunter-scraper 0.19%
+n8n 0.10%
+platform-lab-worker2 3.12%
+platform-lab-worker 3.32%
+platform-lab-control-plane 16.63%
+== 2026-10-28T14:46:02Z 0.86 0.91 1.86
+loadlab-control-plane 11.78%
+lead-hunter-scraper 0.20%
+platform-lab-worker2 1.87%
+platform-lab-worker 2.63%
+platform-lab-control-plane 16.35%
+== 2026-10-28T14:46:34Z 0.77 0.87 1.81
+loadlab-control-plane 9.65%
+lead-hunter-scraper 0.21%
+n8n 0.11%
+platform-lab-worker2 2.23%
+platform-lab-worker 1.13%
+platform-lab-control-plane 15.15%
+== 2026-10-28T14:47:06Z 0.83 0.89 1.78
+loadlab-control-plane 11.91%
+lead-hunter-scraper 0.20%
+platform-lab-worker2 1.27%
+platform-lab-worker 1.24%
+platform-lab-control-plane 17.10%
+== 2026-10-28T14:47:38Z 0.71 0.85 1.74
+loadlab-control-plane 11.96%
+lead-hunter-scraper 0.20%
+n8n 0.15%
+platform-lab-worker2 1.58%
+platform-lab-worker 1.48%
+platform-lab-control-plane 16.64%
+== 2026-10-28T14:48:10Z 0.71 0.83 1.70
+loadlab-control-plane 14.17%
+lead-hunter-scraper 0.20%
+n8n 0.25%
+platform-lab-worker2 3.55%
+platform-lab-worker 2.07%
+platform-lab-control-plane 13.71%
+== 2026-10-28T14:48:42Z 0.99 0.88 1.69
+loadlab-control-plane 15.77%
+lead-hunter-scraper 0.18%
+n8n 0.21%
+platform-lab-worker2 1.84%
+platform-lab-worker 1.88%
+platform-lab-control-plane 12.53%
+== 2026-10-28T14:49:14Z 1.00 0.90 1.66
+loadlab-control-plane 13.21%
+lead-hunter-scraper 0.20%
+n8n 0.11%
+platform-lab-worker2 1.46%
+platform-lab-worker 1.63%
+platform-lab-control-plane 15.79%
+== 2026-10-28T14:49:46Z 0.68 0.83 1.61
+loadlab-control-plane 13.42%
+lead-hunter-scraper 0.19%
+n8n 0.11%
+platform-lab-worker2 1.70%
+platform-lab-worker 1.67%
+platform-lab-control-plane 16.58%
+== 2026-10-28T14:50:18Z 0.74 0.83 1.59
+loadlab-control-plane 15.54%
+lead-hunter-scraper 0.18%
+n8n 0.11%
+platform-lab-worker2 2.34%
+platform-lab-worker 3.01%
+platform-lab-control-plane 12.85%
+== 2026-10-28T14:50:50Z 0.64 0.78 1.54
+loadlab-control-plane 14.99%
+lead-hunter-scraper 0.18%
+n8n 0.35%
+platform-lab-worker2 4.51%
+platform-lab-worker 3.44%
+platform-lab-control-plane 14.00%
+== 2026-10-28T14:51:22Z 1.13 0.87 1.55
+loadlab-control-plane 13.34%
+lead-hunter-scraper 0.21%
+n8n 0.15%
+platform-lab-worker2 1.80%
+platform-lab-worker 2.52%
+platform-lab-control-plane 12.25%
+== 2026-10-28T14:51:54Z 0.91 0.85 1.52
+loadlab-control-plane 15.52%
+lead-hunter-scraper 0.20%
+n8n 0.17%
+platform-lab-worker2 3.58%
+platform-lab-worker 2.31%
+platform-lab-control-plane 13.35%
+== 2026-10-28T14:52:26Z 0.83 0.84 1.49
+loadlab-control-plane 12.21%
+lead-hunter-scraper 0.19%
+n8n 0.21%
+platform-lab-worker2 1.75%
+platform-lab-worker 2.31%
+platform-lab-control-plane 14.23%
+== 2026-10-28T14:52:58Z 0.58 0.77 1.44
+loadlab-control-plane 14.78%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 1.77%
+platform-lab-worker 1.82%
+platform-lab-control-plane 14.09%
+== 2026-10-28T14:53:30Z 0.39 0.70 1.39
+loadlab-control-plane 17.12%
+lead-hunter-scraper 0.16%
+n8n 0.42%
+platform-lab-worker2 3.26%
+platform-lab-worker 2.06%
+platform-lab-control-plane 14.31%
+== 2026-10-28T14:54:03Z 0.49 0.70 1.37
+loadlab-control-plane 13.59%
+lead-hunter-scraper 0.19%
+n8n 0.20%
+platform-lab-worker2 2.82%
+platform-lab-worker 1.99%
+platform-lab-control-plane 18.71%
+== 2026-10-28T14:54:35Z 0.56 0.70 1.34
+loadlab-control-plane 13.14%
+lead-hunter-scraper 0.15%
+n8n 0.21%
+platform-lab-worker2 2.79%
+platform-lab-worker 2.81%
+platform-lab-control-plane 15.90%
+== 2026-10-28T14:55:07Z 0.78 0.74 1.34
+loadlab-control-plane 15.64%
+lead-hunter-scraper 0.17%
+n8n 0.29%
+platform-lab-worker2 2.01%
+platform-lab-worker 2.28%
+platform-lab-control-plane 15.86%
+== 2026-10-28T14:55:39Z 0.67 0.72 1.31
+loadlab-control-plane 13.69%
+lead-hunter-scraper 0.20%
+n8n 0.21%
+platform-lab-worker2 2.94%
+platform-lab-worker 3.17%
+platform-lab-control-plane 14.16%
+== 2026-10-28T14:56:11Z 0.52 0.68 1.28
+loadlab-control-plane 14.48%
+lead-hunter-scraper 0.19%
+n8n 0.27%
+platform-lab-worker2 5.78%
+platform-lab-worker 3.39%
+platform-lab-control-plane 14.94%
+== 2026-10-28T14:56:43Z 0.43 0.65 1.25
+loadlab-control-plane 13.88%
+lead-hunter-scraper 0.18%
+n8n 0.21%
+platform-lab-worker2 2.15%
+platform-lab-worker 2.61%
+platform-lab-control-plane 18.60%
+== 2026-10-28T14:57:15Z 0.49 0.64 1.22
+loadlab-control-plane 11.47%
+lead-hunter-scraper 0.20%
+n8n 0.37%
+platform-lab-worker2 2.57%
+platform-lab-worker 2.43%
+platform-lab-control-plane 18.23%
+== 2026-10-28T14:57:47Z 0.50 0.63 1.19
+loadlab-control-plane 12.49%
+lead-hunter-scraper 0.20%
+n8n 0.17%
+platform-lab-worker2 2.98%
+platform-lab-worker 2.84%
+platform-lab-control-plane 17.33%
+== 2026-10-28T14:58:19Z 0.35 0.57 1.15
+loadlab-control-plane 13.47%
+lead-hunter-scraper 0.21%
+n8n 0.23%
+platform-lab-worker2 1.15%
+platform-lab-worker 1.53%
+platform-lab-control-plane 14.04%
+== 2026-10-28T14:58:51Z 0.21 0.52 1.12
+loadlab-control-plane 15.19%
+lead-hunter-scraper 0.19%
+n8n 0.24%
+platform-lab-worker2 4.26%
+platform-lab-worker 2.24%
+platform-lab-control-plane 15.05%
+== 2026-10-28T14:59:23Z 0.21 0.48 1.08
+loadlab-control-plane 11.46%
+lead-hunter-scraper 0.19%
+n8n 0.25%
+platform-lab-worker2 1.52%
+platform-lab-worker 1.70%
+platform-lab-control-plane 12.81%
+== 2026-10-28T14:59:55Z 0.31 0.48 1.06
+loadlab-control-plane 16.55%
+lead-hunter-scraper 0.20%
+n8n 0.39%
+platform-lab-worker2 1.60%
+platform-lab-worker 3.71%
+platform-lab-control-plane 14.23%
+== 2026-10-28T15:00:27Z 0.25 0.45 1.03
+loadlab-control-plane 15.56%
+lead-hunter-scraper 0.20%
+n8n 0.22%
+platform-lab-worker2 1.34%
+platform-lab-worker 1.36%
+platform-lab-control-plane 17.25%
+== 2026-10-28T15:00:59Z 0.42 0.47 1.02
+loadlab-control-plane 16.27%
+lead-hunter-scraper 0.20%
+n8n 0.16%
+platform-lab-worker2 1.61%
+platform-lab-worker 1.56%
+platform-lab-control-plane 16.50%
+== 2026-10-28T15:01:31Z 0.25 0.43 0.98
+loadlab-control-plane 11.15%
+lead-hunter-scraper 0.19%
+n8n 0.26%
+platform-lab-worker2 2.17%
+platform-lab-worker 2.39%
+platform-lab-control-plane 16.12%
+== 2026-10-28T15:02:04Z 0.56 0.48 0.98
+loadlab-control-plane 10.73%
+lead-hunter-scraper 0.21%
+n8n 0.14%
+platform-lab-worker2 2.15%
+platform-lab-worker 1.22%
+platform-lab-control-plane 14.47%
+== 2026-10-28T15:02:36Z 0.44 0.46 0.96
+loadlab-control-plane 13.45%
+lead-hunter-scraper 0.20%
+n8n 0.42%
+platform-lab-worker2 1.33%
+platform-lab-worker 2.76%
+platform-lab-control-plane 16.61%
+== 2026-10-28T15:03:08Z 0.39 0.45 0.94
+loadlab-control-plane 10.91%
+lead-hunter-scraper 0.19%
+n8n 0.21%
+platform-lab-worker2 1.06%
+platform-lab-worker 1.00%
+platform-lab-control-plane 11.88%
+== 2026-10-28T15:03:40Z 0.37 0.44 0.92
+loadlab-control-plane 13.69%
+lead-hunter-scraper 0.18%
+n8n 0.46%
+platform-lab-worker2 1.57%
+platform-lab-worker 2.27%
+platform-lab-control-plane 14.48%
+== 2026-10-28T15:04:12Z 0.45 0.46 0.91
+loadlab-control-plane 15.00%
+lead-hunter-scraper 0.21%
+n8n 0.34%
+platform-lab-worker2 1.83%
+platform-lab-worker 2.93%
+platform-lab-control-plane 16.13%
+== 2026-10-28T15:04:44Z 0.33 0.43 0.88
+loadlab-control-plane 14.33%
+lead-hunter-scraper 0.19%
+platform-lab-worker2 2.91%
+platform-lab-worker 1.26%
+platform-lab-control-plane 15.52%
+== 2026-10-28T15:05:16Z 0.45 0.45 0.87
+loadlab-control-plane 15.59%
+lead-hunter-scraper 0.18%
+n8n 0.12%
+platform-lab-worker2 1.75%
+platform-lab-worker 2.84%
+platform-lab-control-plane 20.49%
+== 2026-10-28T15:05:48Z 0.59 0.49 0.87
+loadlab-control-plane 13.81%
+lead-hunter-scraper 0.20%
+n8n 0.15%
+platform-lab-worker2 1.27%
+platform-lab-worker 3.26%
+platform-lab-control-plane 13.89%
+== 2026-10-28T15:06:20Z 0.87 0.56 0.88
+loadlab-control-plane 13.97%
+lead-hunter-scraper 0.18%
+n8n 0.22%
+platform-lab-worker2 2.76%
+platform-lab-worker 5.41%
+platform-lab-control-plane 15.03%
+== 2026-10-28T15:06:52Z 1.34 0.70 0.92
+loadlab-control-plane 12.10%
+lead-hunter-scraper 0.18%
+n8n 0.20%
+platform-lab-worker2 4.10%
+platform-lab-worker 4.17%
+platform-lab-control-plane 13.60%
+== 2026-10-28T15:07:24Z 1.00 0.70 0.91
+loadlab-control-plane 13.77%
+lead-hunter-scraper 0.20%
+n8n 0.21%
+platform-lab-worker2 1.66%
+platform-lab-worker 3.51%
+platform-lab-control-plane 13.07%
+== 2026-10-28T15:07:56Z 0.60 0.63 0.88
+loadlab-control-plane 11.24%
+lead-hunter-scraper 0.19%
+n8n 0.14%
+platform-lab-worker2 1.86%
+platform-lab-worker 2.20%
+platform-lab-control-plane 16.20%
+== 2026-10-28T15:08:28Z 0.56 0.62 0.87
+loadlab-control-plane 12.96%
+lead-hunter-scraper 0.20%
+n8n 0.15%
+platform-lab-worker2 3.14%
+platform-lab-worker 2.44%
+platform-lab-control-plane 16.97%
+== 2026-10-28T15:09:00Z 0.31 0.55 0.84
+loadlab-control-plane 13.80%
+lead-hunter-scraper 0.18%
+n8n 0.32%
+platform-lab-worker2 1.65%
+platform-lab-worker 3.98%
+platform-lab-control-plane 15.70%
+== 2026-10-28T15:09:32Z 0.34 0.53 0.82
+loadlab-control-plane 12.02%
+lead-hunter-scraper 0.20%
+n8n 0.31%
+platform-lab-worker2 2.31%
+platform-lab-worker 1.80%
+platform-lab-control-plane 13.41%
+== 2026-10-28T15:10:05Z 0.53 0.55 0.82
+loadlab-control-plane 10.42%
+lead-hunter-scraper 0.15%
+n8n 0.17%
+platform-lab-worker2 2.23%
+platform-lab-worker 1.79%
+platform-lab-control-plane 13.98%
+== 2026-10-28T15:10:37Z 0.45 0.53 0.80
+loadlab-control-plane 16.14%
+lead-hunter-scraper 0.21%
+n8n 0.44%
+platform-lab-worker2 1.90%
+platform-lab-worker 2.29%
+platform-lab-control-plane 13.36%
+== 2026-10-28T15:11:09Z 0.27 0.48 0.78
+loadlab-control-plane 11.42%
+lead-hunter-scraper 0.20%
+n8n 0.25%
+platform-lab-worker2 1.86%
+platform-lab-worker 1.94%
+platform-lab-control-plane 15.76%
+== 2026-10-28T15:11:41Z 0.42 0.49 0.77
+loadlab-control-plane 14.22%
+lead-hunter-scraper 0.20%
+n8n 0.25%
+platform-lab-worker2 1.72%
+platform-lab-worker 5.36%
+platform-lab-control-plane 12.70%
+== 2026-10-28T15:12:13Z 0.40 0.47 0.75
+loadlab-control-plane 42.45%
+lead-hunter-scraper 0.17%
+n8n 0.17%
+platform-lab-worker2 2.34%
+platform-lab-worker 1.96%
+platform-lab-control-plane 14.35%
+== 2026-10-28T15:12:45Z 0.34 0.45 0.73
+loadlab-control-plane 12.44%
+lead-hunter-scraper 0.19%
+n8n 0.17%
+platform-lab-worker2 2.74%
+platform-lab-worker 3.92%
+platform-lab-control-plane 21.48%
+== 2026-10-28T15:13:17Z 0.26 0.42 0.71
+loadlab-control-plane 14.33%
+lead-hunter-scraper 0.23%
+n8n 0.19%
+platform-lab-worker2 2.06%
+platform-lab-worker 3.39%
+platform-lab-control-plane 12.44%
+== 2026-10-28T15:13:49Z 0.38 0.44 0.71
+loadlab-control-plane 12.30%
+lead-hunter-scraper 0.22%
+n8n 0.11%
+platform-lab-worker2 3.60%
+platform-lab-worker 3.80%
+platform-lab-control-plane 15.02%
+== 2026-10-28T15:14:21Z 1.44 0.66 0.77
+loadlab-control-plane 12.74%
+lead-hunter-scraper 0.21%
+n8n 0.17%
+platform-lab-worker2 2.79%
+platform-lab-worker 5.48%
+platform-lab-control-plane 14.76%
+== 2026-10-28T15:14:53Z 0.87 0.59 0.75
+loadlab-control-plane 12.16%
+lead-hunter-scraper 0.21%
+n8n 0.25%
+platform-lab-worker2 1.71%
+platform-lab-worker 1.46%
+platform-lab-control-plane 12.55%
+== 2026-10-28T15:15:25Z 0.82 0.61 0.75
+loadlab-control-plane 12.79%
+lead-hunter-scraper 0.17%
+n8n 0.32%
+platform-lab-worker2 2.13%
+platform-lab-worker 1.84%
+platform-lab-control-plane 14.07%
+== 2026-10-28T15:15:57Z 0.55 0.56 0.72
+loadlab-control-plane 14.48%
+lead-hunter-scraper 0.17%
+n8n 1.49%
+platform-lab-worker2 1.46%
+platform-lab-worker 2.03%
+platform-lab-control-plane 18.90%
+== 2026-10-28T15:16:29Z 0.51 0.56 0.72
+loadlab-control-plane 15.14%
+lead-hunter-scraper 0.20%
+n8n 0.15%
+platform-lab-worker2 1.77%
+platform-lab-worker 1.53%
+platform-lab-control-plane 15.21%
+== 2026-10-28T15:17:01Z 0.84 0.65 0.74
+loadlab-control-plane 11.96%
+lead-hunter-scraper 0.20%
+n8n 0.25%
+platform-lab-worker2 2.56%
+platform-lab-worker 4.25%
+platform-lab-control-plane 17.53%
+== 2026-10-28T15:17:33Z 0.72 0.63 0.73
+loadlab-control-plane 13.04%
+lead-hunter-scraper 0.19%
+n8n 0.17%
+platform-lab-worker2 1.91%
+platform-lab-worker 1.51%
+platform-lab-control-plane 12.90%
+== 2026-10-28T15:18:06Z 0.82 0.67 0.74
+loadlab-control-plane 15.44%
+lead-hunter-scraper 0.20%
+n8n 0.32%
+platform-lab-worker2 1.53%
+platform-lab-worker 1.72%
+platform-lab-control-plane 19.55%
+== 2026-10-28T15:18:38Z 1.16 0.78 0.78
+loadlab-control-plane 13.69%
+lead-hunter-scraper 0.16%
+n8n 0.25%
+platform-lab-worker2 1.38%
+platform-lab-worker 1.18%
+platform-lab-control-plane 14.51%
+== 2026-10-28T15:19:10Z 0.76 0.73 0.76
+loadlab-control-plane 17.86%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 1.58%
+platform-lab-worker 2.25%
+platform-lab-control-plane 17.41%
+== 2026-10-28T15:19:42Z 0.65 0.70 0.75
+loadlab-control-plane 13.68%
+lead-hunter-scraper 0.19%
+n8n 0.26%
+platform-lab-worker2 3.73%
+platform-lab-worker 4.72%
+platform-lab-control-plane 13.46%
+== 2026-10-28T15:20:14Z 0.45 0.65 0.73
+loadlab-control-plane 12.97%
+lead-hunter-scraper 0.18%
+n8n 0.23%
+platform-lab-worker2 1.63%
+platform-lab-worker 3.84%
+platform-lab-control-plane 12.94%
+== 2026-10-28T15:20:46Z 0.42 0.62 0.72
+loadlab-control-plane 16.03%
+lead-hunter-scraper 0.21%
+n8n 0.12%
+platform-lab-worker2 1.49%
+platform-lab-worker 1.13%
+platform-lab-control-plane 22.17%
+== 2026-10-28T15:21:18Z 0.32 0.58 0.70
+loadlab-control-plane 14.81%
+lead-hunter-scraper 0.19%
+n8n 0.21%
+platform-lab-worker2 1.52%
+platform-lab-worker 1.13%
+platform-lab-control-plane 13.58%
+== 2026-10-28T15:21:50Z 0.65 0.63 0.71
+loadlab-control-plane 16.71%
+lead-hunter-scraper 0.22%
+n8n 0.35%
+platform-lab-worker2 2.34%
+platform-lab-worker 2.92%
+platform-lab-control-plane 13.66%
+== 2026-10-28T15:22:22Z 0.39 0.57 0.69
+loadlab-control-plane 12.80%
+lead-hunter-scraper 0.16%
+n8n 0.22%
+platform-lab-worker2 3.76%
+platform-lab-worker 6.48%
+platform-lab-control-plane 12.37%
+== 2026-10-28T15:22:54Z 0.34 0.54 0.67
+loadlab-control-plane 13.83%
+lead-hunter-scraper 0.20%
+n8n 0.27%
+platform-lab-worker2 2.78%
+platform-lab-worker 3.27%
+platform-lab-control-plane 15.32%
+== 2026-10-28T15:23:26Z 0.41 0.53 0.66
+loadlab-control-plane 13.76%
+lead-hunter-scraper 0.21%
+n8n 0.25%
+platform-lab-worker2 1.70%
+platform-lab-worker 3.19%
+platform-lab-control-plane 21.20%
+== 2026-10-28T15:23:58Z 0.43 0.53 0.66
+loadlab-control-plane 15.38%
+lead-hunter-scraper 0.18%
+n8n 0.12%
+platform-lab-worker2 1.73%
+platform-lab-worker 1.58%
+platform-lab-control-plane 15.49%
+== 2026-10-28T15:24:30Z 0.63 0.56 0.66
+loadlab-control-plane 16.86%
+lead-hunter-scraper 0.19%
+n8n 0.43%
+platform-lab-worker2 2.07%
+platform-lab-worker 2.28%
+platform-lab-control-plane 13.25%
+== 2026-10-28T15:25:02Z 0.38 0.51 0.64
+loadlab-control-plane 15.75%
+lead-hunter-scraper 0.18%
+n8n 0.12%
+platform-lab-worker2 3.67%
+platform-lab-worker 3.87%
+platform-lab-control-plane 16.10%
+== 2026-10-28T15:25:35Z 0.34 0.48 0.63
+loadlab-control-plane 13.61%
+lead-hunter-scraper 0.18%
+n8n 0.23%
+platform-lab-worker2 2.41%
+platform-lab-worker 2.38%
+platform-lab-control-plane 13.26%
+== 2026-10-28T15:26:07Z 0.34 0.47 0.62
+loadlab-control-plane 11.91%
+lead-hunter-scraper 0.22%
+n8n 0.17%
+platform-lab-worker2 1.67%
+platform-lab-worker 2.45%
+platform-lab-control-plane 20.08%
+== 2026-10-28T15:26:39Z 0.40 0.47 0.62
+loadlab-control-plane 14.04%
+lead-hunter-scraper 0.20%
+n8n 0.24%
+platform-lab-worker2 2.00%
+platform-lab-worker 2.22%
+platform-lab-control-plane 12.98%
+== 2026-10-28T15:27:11Z 0.54 0.50 0.62
+loadlab-control-plane 18.21%
+lead-hunter-scraper 0.19%
+n8n 0.29%
+platform-lab-worker2 2.45%
+platform-lab-worker 1.95%
+platform-lab-control-plane 13.70%
+== 2026-10-28T15:27:43Z 0.51 0.50 0.62
+loadlab-control-plane 13.36%
+lead-hunter-scraper 0.19%
+platform-lab-worker2 2.31%
+platform-lab-worker 1.90%
+platform-lab-control-plane 12.23%
+== 2026-10-28T15:28:15Z 0.33 0.46 0.60
+loadlab-control-plane 14.11%
+lead-hunter-scraper 0.19%
+n8n 0.25%
+platform-lab-worker2 4.14%
+platform-lab-worker 2.43%
+platform-lab-control-plane 19.63%
+== 2026-10-28T15:28:47Z 0.27 0.43 0.58
+loadlab-control-plane 15.01%
+lead-hunter-scraper 0.21%
+n8n 0.14%
+platform-lab-worker2 2.58%
+platform-lab-worker 2.57%
+platform-lab-control-plane 16.63%
+== 2026-10-28T15:29:19Z 0.70 0.50 0.60
+loadlab-control-plane 15.46%
+lead-hunter-scraper 0.20%
+n8n 0.13%
+platform-lab-worker2 2.32%
+platform-lab-worker 1.72%
+platform-lab-control-plane 14.67%
+== 2026-10-28T15:29:51Z 0.68 0.52 0.61
+loadlab-control-plane 11.36%
+lead-hunter-scraper 0.20%
+n8n 0.28%
+platform-lab-worker2 2.98%
+platform-lab-worker 3.53%
+platform-lab-control-plane 15.77%
+== 2026-10-28T15:30:23Z 0.56 0.51 0.60
+loadlab-control-plane 13.40%
+lead-hunter-scraper 0.18%
+n8n 0.26%
+platform-lab-worker2 3.34%
+platform-lab-worker 1.50%
+platform-lab-control-plane 14.62%
+== 2026-10-28T15:30:55Z 0.78 0.56 0.61
+loadlab-control-plane 14.37%
+lead-hunter-scraper 0.22%
+n8n 0.24%
+platform-lab-worker2 2.16%
+platform-lab-worker 1.91%
+platform-lab-control-plane 15.86%
+== 2026-10-28T15:31:27Z 0.61 0.54 0.61
+loadlab-control-plane 12.91%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 1.58%
+platform-lab-worker 1.67%
+platform-lab-control-plane 17.77%
+== 2026-10-28T15:31:59Z 0.60 0.54 0.60
+loadlab-control-plane 12.80%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 1.78%
+platform-lab-worker 1.62%
+platform-lab-control-plane 16.17%
+== 2026-10-28T15:32:31Z 0.42 0.51 0.59
+loadlab-control-plane 13.42%
+lead-hunter-scraper 0.18%
+n8n 0.27%
+platform-lab-worker2 2.16%
+platform-lab-worker 2.09%
+platform-lab-control-plane 17.11%
+== 2026-10-28T15:33:03Z 0.54 0.54 0.60
+loadlab-control-plane 12.99%
+lead-hunter-scraper 0.18%
+n8n 0.23%
+platform-lab-worker2 5.10%
+platform-lab-worker 3.67%
+platform-lab-control-plane 15.76%
+== 2026-10-28T15:33:36Z 0.41 0.51 0.59
+loadlab-control-plane 13.77%
+lead-hunter-scraper 0.19%
+n8n 0.22%
+platform-lab-worker2 2.28%
+platform-lab-worker 1.93%
+platform-lab-control-plane 16.70%
+== 2026-10-28T15:34:08Z 0.44 0.51 0.58
+loadlab-control-plane 14.69%
+lead-hunter-scraper 0.18%
+n8n 0.10%
+platform-lab-worker2 1.49%
+platform-lab-worker 1.50%
+platform-lab-control-plane 16.69%
+== 2026-10-28T15:34:40Z 0.60 0.53 0.59
+loadlab-control-plane 13.34%
+lead-hunter-scraper 0.21%
+n8n 0.11%
+platform-lab-worker2 2.67%
+platform-lab-worker 1.66%
+platform-lab-control-plane 16.92%
+== 2026-10-28T15:35:12Z 0.57 0.53 0.58
+loadlab-control-plane 11.72%
+lead-hunter-scraper 0.19%
+n8n 0.38%
+platform-lab-worker2 2.23%
+platform-lab-worker 3.05%
+platform-lab-control-plane 12.03%
+== 2026-10-28T15:35:44Z 0.54 0.53 0.58
+loadlab-control-plane 12.10%
+lead-hunter-scraper 0.18%
+n8n 0.18%
+platform-lab-worker2 1.67%
+platform-lab-worker 1.23%
+platform-lab-control-plane 14.04%
+== 2026-10-28T15:36:16Z 0.35 0.48 0.56
+loadlab-control-plane 13.11%
+lead-hunter-scraper 0.16%
+n8n 0.28%
+platform-lab-worker2 2.05%
+platform-lab-worker 1.96%
+platform-lab-control-plane 17.15%
+== 2026-10-28T15:36:48Z 0.33 0.47 0.55
+loadlab-control-plane 14.49%
+lead-hunter-scraper 0.19%
+n8n 0.16%
+platform-lab-worker2 1.05%
+platform-lab-worker 1.28%
+platform-lab-control-plane 13.40%
+== 2026-10-28T15:37:20Z 0.64 0.53 0.57
+loadlab-control-plane 13.89%
+lead-hunter-scraper 0.17%
+n8n 0.31%
+platform-lab-worker2 2.22%
+platform-lab-worker 2.95%
+platform-lab-control-plane 13.37%
+== 2026-10-28T15:37:52Z 0.84 0.59 0.59
+loadlab-control-plane 12.42%
+lead-hunter-scraper 0.18%
+n8n 0.15%
+platform-lab-worker2 4.77%
+platform-lab-worker 4.81%
+platform-lab-control-plane 15.38%
+== 2026-10-28T15:38:24Z 0.77 0.59 0.59
+loadlab-control-plane 12.33%
+lead-hunter-scraper 0.21%
+n8n 0.24%
+platform-lab-worker2 1.92%
+platform-lab-worker 1.99%
+platform-lab-control-plane 12.15%
+== 2026-10-28T15:38:56Z 0.71 0.61 0.60
+loadlab-control-plane 12.70%
+lead-hunter-scraper 0.18%
+n8n 0.27%
+platform-lab-worker2 2.10%
+platform-lab-worker 2.07%
+platform-lab-control-plane 17.36%
+== 2026-10-28T15:39:28Z 0.51 0.56 0.58
+loadlab-control-plane 12.70%
+lead-hunter-scraper 0.16%
+n8n 0.35%
+platform-lab-worker2 2.42%
+platform-lab-worker 1.87%
+platform-lab-control-plane 14.57%
+== 2026-10-28T15:40:00Z 0.61 0.58 0.59
+loadlab-control-plane 18.52%
+lead-hunter-scraper 0.21%
+n8n 0.54%
+platform-lab-worker2 2.00%
+platform-lab-worker 2.18%
+platform-lab-control-plane 15.16%
+== 2026-10-28T15:40:32Z 0.72 0.61 0.59
+loadlab-control-plane 12.94%
+lead-hunter-scraper 0.19%
+n8n 0.27%
+platform-lab-worker2 2.34%
+platform-lab-worker 2.12%
+platform-lab-control-plane 14.58%
+== 2026-10-28T15:41:04Z 0.55 0.57 0.58
+loadlab-control-plane 12.67%
+lead-hunter-scraper 0.18%
+n8n 0.24%
+platform-lab-worker2 2.37%
+platform-lab-worker 2.76%
+platform-lab-control-plane 13.09%
+== 2026-10-28T15:41:37Z 0.53 0.56 0.58
+loadlab-control-plane 14.00%
+lead-hunter-scraper 0.18%
+n8n 0.16%
+platform-lab-worker2 1.80%
+platform-lab-worker 2.26%
+platform-lab-control-plane 20.52%
+== 2026-10-28T15:42:09Z 0.86 0.65 0.61
+loadlab-control-plane 12.26%
+lead-hunter-scraper 0.19%
+n8n 0.19%
+platform-lab-worker2 1.92%
+platform-lab-worker 1.73%
+platform-lab-control-plane 15.04%
+== 2026-10-28T15:42:41Z 0.72 0.64 0.61
+loadlab-control-plane 12.54%
+lead-hunter-scraper 0.19%
+n8n 0.34%
+platform-lab-worker2 2.79%
+platform-lab-worker 2.24%
+platform-lab-control-plane 14.87%
+== 2026-10-28T15:43:13Z 0.80 0.66 0.62
+loadlab-control-plane 12.53%
+lead-hunter-scraper 0.21%
+n8n 0.24%
+platform-lab-worker2 2.54%
+platform-lab-worker 1.79%
+platform-lab-control-plane 14.83%
+== 2026-10-28T15:43:45Z 0.78 0.67 0.62
+loadlab-control-plane 17.09%
+lead-hunter-scraper 0.19%
+n8n 0.30%
+platform-lab-worker2 2.71%
+platform-lab-worker 2.63%
+platform-lab-control-plane 13.27%
+== 2026-10-28T15:44:17Z 0.77 0.67 0.62
+loadlab-control-plane 14.95%
+lead-hunter-scraper 0.18%
+n8n 0.25%
+platform-lab-worker2 1.99%
+platform-lab-worker 2.93%
+platform-lab-control-plane 14.34%
+== 2026-10-28T15:44:49Z 1.01 0.75 0.65
+loadlab-control-plane 14.23%
+lead-hunter-scraper 0.22%
+platform-lab-worker2 1.81%
+platform-lab-worker 1.72%
+platform-lab-control-plane 17.90%
+== 2026-10-28T15:45:21Z 1.24 0.84 0.68
+loadlab-control-plane 13.77%
+lead-hunter-scraper 0.19%
+n8n 0.26%
+platform-lab-worker2 3.08%
+platform-lab-worker 2.78%
+platform-lab-control-plane 14.61%
+== 2026-10-28T15:45:53Z 0.94 0.81 0.68
+loadlab-control-plane 14.01%
+lead-hunter-scraper 0.19%
+n8n 0.23%
+platform-lab-worker2 2.07%
+platform-lab-worker 3.57%
+platform-lab-control-plane 13.22%
+== 2026-10-28T15:46:25Z 0.58 0.73 0.66
+loadlab-control-plane 13.16%
+lead-hunter-scraper 0.22%
+n8n 0.33%
+platform-lab-worker2 2.68%
+platform-lab-worker 2.04%
+platform-lab-control-plane 12.33%
+== 2026-10-28T15:46:57Z 0.91 0.79 0.68
+loadlab-control-plane 14.55%
+lead-hunter-scraper 0.17%
+n8n 0.31%
+platform-lab-worker2 1.50%
+platform-lab-worker 1.87%
+platform-lab-control-plane 21.13%
+== 2026-10-28T15:47:29Z 0.64 0.73 0.66
+loadlab-control-plane 13.54%
+lead-hunter-scraper 0.20%
+n8n 0.23%
+platform-lab-worker2 1.33%
+platform-lab-worker 1.46%
+platform-lab-control-plane 12.88%
+== 2026-10-28T15:48:01Z 0.81 0.77 0.68
+loadlab-control-plane 12.27%
+lead-hunter-scraper 0.17%
+n8n 0.31%
+platform-lab-worker2 2.21%
+platform-lab-worker 2.25%
+platform-lab-control-plane 15.78%
+== 2026-10-28T15:48:33Z 0.71 0.75 0.67
+loadlab-control-plane 12.25%
+lead-hunter-scraper 0.16%
+n8n 0.13%
+platform-lab-worker2 1.51%
+platform-lab-worker 2.84%
+platform-lab-control-plane 10.83%
+== 2026-10-28T15:49:05Z 0.77 0.76 0.68
+loadlab-control-plane 12.56%
+lead-hunter-scraper 0.14%
+n8n 0.16%
+platform-lab-worker2 1.39%
+platform-lab-worker 1.73%
+platform-lab-control-plane 13.07%
+== 2026-10-28T15:49:38Z 1.18 0.86 0.72
+loadlab-control-plane 12.83%
+lead-hunter-scraper 0.15%
+n8n 0.14%
+platform-lab-worker2 1.16%
+platform-lab-worker 1.23%
+platform-lab-control-plane 17.58%
+== 2026-10-28T15:50:10Z 0.98 0.85 0.72
+loadlab-control-plane 12.10%
+lead-hunter-scraper 0.18%
+n8n 0.20%
+platform-lab-worker2 1.32%
+platform-lab-worker 1.55%
+platform-lab-control-plane 9.31%
+== 2026-10-28T15:50:42Z 1.07 0.88 0.74
+loadlab-control-plane 11.39%
+lead-hunter-scraper 0.20%
+n8n 0.14%
+platform-lab-worker2 3.27%
+platform-lab-worker 2.23%
+platform-lab-control-plane 10.36%
+== 2026-10-28T15:51:14Z 0.97 0.88 0.74
+loadlab-control-plane 13.33%
+lead-hunter-scraper 0.17%
+n8n 0.14%
+platform-lab-worker2 4.23%
+platform-lab-worker 2.90%
+platform-lab-control-plane 12.19%
+== 2026-10-28T15:51:46Z 1.01 0.89 0.75
+loadlab-control-plane 12.56%
+lead-hunter-scraper 0.18%
+n8n 0.45%
+platform-lab-worker2 1.40%
+platform-lab-worker 1.37%
+platform-lab-control-plane 13.71%
+== 2026-10-28T15:52:18Z 1.02 0.90 0.75
+loadlab-control-plane 12.16%
+lead-hunter-scraper 0.16%
+platform-lab-worker2 0.96%
+platform-lab-worker 1.25%
+platform-lab-control-plane 12.36%
+== 2026-10-28T15:52:50Z 1.06 0.93 0.77
+loadlab-control-plane 13.62%
+lead-hunter-scraper 0.14%
+n8n 0.16%
+platform-lab-worker2 1.88%
+platform-lab-worker 2.91%
+platform-lab-control-plane 17.08%
+== 2026-10-28T15:53:22Z 0.97 0.92 0.77
+loadlab-control-plane 21.37%
+lead-hunter-scraper 0.13%
+n8n 0.17%
+platform-lab-worker2 2.10%
+platform-lab-worker 2.64%
+platform-lab-control-plane 15.00%
+== 2026-10-28T15:53:54Z 0.93 0.91 0.77
+loadlab-control-plane 11.83%
+lead-hunter-scraper 0.16%
+platform-lab-worker2 2.71%
+platform-lab-worker 4.33%
+platform-lab-control-plane 13.16%
+== 2026-10-28T15:54:26Z 0.79 0.88 0.77
+loadlab-control-plane 11.63%
+lead-hunter-scraper 0.19%
+n8n 0.28%
+platform-lab-worker2 2.27%
+platform-lab-worker 1.94%
+platform-lab-control-plane 20.70%
+== 2026-10-28T15:54:58Z 2.18 1.24 0.90
+loadlab-control-plane 10.54%
+lead-hunter-scraper 0.16%
+n8n 0.15%
+platform-lab-worker2 1.54%
+platform-lab-worker 1.18%
+platform-lab-control-plane 11.18%
+== 2026-10-28T15:55:30Z 1.64 1.20 0.90
+loadlab-control-plane 13.91%
+lead-hunter-scraper 0.18%
+n8n 0.15%
+platform-lab-worker2 2.71%
+platform-lab-worker 1.80%
+platform-lab-control-plane 14.72%
+== 2026-10-28T15:56:02Z 1.25 1.15 0.89
+loadlab-control-plane 12.83%
+lead-hunter-scraper 0.14%
+n8n 0.14%
+platform-lab-worker2 1.72%
+platform-lab-worker 2.53%
+platform-lab-control-plane 13.77%
+== 2026-10-28T15:56:34Z 1.44 1.21 0.92
+loadlab-control-plane 11.37%
+lead-hunter-scraper 0.16%
+platform-lab-worker2 3.20%
+platform-lab-worker 3.72%
+platform-lab-control-plane 12.30%
+== 2026-10-28T15:57:06Z 1.45 1.24 0.94
+loadlab-control-plane 9.64%
+lead-hunter-scraper 0.14%
+n8n 0.12%
+platform-lab-worker2 1.88%
+platform-lab-worker 1.71%
+platform-lab-control-plane 13.56%
+== 2026-10-28T15:57:39Z 1.42 1.26 0.96
+loadlab-control-plane 13.76%
+lead-hunter-scraper 0.17%
+n8n 0.30%
+platform-lab-worker2 3.17%
+platform-lab-worker 1.66%
+platform-lab-control-plane 14.93%
+== 2026-10-28T15:58:11Z 1.44 1.29 0.98
+loadlab-control-plane 12.67%
+lead-hunter-scraper 0.18%
+n8n 0.39%
+platform-lab-worker2 1.75%
+platform-lab-worker 2.27%
+platform-lab-control-plane 13.82%
+== 2026-10-28T15:58:43Z 1.66 1.36 1.02
+loadlab-control-plane 12.55%
+lead-hunter-scraper 0.18%
+n8n 0.24%
+platform-lab-worker2 1.97%
+platform-lab-worker 3.09%
+platform-lab-control-plane 11.71%
+== 2026-10-28T15:59:15Z 1.29 1.30 1.01
+loadlab-control-plane 10.79%
+lead-hunter-scraper 0.17%
+n8n 0.23%
+platform-lab-worker2 3.66%
+platform-lab-worker 4.46%
+platform-lab-control-plane 11.92%
+== 2026-10-28T15:59:47Z 0.98 1.22 0.99
+loadlab-control-plane 10.37%
+lead-hunter-scraper 0.16%
+n8n 0.23%
+platform-lab-worker2 2.13%
+platform-lab-worker 2.63%
+platform-lab-control-plane 13.57%
+== 2026-10-28T16:00:19Z 1.16 1.24 1.00
+loadlab-control-plane 10.51%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 1.30%
+platform-lab-worker 1.40%
+platform-lab-control-plane 14.33%
+== 2026-10-28T16:00:51Z 1.64 1.38 1.06
+loadlab-control-plane 9.99%
+lead-hunter-scraper 0.17%
+n8n 0.45%
+platform-lab-worker2 2.40%
+platform-lab-worker 2.32%
+platform-lab-control-plane 13.09%
+== 2026-10-28T16:01:23Z 1.33 1.32 1.05
+loadlab-control-plane 11.69%
+lead-hunter-scraper 0.13%
+n8n 0.22%
+platform-lab-worker2 1.89%
+platform-lab-worker 2.09%
+platform-lab-control-plane 11.91%
+== 2026-10-28T16:01:55Z 1.11 1.27 1.04
+loadlab-control-plane 11.07%
+lead-hunter-scraper 0.15%
+n8n 0.24%
+platform-lab-worker2 3.98%
+platform-lab-worker 5.58%
+platform-lab-control-plane 13.79%
+== 2026-10-28T16:02:27Z 1.24 1.29 1.06
+loadlab-control-plane 10.79%
+lead-hunter-scraper 0.19%
+n8n 0.24%
+platform-lab-worker2 1.18%
+platform-lab-worker 1.37%
+platform-lab-control-plane 15.75%
+== 2026-10-28T16:02:59Z 1.11 1.26 1.06
+loadlab-control-plane 10.47%
+lead-hunter-scraper 0.16%
+n8n 0.13%
+platform-lab-worker2 1.31%
+platform-lab-worker 1.62%
+platform-lab-control-plane 12.53%
+== 2026-10-28T16:03:31Z 1.14 1.25 1.06
+loadlab-control-plane 8.93%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 0.88%
+platform-lab-worker 1.02%
+platform-lab-control-plane 15.05%
+== 2026-10-28T16:04:03Z 1.13 1.22 1.06
+loadlab-control-plane 10.19%
+lead-hunter-scraper 0.16%
+n8n 0.17%
+platform-lab-worker2 1.75%
+platform-lab-worker 1.31%
+platform-lab-control-plane 12.84%
+== 2026-10-28T16:04:35Z 1.27 1.26 1.08
+loadlab-control-plane 12.35%
+lead-hunter-scraper 0.16%
+n8n 0.26%
+platform-lab-worker2 3.19%
+platform-lab-worker 3.68%
+platform-lab-control-plane 13.07%
+== 2026-10-28T16:05:07Z 1.30 1.27 1.08
+loadlab-control-plane 11.52%
+lead-hunter-scraper 0.17%
+n8n 0.30%
+platform-lab-worker2 2.54%
+platform-lab-worker 1.02%
+platform-lab-control-plane 15.75%
+== 2026-10-28T16:05:39Z 1.23 1.25 1.09
+loadlab-control-plane 11.45%
+lead-hunter-scraper 0.16%
+n8n 0.16%
+platform-lab-worker2 1.38%
+platform-lab-worker 1.47%
+platform-lab-control-plane 12.06%
+== 2026-10-28T16:06:12Z 1.20 1.24 1.09
+loadlab-control-plane 11.96%
+lead-hunter-scraper 0.18%
+n8n 0.26%
+platform-lab-worker2 1.47%
+platform-lab-worker 2.68%
+platform-lab-control-plane 13.25%
+== 2026-10-28T16:06:44Z 1.28 1.27 1.10
+loadlab-control-plane 13.63%
+lead-hunter-scraper 0.14%
+n8n 0.43%
+platform-lab-worker2 1.81%
+platform-lab-worker 1.08%
+platform-lab-control-plane 11.75%
+== 2026-10-28T16:07:16Z 1.23 1.25 1.10
+loadlab-control-plane 11.13%
+lead-hunter-scraper 0.12%
+n8n 0.23%
+platform-lab-worker2 2.38%
+platform-lab-worker 2.85%
+platform-lab-control-plane 10.93%
+== 2026-10-28T16:07:48Z 1.17 1.24 1.10
+loadlab-control-plane 13.66%
+lead-hunter-scraper 0.20%
+n8n 0.26%
+platform-lab-worker2 2.05%
+platform-lab-worker 0.90%
+platform-lab-control-plane 12.92%
+== 2026-10-28T16:08:20Z 1.11 1.23 1.10
+loadlab-control-plane 12.10%
+lead-hunter-scraper 0.20%
+platform-lab-worker2 1.98%
+platform-lab-worker 2.66%
+platform-lab-control-plane 11.94%
+== 2026-10-28T16:08:52Z 1.16 1.24 1.11
+loadlab-control-plane 11.25%
+lead-hunter-scraper 0.18%
+n8n 0.12%
+platform-lab-worker2 5.66%
+platform-lab-worker 4.29%
+platform-lab-control-plane 10.37%
+== 2026-10-28T16:09:24Z 1.04 1.20 1.10
+loadlab-control-plane 11.39%
+lead-hunter-scraper 0.15%
+n8n 0.20%
+platform-lab-worker2 1.37%
+platform-lab-worker 0.86%
+platform-lab-control-plane 11.60%
+== 2026-10-28T16:09:56Z 1.01 1.17 1.09
+loadlab-control-plane 15.34%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 1.13%
+platform-lab-worker 1.15%
+platform-lab-control-plane 11.08%
+== 2026-10-28T16:10:28Z 1.27 1.22 1.11
+loadlab-control-plane 13.19%
+lead-hunter-scraper 0.18%
+platform-lab-worker2 1.61%
+platform-lab-worker 2.90%
+platform-lab-control-plane 13.54%
+== 2026-10-28T16:11:00Z 1.36 1.25 1.12
+loadlab-control-plane 12.60%
+lead-hunter-scraper 0.18%
+n8n 0.31%
+platform-lab-worker2 3.20%
+platform-lab-worker 1.98%
+platform-lab-control-plane 11.54%
+== 2026-10-28T16:11:32Z 1.10 1.19 1.10
+loadlab-control-plane 14.85%
+lead-hunter-scraper 0.21%
+n8n 0.31%
+platform-lab-worker2 2.72%
+platform-lab-worker 3.84%
+platform-lab-control-plane 17.75%
+== 2026-10-28T16:12:04Z 1.10 1.17 1.10
+loadlab-control-plane 14.15%
+lead-hunter-scraper 0.21%
+n8n 0.12%
+platform-lab-worker2 2.07%
+platform-lab-worker 2.28%
+platform-lab-control-plane 14.64%
+== 2026-10-28T16:12:36Z 0.86 1.10 1.08
+loadlab-control-plane 12.36%
+lead-hunter-scraper 0.23%
+n8n 0.12%
+platform-lab-worker2 1.82%
+platform-lab-worker 2.42%
+platform-lab-control-plane 13.66%
+== 2026-10-28T16:13:08Z 0.81 1.08 1.07
+loadlab-control-plane 14.00%
+lead-hunter-scraper 0.19%
+n8n 0.23%
+platform-lab-worker2 1.68%
+platform-lab-worker 1.95%
+platform-lab-control-plane 14.60%
+== 2026-10-28T16:13:40Z 0.68 1.02 1.05
+loadlab-control-plane 17.26%
+lead-hunter-scraper 0.18%
+n8n 0.25%
+platform-lab-worker2 1.84%
+platform-lab-worker 2.60%
+platform-lab-control-plane 15.01%
+== 2026-10-28T16:14:13Z 0.63 0.97 1.03
+loadlab-control-plane 13.05%
+lead-hunter-scraper 0.19%
+n8n 0.14%
+platform-lab-worker2 2.17%
+platform-lab-worker 4.13%
+platform-lab-control-plane 8.80%
+== 2026-10-28T16:14:45Z 0.95 1.01 1.04
+loadlab-control-plane 16.47%
+lead-hunter-scraper 0.20%
+n8n 0.17%
+platform-lab-worker2 3.59%
+platform-lab-worker 1.95%
+platform-lab-control-plane 15.79%
+== 2026-10-28T16:15:17Z 1.99 1.25 1.12
+loadlab-control-plane 11.07%
+lead-hunter-scraper 0.20%
+n8n 0.12%
+platform-lab-worker2 1.66%
+platform-lab-worker 2.15%
+platform-lab-control-plane 14.29%
+== 2026-10-28T16:15:49Z 1.35 1.16 1.09
+loadlab-control-plane 11.50%
+lead-hunter-scraper 0.18%
+platform-lab-worker2 1.51%
+platform-lab-worker 1.64%
+platform-lab-control-plane 14.76%
+== 2026-10-28T16:16:21Z 1.30 1.17 1.10
+loadlab-control-plane 29.52%
+lead-hunter-scraper 0.18%
+n8n 0.33%
+platform-lab-worker2 2.62%
+platform-lab-worker 1.98%
+platform-lab-control-plane 11.69%
+== 2026-10-28T16:16:53Z 1.46 1.22 1.11
+loadlab-control-plane 14.12%
+lead-hunter-scraper 0.19%
+n8n 0.23%
+platform-lab-worker2 2.09%
+platform-lab-worker 1.96%
+platform-lab-control-plane 15.90%
+== 2026-10-28T16:17:25Z 1.35 1.21 1.11
+loadlab-control-plane 14.83%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 3.96%
+platform-lab-worker 2.23%
+platform-lab-control-plane 10.48%
+== 2026-10-28T16:17:57Z 1.46 1.24 1.12
+loadlab-control-plane 13.31%
+lead-hunter-scraper 0.16%
+n8n 0.16%
+platform-lab-worker2 1.48%
+platform-lab-worker 1.58%
+platform-lab-control-plane 13.46%
+== 2026-10-28T16:18:29Z 1.64 1.31 1.15
+loadlab-control-plane 11.75%
+lead-hunter-scraper 0.16%
+n8n 0.15%
+platform-lab-worker2 1.63%
+platform-lab-worker 1.92%
+platform-lab-control-plane 13.15%
+== 2026-10-28T16:19:01Z 1.43 1.29 1.15
+loadlab-control-plane 12.15%
+lead-hunter-scraper 0.17%
+n8n 0.38%
+platform-lab-worker2 1.08%
+platform-lab-worker 1.91%
+platform-lab-control-plane 15.27%
+== 2026-10-28T16:19:33Z 1.33 1.28 1.15
+loadlab-control-plane 12.79%
+lead-hunter-scraper 0.20%
+n8n 0.15%
+platform-lab-worker2 1.76%
+platform-lab-worker 2.75%
+platform-lab-control-plane 10.75%
+== 2026-10-28T16:20:05Z 0.86 1.17 1.12
+loadlab-control-plane 12.12%
+lead-hunter-scraper 0.16%
+n8n 0.30%
+platform-lab-worker2 2.04%
+platform-lab-worker 2.77%
+platform-lab-control-plane 11.75%
+== 2026-10-28T16:20:37Z 1.07 1.18 1.12
+loadlab-control-plane 14.12%
+lead-hunter-scraper 0.14%
+n8n 0.16%
+platform-lab-worker2 0.85%
+platform-lab-worker 2.60%
+platform-lab-control-plane 17.24%
+== 2026-10-28T16:21:09Z 0.82 1.12 1.10
+loadlab-control-plane 13.99%
+lead-hunter-scraper 0.22%
+n8n 0.22%
+platform-lab-worker2 1.52%
+platform-lab-worker 1.63%
+platform-lab-control-plane 14.62%
+== 2026-10-28T16:21:41Z 0.78 1.08 1.09
+loadlab-control-plane 11.56%
+lead-hunter-scraper 0.20%
+n8n 0.19%
+platform-lab-worker2 2.22%
+platform-lab-worker 1.86%
+platform-lab-control-plane 13.84%
+== 2026-10-28T16:22:13Z 0.82 1.07 1.09
+loadlab-control-plane 11.84%
+lead-hunter-scraper 0.18%
+n8n 0.15%
+platform-lab-worker2 2.44%
+platform-lab-worker 1.35%
+platform-lab-control-plane 14.58%
+== 2026-10-28T16:22:46Z 0.67 1.01 1.07
+loadlab-control-plane 15.56%
+lead-hunter-scraper 0.20%
+n8n 0.32%
+platform-lab-worker2 2.46%
+platform-lab-worker 2.08%
+platform-lab-control-plane 16.67%
+== 2026-10-28T16:23:18Z 0.91 1.04 1.08
+loadlab-control-plane 13.19%
+lead-hunter-scraper 0.20%
+n8n 0.23%
+platform-lab-worker2 1.27%
+platform-lab-worker 1.52%
+platform-lab-control-plane 13.39%
+== 2026-10-28T16:23:50Z 0.82 1.01 1.06
+loadlab-control-plane 12.34%
+lead-hunter-scraper 0.21%
+platform-lab-worker2 2.50%
+platform-lab-worker 3.91%
+platform-lab-control-plane 14.91%
+== 2026-10-28T16:24:22Z 0.79 0.97 1.05
+loadlab-control-plane 10.90%
+lead-hunter-scraper 0.16%
+n8n 0.24%
+platform-lab-worker2 3.84%
+platform-lab-worker 2.70%
+platform-lab-control-plane 17.59%
+== 2026-10-28T16:24:54Z 0.61 0.91 1.02
+loadlab-control-plane 12.40%
+lead-hunter-scraper 0.20%
+n8n 0.22%
+platform-lab-worker2 1.31%
+platform-lab-worker 1.22%
+platform-lab-control-plane 16.17%
+== 2026-10-28T16:25:26Z 0.72 0.89 1.01
+loadlab-control-plane 13.43%
+lead-hunter-scraper 0.18%
+n8n 0.42%
+platform-lab-worker2 1.36%
+platform-lab-worker 1.51%
+platform-lab-control-plane 17.35%
+== 2026-10-28T16:25:58Z 0.79 0.90 1.01
+loadlab-control-plane 12.06%
+lead-hunter-scraper 0.22%
+n8n 0.22%
+platform-lab-worker2 1.26%
+platform-lab-worker 1.59%
+platform-lab-control-plane 15.47%
+== 2026-10-28T16:26:30Z 0.74 0.88 1.00
+loadlab-control-plane 16.75%
+lead-hunter-scraper 0.22%
+n8n 0.14%
+platform-lab-worker2 1.58%
+platform-lab-worker 1.84%
+platform-lab-control-plane 16.76%
+== 2026-10-28T16:27:02Z 0.63 0.84 0.98
+loadlab-control-plane 12.84%
+lead-hunter-scraper 0.20%
+n8n 0.20%
+platform-lab-worker2 4.32%
+platform-lab-worker 3.25%
+platform-lab-control-plane 15.90%
+== 2026-10-28T16:27:34Z 0.52 0.79 0.96
+loadlab-control-plane 10.66%
+lead-hunter-scraper 0.22%
+n8n 0.22%
+platform-lab-worker2 2.12%
+platform-lab-worker 2.02%
+platform-lab-control-plane 13.31%
+== 2026-10-28T16:28:06Z 0.36 0.72 0.93
+loadlab-control-plane 12.83%
+lead-hunter-scraper 0.20%
+n8n 0.27%
+platform-lab-worker2 4.12%
+platform-lab-worker 2.32%
+platform-lab-control-plane 14.09%
+== 2026-10-28T16:28:38Z 0.22 0.65 0.90
+loadlab-control-plane 11.87%
+lead-hunter-scraper 0.20%
+n8n 0.25%
+platform-lab-worker2 1.67%
+platform-lab-worker 1.67%
+platform-lab-control-plane 15.50%
+== 2026-10-28T16:29:10Z 0.61 0.69 0.90
+loadlab-control-plane 14.50%
+lead-hunter-scraper 0.18%
+n8n 0.39%
+platform-lab-worker2 1.55%
+platform-lab-worker 2.41%
+platform-lab-control-plane 13.13%
+== 2026-10-28T16:29:42Z 0.45 0.64 0.88
+loadlab-control-plane 13.10%
+lead-hunter-scraper 0.22%
+platform-lab-worker2 2.68%
+platform-lab-worker 2.66%
+platform-lab-control-plane 16.58%
+== 2026-10-28T16:30:14Z 0.34 0.60 0.86
+loadlab-control-plane 13.12%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 2.26%
+platform-lab-worker 2.61%
+platform-lab-control-plane 15.28%
+== 2026-10-28T16:30:47Z 0.24 0.54 0.83
+loadlab-control-plane 15.21%
+lead-hunter-scraper 0.19%
+n8n 0.13%
+platform-lab-worker2 5.20%
+platform-lab-worker 6.15%
+platform-lab-control-plane 15.34%
+== 2026-10-28T16:31:19Z 0.57 0.59 0.83
+loadlab-control-plane 13.33%
+lead-hunter-scraper 0.18%
+platform-lab-worker2 2.03%
+platform-lab-worker 3.31%
+platform-lab-control-plane 13.42%
+== 2026-10-28T16:31:51Z 0.51 0.57 0.82
+loadlab-control-plane 18.60%
+lead-hunter-scraper 0.18%
+n8n 0.35%
+platform-lab-worker2 2.86%
+platform-lab-worker 2.60%
+platform-lab-control-plane 14.32%
+== 2026-10-28T16:32:23Z 0.31 0.51 0.79
+loadlab-control-plane 12.07%
+lead-hunter-scraper 0.22%
+n8n 0.23%
+platform-lab-worker2 4.26%
+platform-lab-worker 1.80%
+platform-lab-control-plane 13.19%
+== 2026-10-28T16:32:55Z 0.36 0.50 0.78
+loadlab-control-plane 12.96%
+lead-hunter-scraper 0.19%
+n8n 0.12%
+platform-lab-worker2 2.71%
+platform-lab-worker 2.56%
+platform-lab-control-plane 12.30%
+== 2026-10-28T16:33:27Z 0.41 0.50 0.77
+loadlab-control-plane 11.37%
+lead-hunter-scraper 0.20%
+n8n 0.14%
+platform-lab-worker2 3.58%
+platform-lab-worker 3.83%
+platform-lab-control-plane 16.94%
+== 2026-10-28T16:33:59Z 0.37 0.49 0.75
+loadlab-control-plane 11.63%
+lead-hunter-scraper 0.20%
+n8n 0.10%
+platform-lab-worker2 3.06%
+platform-lab-worker 1.58%
+platform-lab-control-plane 17.22%
+== 2026-10-28T16:34:31Z 0.21 0.43 0.72
+loadlab-control-plane 15.34%
+lead-hunter-scraper 0.19%
+n8n 0.52%
+platform-lab-worker2 2.05%
+platform-lab-worker 1.59%
+platform-lab-control-plane 14.47%
+== 2026-10-28T16:35:03Z 0.12 0.39 0.70
+loadlab-control-plane 12.49%
+lead-hunter-scraper 0.19%
+n8n 0.15%
+platform-lab-worker2 2.63%
+platform-lab-worker 1.47%
+platform-lab-control-plane 17.25%
+== 2026-10-28T16:35:35Z 0.19 0.38 0.68
+loadlab-control-plane 14.04%
+lead-hunter-scraper 0.21%
+n8n 0.33%
+platform-lab-worker2 2.89%
+platform-lab-worker 1.41%
+platform-lab-control-plane 13.21%
+== 2026-10-28T16:36:07Z 0.24 0.37 0.67
+loadlab-control-plane 15.54%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 4.32%
+platform-lab-worker 3.90%
+platform-lab-control-plane 17.87%
+== 2026-10-28T16:36:39Z 0.47 0.41 0.67
+loadlab-control-plane 14.27%
+lead-hunter-scraper 0.19%
+n8n 0.18%
+platform-lab-worker2 1.48%
+platform-lab-worker 1.36%
+platform-lab-control-plane 12.58%
+== 2026-10-28T16:37:11Z 0.26 0.37 0.65
+loadlab-control-plane 11.92%
+lead-hunter-scraper 0.18%
+n8n 0.18%
+platform-lab-worker2 1.29%
+platform-lab-worker 2.10%
+platform-lab-control-plane 13.82%
+== 2026-10-28T16:37:43Z 0.16 0.33 0.62
+loadlab-control-plane 15.41%
+lead-hunter-scraper 0.21%
+n8n 0.16%
+platform-lab-worker2 1.66%
+platform-lab-worker 1.44%
+platform-lab-control-plane 14.33%
+== 2026-10-28T16:38:15Z 0.35 0.36 0.62
+loadlab-control-plane 17.68%
+lead-hunter-scraper 0.20%
+n8n 0.24%
+platform-lab-worker2 2.28%
+platform-lab-worker 1.79%
+platform-lab-control-plane 20.80%
+== 2026-10-28T16:38:48Z 0.38 0.37 0.62
+loadlab-control-plane 17.19%
+lead-hunter-scraper 0.20%
+n8n 0.31%
+platform-lab-worker2 3.05%
+platform-lab-worker 2.76%
+platform-lab-control-plane 14.96%
+== 2026-10-28T16:39:20Z 0.43 0.38 0.62
+loadlab-control-plane 12.27%
+lead-hunter-scraper 0.20%
+n8n 0.19%
+platform-lab-worker2 1.79%
+platform-lab-worker 2.86%
+platform-lab-control-plane 15.04%
+== 2026-10-28T16:39:52Z 0.52 0.42 0.62
+loadlab-control-plane 13.17%
+lead-hunter-scraper 0.21%
+n8n 0.16%
+platform-lab-worker2 3.94%
+platform-lab-worker 3.90%
+platform-lab-control-plane 14.50%
+== 2026-10-28T16:40:24Z 0.56 0.44 0.62
+loadlab-control-plane 14.51%
+lead-hunter-scraper 0.18%
+n8n 0.26%
+platform-lab-worker2 1.52%
+platform-lab-worker 1.11%
+platform-lab-control-plane 13.79%
+== 2026-10-28T16:40:56Z 0.52 0.45 0.62
+loadlab-control-plane 14.31%
+lead-hunter-scraper 0.21%
+n8n 0.11%
+platform-lab-worker2 1.62%
+platform-lab-worker 1.51%
+platform-lab-control-plane 21.71%
+== 2026-10-28T16:41:28Z 0.57 0.47 0.62
+loadlab-control-plane 14.21%
+lead-hunter-scraper 0.19%
+n8n 0.22%
+platform-lab-worker2 4.17%
+platform-lab-worker 4.66%
+platform-lab-control-plane 16.94%
+== 2026-10-28T16:42:00Z 0.47 0.45 0.61
+loadlab-control-plane 14.29%
+lead-hunter-scraper 0.18%
+n8n 0.16%
+platform-lab-worker2 1.65%
+platform-lab-worker 2.19%
+platform-lab-control-plane 14.16%
+== 2026-10-28T16:42:32Z 0.34 0.42 0.60
+loadlab-control-plane 15.05%
+lead-hunter-scraper 0.20%
+n8n 0.30%
+platform-lab-worker2 2.13%
+platform-lab-worker 4.09%
+platform-lab-control-plane 13.08%
+== 2026-10-28T16:43:04Z 0.31 0.41 0.59
+loadlab-control-plane 12.51%
+lead-hunter-scraper 0.21%
+n8n 0.23%
+platform-lab-worker2 2.09%
+platform-lab-worker 3.11%
+platform-lab-control-plane 12.61%
+== 2026-10-28T16:43:36Z 0.68 0.51 0.62
+loadlab-control-plane 10.96%
+lead-hunter-scraper 0.14%
+n8n 0.39%
+platform-lab-worker2 1.63%
+platform-lab-worker 1.46%
+platform-lab-control-plane 13.44%
+== 2026-10-28T16:44:08Z 1.68 0.76 0.70
+loadlab-control-plane 12.25%
+lead-hunter-scraper 0.15%
+n8n 0.16%
+platform-lab-worker2 1.75%
+platform-lab-worker 3.31%
+platform-lab-control-plane 11.27%
+== 2026-10-28T16:44:40Z 1.90 0.92 0.75
+loadlab-control-plane 16.59%
+lead-hunter-scraper 0.16%
+n8n 0.32%
+platform-lab-worker2 1.79%
+platform-lab-worker 2.34%
+platform-lab-control-plane 9.45%
+== 2026-10-28T16:45:12Z 1.87 1.01 0.79
+loadlab-control-plane 10.25%
+lead-hunter-scraper 0.16%
+n8n 0.21%
+platform-lab-worker2 1.72%
+platform-lab-worker 1.76%
+platform-lab-control-plane 8.63%
+== 2026-10-28T16:45:44Z 1.73 1.07 0.82
+loadlab-control-plane 12.19%
+lead-hunter-scraper 0.16%
+n8n 0.13%
+platform-lab-worker2 2.03%
+platform-lab-worker 1.55%
+platform-lab-control-plane 8.48%
+== 2026-10-28T16:46:16Z 1.37 1.04 0.82
+loadlab-control-plane 12.06%
+lead-hunter-scraper 0.23%
+n8n 0.21%
+platform-lab-worker2 2.50%
+platform-lab-worker 2.78%
+platform-lab-control-plane 20.26%
+== 2026-10-28T16:46:49Z 1.04 0.99 0.81
+loadlab-control-plane 14.13%
+lead-hunter-scraper 0.19%
+n8n 0.19%
+platform-lab-worker2 1.81%
+platform-lab-worker 3.71%
+platform-lab-control-plane 14.27%
+== 2026-10-28T16:47:21Z 0.86 0.95 0.80
+loadlab-control-plane 15.56%
+lead-hunter-scraper 0.21%
+n8n 0.58%
+platform-lab-worker2 2.44%
+platform-lab-worker 3.15%
+platform-lab-control-plane 15.86%
+== 2026-10-28T16:47:53Z 0.59 0.87 0.78
+loadlab-control-plane 10.99%
+lead-hunter-scraper 0.20%
+n8n 0.26%
+platform-lab-worker2 2.02%
+platform-lab-worker 2.22%
+platform-lab-control-plane 14.00%
+== 2026-10-28T16:48:25Z 0.86 0.90 0.79
+loadlab-control-plane 11.94%
+lead-hunter-scraper 0.22%
+n8n 0.25%
+platform-lab-worker2 2.33%
+platform-lab-worker 2.48%
+platform-lab-control-plane 12.63%
+== 2026-10-28T16:48:57Z 0.63 0.83 0.78
+loadlab-control-plane 16.47%
+lead-hunter-scraper 0.20%
+n8n 0.23%
+platform-lab-worker2 2.02%
+platform-lab-worker 3.60%
+platform-lab-control-plane 18.83%
+== 2026-10-28T16:49:29Z 0.38 0.75 0.75
+loadlab-control-plane 14.18%
+lead-hunter-scraper 0.14%
+n8n 0.13%
+platform-lab-worker2 1.38%
+platform-lab-worker 3.60%
+platform-lab-control-plane 10.64%
+== 2026-10-28T16:50:01Z 0.97 0.85 0.78
+loadlab-control-plane 14.00%
+lead-hunter-scraper 0.18%
+n8n 0.62%
+platform-lab-worker2 1.55%
+platform-lab-worker 1.72%
+platform-lab-control-plane 17.70%
+== 2026-10-28T16:50:33Z 0.99 0.87 0.79
+loadlab-control-plane 12.20%
+lead-hunter-scraper 0.20%
+n8n 0.24%
+platform-lab-worker2 2.70%
+platform-lab-worker 1.98%
+platform-lab-control-plane 15.04%
+== 2026-10-28T16:51:05Z 0.77 0.84 0.78
+loadlab-control-plane 13.78%
+lead-hunter-scraper 0.19%
+n8n 0.11%
+platform-lab-worker2 2.59%
+platform-lab-worker 2.71%
+platform-lab-control-plane 15.26%
+== 2026-10-28T16:51:37Z 0.59 0.79 0.77
+loadlab-control-plane 15.09%
+lead-hunter-scraper 0.19%
+n8n 0.31%
+platform-lab-worker2 1.58%
+platform-lab-worker 1.73%
+platform-lab-control-plane 21.41%
+== 2026-10-28T16:52:09Z 0.49 0.74 0.75
+loadlab-control-plane 13.18%
+lead-hunter-scraper 0.20%
+n8n 0.15%
+platform-lab-worker2 1.34%
+platform-lab-worker 3.22%
+platform-lab-control-plane 18.09%
+== 2026-10-28T16:52:41Z 0.81 0.79 0.77
+loadlab-control-plane 13.53%
+lead-hunter-scraper 0.18%
+n8n 0.15%
+platform-lab-worker2 1.12%
+platform-lab-worker 1.12%
+platform-lab-control-plane 14.77%
+== 2026-10-28T16:53:13Z 0.97 0.84 0.79
+loadlab-control-plane 10.68%
+lead-hunter-scraper 0.14%
+n8n 0.13%
+platform-lab-worker2 2.36%
+platform-lab-worker 0.98%
+platform-lab-control-plane 9.88%
+== 2026-10-28T16:53:45Z 1.17 0.91 0.81
+loadlab-control-plane 13.50%
+lead-hunter-scraper 0.19%
+n8n 0.14%
+platform-lab-worker2 1.44%
+platform-lab-worker 1.40%
+platform-lab-control-plane 11.57%
+== 2026-10-28T16:54:17Z 1.51 1.01 0.85
+loadlab-control-plane 11.51%
+lead-hunter-scraper 0.14%
+n8n 0.14%
+platform-lab-worker2 1.31%
+platform-lab-worker 0.84%
+platform-lab-control-plane 13.97%
+== 2026-10-28T16:54:50Z 1.19 0.99 0.85
+loadlab-control-plane 11.57%
+lead-hunter-scraper 0.19%
+n8n 0.12%
+platform-lab-worker2 2.55%
+platform-lab-worker 2.61%
+platform-lab-control-plane 14.99%
+== 2026-10-28T16:55:22Z 1.47 1.07 0.88
+loadlab-control-plane 12.49%
+lead-hunter-scraper 0.14%
+platform-lab-worker2 1.00%
+platform-lab-worker 1.34%
+platform-lab-control-plane 9.79%
+== 2026-10-28T16:55:54Z 1.29 1.07 0.89
+loadlab-control-plane 10.70%
+lead-hunter-scraper 0.19%
+n8n 0.17%
+platform-lab-worker2 1.81%
+platform-lab-worker 1.21%
+platform-lab-control-plane 12.37%
+== 2026-10-28T16:56:26Z 0.99 1.01 0.88
+loadlab-control-plane 12.26%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 2.04%
+platform-lab-worker 1.49%
+platform-lab-control-plane 17.18%
+== 2026-10-28T16:56:58Z 0.66 0.93 0.85
+loadlab-control-plane 15.93%
+lead-hunter-scraper 0.18%
+platform-lab-worker2 1.17%
+platform-lab-worker 3.00%
+platform-lab-control-plane 15.25%
+== 2026-10-28T16:57:30Z 0.56 0.89 0.84
+loadlab-control-plane 9.62%
+lead-hunter-scraper 0.15%
+n8n 0.11%
+platform-lab-worker2 1.22%
+platform-lab-worker 1.96%
+platform-lab-control-plane 13.17%
+== 2026-10-28T16:58:02Z 0.75 0.90 0.85
+loadlab-control-plane 11.61%
+lead-hunter-scraper 0.20%
+n8n 0.11%
+platform-lab-worker2 2.66%
+platform-lab-worker 3.28%
+platform-lab-control-plane 14.16%
+== 2026-10-28T16:58:34Z 0.53 0.83 0.82
+loadlab-control-plane 12.68%
+lead-hunter-scraper 0.18%
+n8n 0.10%
+platform-lab-worker2 1.12%
+platform-lab-worker 1.18%
+platform-lab-control-plane 10.99%
+== 2026-10-28T16:59:06Z 0.74 0.86 0.83
+loadlab-control-plane 14.34%
+lead-hunter-scraper 0.18%
+n8n 0.24%
+platform-lab-worker2 1.28%
+platform-lab-worker 1.21%
+platform-lab-control-plane 17.62%
+== 2026-10-28T16:59:38Z 1.25 0.98 0.88
+loadlab-control-plane 16.41%
+lead-hunter-scraper 0.16%
+n8n 0.30%
+platform-lab-worker2 1.61%
+platform-lab-worker 1.82%
+platform-lab-control-plane 12.25%
+== 2026-10-28T17:00:10Z 1.05 0.98 0.88
+loadlab-control-plane 13.22%
+lead-hunter-scraper 0.17%
+n8n 0.22%
+platform-lab-worker2 2.16%
+platform-lab-worker 4.05%
+platform-lab-control-plane 11.63%
+== 2026-10-28T17:00:42Z 1.31 1.05 0.91
+loadlab-control-plane 9.41%
+lead-hunter-scraper 0.15%
+n8n 0.30%
+platform-lab-worker2 2.66%
+platform-lab-worker 5.35%
+platform-lab-control-plane 15.25%
+== 2026-10-28T17:01:14Z 1.64 1.15 0.95
+loadlab-control-plane 12.01%
+lead-hunter-scraper 0.18%
+platform-lab-worker2 1.92%
+platform-lab-worker 2.00%
+platform-lab-control-plane 10.71%
+== 2026-10-28T17:01:46Z 1.57 1.20 0.97
+loadlab-control-plane 13.61%
+lead-hunter-scraper 0.16%
+platform-lab-worker2 2.94%
+platform-lab-worker 2.68%
+platform-lab-control-plane 12.40%
+== 2026-10-28T17:02:18Z 1.31 1.16 0.97
+loadlab-control-plane 14.51%
+lead-hunter-scraper 0.18%
+n8n 0.15%
+platform-lab-worker2 3.03%
+platform-lab-worker 1.57%
+platform-lab-control-plane 10.70%
+== 2026-10-28T17:02:50Z 1.13 1.13 0.97
+loadlab-control-plane 11.17%
+lead-hunter-scraper 0.19%
+n8n 0.51%
+platform-lab-worker2 2.07%
+platform-lab-worker 2.52%
+platform-lab-control-plane 13.35%
+== 2026-10-28T17:03:23Z 1.34 1.18 0.99
+loadlab-control-plane 11.44%
+lead-hunter-scraper 0.16%
+n8n 0.25%
+platform-lab-worker2 2.91%
+platform-lab-worker 2.43%
+platform-lab-control-plane 12.89%
+== 2026-10-28T17:03:55Z 1.59 1.25 1.02
+loadlab-control-plane 12.62%
+lead-hunter-scraper 0.19%
+n8n 0.13%
+platform-lab-worker2 2.01%
+platform-lab-worker 1.62%
+platform-lab-control-plane 11.51%
+== 2026-10-28T17:04:27Z 1.76 1.32 1.05
+loadlab-control-plane 12.78%
+lead-hunter-scraper 0.16%
+n8n 0.14%
+platform-lab-worker2 2.17%
+platform-lab-worker 3.98%
+platform-lab-control-plane 12.49%
+== 2026-10-28T17:04:59Z 1.89 1.41 1.09
+loadlab-control-plane 14.70%
+lead-hunter-scraper 0.16%
+n8n 0.13%
+platform-lab-worker2 2.88%
+platform-lab-worker 1.41%
+platform-lab-control-plane 9.71%
+== 2026-10-28T17:05:31Z 1.50 1.38 1.09
+loadlab-control-plane 13.42%
+lead-hunter-scraper 0.17%
+n8n 0.50%
+platform-lab-worker2 1.55%
+platform-lab-worker 1.39%
+platform-lab-control-plane 15.72%
+== 2026-10-28T17:06:03Z 1.45 1.37 1.10
+loadlab-control-plane 12.32%
+lead-hunter-scraper 0.18%
+n8n 0.21%
+platform-lab-worker2 2.54%
+platform-lab-worker 1.65%
+platform-lab-control-plane 11.56%
+== 2026-10-28T17:06:35Z 1.49 1.39 1.11
+loadlab-control-plane 11.64%
+lead-hunter-scraper 0.19%
+n8n 0.26%
+platform-lab-worker2 2.56%
+platform-lab-worker 2.11%
+platform-lab-control-plane 12.47%
+== 2026-10-28T17:07:07Z 1.17 1.31 1.09
+loadlab-control-plane 11.33%
+lead-hunter-scraper 0.17%
+n8n 0.14%
+platform-lab-worker2 1.83%
+platform-lab-worker 1.90%
+platform-lab-control-plane 15.17%
+== 2026-10-28T17:07:39Z 1.27 1.31 1.10
+loadlab-control-plane 19.00%
+lead-hunter-scraper 0.16%
+n8n 0.11%
+platform-lab-worker2 4.20%
+platform-lab-worker 1.10%
+platform-lab-control-plane 14.90%
+== 2026-10-28T17:08:11Z 1.73 1.45 1.15
+loadlab-control-plane 12.22%
+lead-hunter-scraper 0.16%
+n8n 0.22%
+platform-lab-worker2 1.39%
+platform-lab-worker 1.16%
+platform-lab-control-plane 11.51%
+== 2026-10-28T17:08:43Z 1.43 1.39 1.14
+loadlab-control-plane 10.82%
+lead-hunter-scraper 0.15%
+n8n 0.21%
+platform-lab-worker2 1.50%
+platform-lab-worker 1.07%
+platform-lab-control-plane 10.96%
+== 2026-10-28T17:09:15Z 1.14 1.34 1.14
+loadlab-control-plane 13.15%
+lead-hunter-scraper 0.15%
+n8n 0.11%
+platform-lab-worker2 1.62%
+platform-lab-worker 3.00%
+platform-lab-control-plane 13.53%
+== 2026-10-28T17:09:47Z 1.37 1.39 1.16
+loadlab-control-plane 12.14%
+lead-hunter-scraper 0.15%
+n8n 0.18%
+platform-lab-worker2 1.00%
+platform-lab-worker 1.36%
+platform-lab-control-plane 15.61%
+== 2026-10-28T17:10:19Z 1.11 1.32 1.14
+loadlab-control-plane 14.66%
+lead-hunter-scraper 0.14%
+n8n 0.24%
+platform-lab-worker2 3.42%
+platform-lab-worker 2.32%
+platform-lab-control-plane 10.29%
+== 2026-10-28T17:10:51Z 1.39 1.36 1.17
+loadlab-control-plane 13.63%
+lead-hunter-scraper 0.18%
+n8n 0.29%
+platform-lab-worker2 3.24%
+platform-lab-worker 4.10%
+platform-lab-control-plane 14.22%
+== 2026-10-28T17:11:24Z 1.43 1.37 1.18
+loadlab-control-plane 23.64%
+lead-hunter-scraper 0.19%
+n8n 0.13%
+platform-lab-worker2 1.48%
+platform-lab-worker 1.19%
+platform-lab-control-plane 10.64%
+== 2026-10-28T17:11:56Z 1.63 1.44 1.21
+loadlab-control-plane 12.75%
+lead-hunter-scraper 0.15%
+n8n 0.35%
+platform-lab-worker2 1.60%
+platform-lab-worker 3.41%
+platform-lab-control-plane 14.80%
+== 2026-10-28T17:12:28Z 1.47 1.43 1.21
+loadlab-control-plane 11.93%
+lead-hunter-scraper 0.16%
+n8n 0.21%
+platform-lab-worker2 1.31%
+platform-lab-worker 1.33%
+platform-lab-control-plane 15.18%
+== 2026-10-28T17:13:00Z 1.55 1.46 1.23
+loadlab-control-plane 14.85%
+lead-hunter-scraper 0.17%
+n8n 0.16%
+platform-lab-worker2 3.25%
+platform-lab-worker 1.67%
+platform-lab-control-plane 12.00%
+== 2026-10-28T17:13:32Z 1.83 1.55 1.27
+loadlab-control-plane 12.81%
+lead-hunter-scraper 0.15%
+n8n 0.20%
+platform-lab-worker2 1.76%
+platform-lab-worker 2.47%
+platform-lab-control-plane 11.72%
+== 2026-10-28T17:14:04Z 2.70 1.77 1.35
+loadlab-control-plane 621.17%
+lead-hunter-scraper 0.20%
+n8n 0.16%
+platform-lab-worker2 2.17%
+platform-lab-worker 0.91%
+platform-lab-control-plane 10.43%
+== 2026-10-28T17:14:36Z 2.96 1.97 1.43
+loadlab-control-plane 10.64%
+lead-hunter-scraper 0.19%
+n8n 0.27%
+platform-lab-worker2 1.29%
+platform-lab-worker 1.10%
+platform-lab-control-plane 12.47%
+== 2026-10-28T17:15:08Z 3.35 2.14 1.51
+loadlab-control-plane 622.54%
+lead-hunter-scraper 0.18%
+n8n 0.18%
+platform-lab-worker2 0.86%
+platform-lab-worker 0.74%
+platform-lab-control-plane 9.39%
+== 2026-10-28T17:15:40Z 3.20 2.21 1.55
+loadlab-control-plane 291.02%
+lead-hunter-scraper 0.15%
+n8n 0.17%
+platform-lab-worker2 3.85%
+platform-lab-worker 3.05%
+platform-lab-control-plane 10.48%
+== 2026-10-28T17:16:12Z 3.65 2.46 1.66
+loadlab-control-plane 13.37%
+lead-hunter-scraper 0.17%
+n8n 0.11%
+platform-lab-worker2 3.16%
+platform-lab-worker 3.44%
+platform-lab-control-plane 14.27%
+== 2026-10-28T17:16:44Z 3.01 2.42 1.67
+loadlab-control-plane 616.95%
+lead-hunter-scraper 0.19%
+n8n 0.29%
+platform-lab-worker2 2.71%
+platform-lab-worker 1.52%
+platform-lab-control-plane 9.06%
+== 2026-10-28T17:17:16Z 3.14 2.51 1.73
+loadlab-control-plane 619.30%
+lead-hunter-scraper 0.15%
+n8n 0.22%
+platform-lab-worker2 1.66%
+platform-lab-worker 1.78%
+platform-lab-control-plane 10.44%
+== 2026-10-28T17:17:48Z 3.28 2.61 1.79
+loadlab-control-plane 619.95%
+lead-hunter-scraper 0.15%
+n8n 0.12%
+platform-lab-worker2 1.53%
+platform-lab-worker 1.69%
+platform-lab-control-plane 10.15%
+== 2026-10-28T17:18:20Z 4.49 3.00 1.95
+loadlab-control-plane 229.91%
+lead-hunter-scraper 0.13%
+n8n 0.28%
+platform-lab-worker2 1.75%
+platform-lab-worker 3.51%
+platform-lab-control-plane 11.07%
+== 2026-10-28T17:18:52Z 3.86 2.99 1.98
+loadlab-control-plane 12.87%
+lead-hunter-scraper 0.16%
+n8n 0.10%
+platform-lab-worker2 3.77%
+platform-lab-worker 3.28%
+platform-lab-control-plane 12.99%
+== 2026-10-28T17:19:25Z 4.19 3.16 2.07
+loadlab-control-plane 9.78%
+lead-hunter-scraper 0.14%
+n8n 0.21%
+platform-lab-worker2 1.80%
+platform-lab-worker 1.55%
+platform-lab-control-plane 12.07%
+== 2026-10-28T17:19:57Z 3.75 3.16 2.11
+loadlab-control-plane 12.03%
+lead-hunter-scraper 0.22%
+n8n 0.17%
+platform-lab-worker2 1.77%
+platform-lab-worker 2.18%
+platform-lab-control-plane 14.59%
+== 2026-10-28T17:20:29Z 5.02 3.50 2.25
+loadlab-control-plane 620.72%
+lead-hunter-scraper 0.15%
+n8n 0.21%
+platform-lab-worker2 1.65%
+platform-lab-worker 1.26%
+platform-lab-control-plane 10.64%
+== 2026-10-28T17:21:01Z 4.43 3.53 2.31
+loadlab-control-plane 563.22%
+lead-hunter-scraper 0.15%
+n8n 0.35%
+platform-lab-worker2 1.68%
+platform-lab-worker 3.39%
+platform-lab-control-plane 12.35%
+== 2026-10-28T17:21:33Z 3.57 3.39 2.30
+loadlab-control-plane 616.12%
+lead-hunter-scraper 0.16%
+n8n 0.19%
+platform-lab-worker2 1.36%
+platform-lab-worker 2.41%
+platform-lab-control-plane 11.04%
+== 2026-10-28T17:22:05Z 3.68 3.46 2.36
+loadlab-control-plane 12.98%
+lead-hunter-scraper 0.15%
+n8n 0.11%
+platform-lab-worker2 2.18%
+platform-lab-worker 2.04%
+platform-lab-control-plane 12.36%
+== 2026-10-28T17:22:37Z 3.63 3.45 2.40
+loadlab-control-plane 618.70%
+lead-hunter-scraper 0.16%
+n8n 0.14%
+platform-lab-worker2 1.48%
+platform-lab-worker 1.92%
+platform-lab-control-plane 12.53%
+== 2026-10-28T17:23:09Z 4.89 3.77 2.54
+loadlab-control-plane 612.76%
+lead-hunter-scraper 0.16%
+n8n 0.18%
+platform-lab-worker2 1.17%
+platform-lab-worker 1.51%
+platform-lab-control-plane 14.66%
+== 2026-10-28T17:23:41Z 6.39 4.23 2.74
+loadlab-control-plane 622.82%
+lead-hunter-scraper 0.19%
+n8n 0.33%
+platform-lab-worker2 0.73%
+platform-lab-worker 2.82%
+platform-lab-control-plane 11.52%
+== 2026-10-28T17:24:13Z 6.07 4.37 2.83
+loadlab-control-plane 619.06%
+lead-hunter-scraper 0.17%
+n8n 0.26%
+platform-lab-worker2 1.91%
+platform-lab-worker 0.97%
+platform-lab-control-plane 10.58%
+== 2026-10-28T17:24:45Z 6.38 4.60 2.96
+loadlab-control-plane 578.13%
+lead-hunter-scraper 0.17%
+n8n 0.10%
+platform-lab-worker2 1.28%
+platform-lab-worker 1.46%
+platform-lab-control-plane 10.08%
+== 2026-10-28T17:25:17Z 6.55 4.85 3.11
+loadlab-control-plane 615.88%
+lead-hunter-scraper 0.18%
+n8n 0.18%
+platform-lab-worker2 1.17%
+platform-lab-worker 1.85%
+platform-lab-control-plane 12.05%
+== 2026-10-28T17:25:49Z 5.45 4.77 3.13
+loadlab-control-plane 605.44%
+lead-hunter-scraper 0.16%
+n8n 0.12%
+platform-lab-worker2 1.54%
+platform-lab-worker 1.94%
+platform-lab-control-plane 14.35%
+== 2026-10-28T17:26:21Z 5.46 4.84 3.22
+loadlab-control-plane 450.38%
+lead-hunter-scraper 0.15%
+n8n 0.27%
+platform-lab-worker2 0.82%
+platform-lab-worker 2.90%
+platform-lab-control-plane 12.52%
+== 2026-10-28T17:26:53Z 7.08 5.29 3.42
+loadlab-control-plane 575.85%
+lead-hunter-scraper 0.14%
+n8n 0.17%
+platform-lab-worker2 2.22%
+platform-lab-worker 1.22%
+platform-lab-control-plane 10.13%
+== 2026-10-28T17:27:26Z 8.29 5.81 3.67
+loadlab-control-plane 620.66%
+lead-hunter-scraper 0.15%
+n8n 0.16%
+platform-lab-worker2 1.21%
+platform-lab-worker 1.97%
+platform-lab-control-plane 13.35%
+== 2026-10-28T17:27:58Z 8.75 6.15 3.85
+loadlab-control-plane 621.83%
+lead-hunter-scraper 0.17%
+n8n 0.20%
+platform-lab-worker2 1.10%
+platform-lab-worker 0.80%
+platform-lab-control-plane 16.04%
+== 2026-10-28T17:28:30Z 8.58 6.35 3.99
+loadlab-control-plane 622.20%
+lead-hunter-scraper 0.16%
+n8n 0.11%
+platform-lab-worker2 1.08%
+platform-lab-worker 1.76%
+platform-lab-control-plane 7.80%
+== 2026-10-28T17:29:02Z 7.82 6.40 4.09
+loadlab-control-plane 575.55%
+lead-hunter-scraper 0.15%
+n8n 0.12%
+platform-lab-worker2 1.45%
+platform-lab-worker 3.29%
+platform-lab-control-plane 14.58%
+== 2026-10-28T17:29:34Z 7.54 6.46 4.19
+loadlab-control-plane 616.89%
+lead-hunter-scraper 0.15%
+n8n 0.20%
+platform-lab-worker2 1.00%
+platform-lab-worker 1.28%
+platform-lab-control-plane 9.42%
+== 2026-10-28T17:30:06Z 7.62 6.59 4.31
+loadlab-control-plane 622.55%
+lead-hunter-scraper 0.16%
+n8n 0.62%
+platform-lab-worker2 1.12%
+platform-lab-worker 1.33%
+platform-lab-control-plane 11.18%
+== 2026-10-28T17:30:38Z 7.41 6.63 4.40
+loadlab-control-plane 620.69%
+lead-hunter-scraper 0.16%
+n8n 0.24%
+platform-lab-worker2 0.89%
+platform-lab-worker 1.86%
+platform-lab-control-plane 10.71%
+== 2026-10-28T17:31:10Z 7.30 6.68 4.49
+loadlab-control-plane 18.07%
+lead-hunter-scraper 0.15%
+n8n 0.21%
+platform-lab-worker2 2.46%
+platform-lab-worker 3.06%
+platform-lab-control-plane 9.31%
+== 2026-10-28T17:31:42Z 4.61 6.07 4.37
+loadlab-control-plane 14.52%
+lead-hunter-scraper 0.17%
+n8n 0.14%
+platform-lab-worker2 2.52%
+platform-lab-worker 3.67%
+platform-lab-control-plane 11.09%
+== 2026-10-28T17:32:14Z 3.40 5.63 4.27
+loadlab-control-plane 14.02%
+lead-hunter-scraper 0.17%
+platform-lab-worker2 1.50%
+platform-lab-worker 2.19%
+platform-lab-control-plane 9.88%
+== 2026-10-28T17:32:46Z 2.58 5.19 4.18
+loadlab-control-plane 11.60%
+lead-hunter-scraper 0.14%
+n8n 0.22%
+platform-lab-worker2 2.16%
+platform-lab-worker 2.57%
+platform-lab-control-plane 12.15%
+== 2026-10-28T17:33:18Z 1.96 4.79 4.07
+loadlab-control-plane 12.68%
+lead-hunter-scraper 0.20%
+n8n 0.19%
+platform-lab-worker2 1.70%
+platform-lab-worker 1.53%
+platform-lab-control-plane 11.02%
+== 2026-10-28T17:33:50Z 1.70 4.45 3.98
+loadlab-control-plane 12.95%
+lead-hunter-scraper 0.18%
+n8n 0.34%
+platform-lab-worker2 3.72%
+platform-lab-worker 2.53%
+platform-lab-control-plane 12.32%
+== 2026-10-28T17:34:22Z 1.40 4.06 3.87
+loadlab-control-plane 15.98%
+lead-hunter-scraper 0.17%
+n8n 0.16%
+platform-lab-worker2 2.57%
+platform-lab-worker 3.03%
+platform-lab-control-plane 12.03%

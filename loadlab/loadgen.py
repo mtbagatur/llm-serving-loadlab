@@ -7,14 +7,26 @@ Runs a (prompt length x concurrency) matrix. For every request it records:
 - decode_tok_s:  output tokens per second after the first token
 - prompt_tokens / completion_tokens (from `usage` when the server reports it)
 
-Concurrency is *closed-loop*: `c` workers each send one request, wait for it to
-finish, then send the next. This is how most load tests of chat backends behave
-and it keeps the number of in-flight requests exactly equal to `c`.
+Two load models:
+
+- closed loop (default, `--mode closed`): `c` workers each send one request, wait
+  for it to finish, then send the next. The number of in-flight requests is
+  exactly `c`. Clean for diagnosis ("what does one more request in flight cost?").
+- open loop (`--mode open --rates 0.1,0.2`): requests arrive at a fixed average
+  rate (requests/s) as a Poisson process, whether or not earlier requests have
+  finished. This is how independent users behave. If the offered rate is above
+  what the server can complete, the in-flight count (the queue) keeps growing and
+  TTFT climbs with time: that is the capacity limit. Each open-loop row records the
+  arrival time and how many requests were already in flight at that moment.
 
 Usage:
     python -m loadlab.loadgen --base-url http://127.0.0.1:11501/v1 \
         --model qwen2.5:0.5b --prompt-lengths 128,512,1024,2048 \
         --concurrency 1,2,4,8 --requests-per-cell 8 --out results/run
+
+    python -m loadlab.loadgen --mode open --base-url http://127.0.0.1:11501/v1 \
+        --model qwen2.5:0.5b --prompt-lengths 512 --rates 0.05,0.1,0.2 \
+        --requests-per-cell 16 --out results/openloop
 """
 from __future__ import annotations
 
@@ -24,6 +36,7 @@ import csv
 import itertools
 import json
 import platform
+import random
 import time
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
@@ -48,6 +61,11 @@ class RequestResult:
     latency_s: float = float("nan")
     decode_tok_s: float = float("nan")
     started_at: float = 0.0
+    # open-loop only (closed-loop rows keep the defaults)
+    mode: str = "closed"
+    rate_rps: float = 0.0              # offered arrival rate of the cell
+    arrival_offset_s: float = float("nan")  # scheduled arrival, seconds since cell start
+    inflight_at_arrival: int = 0       # requests already in flight when this one was sent
 
 
 @dataclass
@@ -63,6 +81,9 @@ class RunConfig:
     warmup_requests: int = 1
     seed: int = 0
     api_key: str = "not-needed"
+    mode: str = "closed"               # "closed" or "open"
+    rates: list[float] = field(default_factory=list)  # open loop: requests/s per cell
+    force_close: bool = False          # new TCP connection per request (lets a k8s Service balance per request)
     extra: dict = field(default_factory=dict)
 
 
@@ -169,9 +190,71 @@ async def run_cell(
     return results
 
 
+def poisson_arrivals(rate_rps: float, n: int, rng: random.Random) -> list[float]:
+    """Arrival offsets (s) for `n` requests at average rate `rate_rps`.
+
+    A Poisson process *conditioned on* n arrivals in the window T = n / rate: the
+    arrival times are n sorted uniform draws on [0, T]. Gaps are still exponential-
+    like (bursts and lulls, as with real users), but the realised rate is exactly
+    the offered one. Unconditioned exponential gaps over only ~20 requests can miss
+    the target badly (in a first run here, 0.4 req/s offered came out as 0.27 req/s).
+    """
+    if rate_rps <= 0:
+        raise ValueError("rate must be > 0")
+    window = n / rate_rps
+    return sorted(rng.uniform(0.0, window) for _ in range(n))
+
+
+async def run_open_cell(
+    session: aiohttp.ClientSession,
+    cfg: RunConfig,
+    target_tokens: int,
+    rate_rps: float,
+    url_cycle,
+    seed_base: int,
+) -> list[RequestResult]:
+    """Open loop: send `requests_per_cell` requests at Poisson arrival times, never waiting
+    for earlier ones. Returns after the last request has finished."""
+    arrivals = poisson_arrivals(rate_rps, cfg.requests_per_cell, random.Random(seed_base))
+    results: list[RequestResult] = []
+    inflight = 0
+
+    async def one(i: int, offset: float) -> None:
+        nonlocal inflight
+        base_url = next(url_cycle)
+        rec = RequestResult(
+            scenario=cfg.scenario, base_url=base_url, target_prompt_tokens=target_tokens,
+            concurrency=0, request_index=i, ok=False, started_at=time.time(),
+            mode="open", rate_rps=rate_rps, arrival_offset_s=offset, inflight_at_arrival=inflight,
+        )
+        inflight += 1
+        try:
+            m = await send_one(session, base_url, cfg.model, make_prompt(target_tokens, seed=seed_base + i),
+                               cfg.max_tokens, cfg.api_key)
+            rec.ok = True
+            for k, v in m.items():
+                setattr(rec, k, v)
+        except Exception as exc:  # recorded, never raised: errors are data
+            rec.error = f"{type(exc).__name__}: {exc}"[:300]
+        finally:
+            inflight -= 1
+        results.append(rec)
+
+    t0 = time.perf_counter()
+    tasks = []
+    for i, offset in enumerate(arrivals):
+        delay = t0 + offset - time.perf_counter()
+        if delay > 0:
+            await asyncio.sleep(delay)
+        tasks.append(asyncio.create_task(one(i, offset)))
+    await asyncio.gather(*tasks)
+    results.sort(key=lambda r: r.request_index)
+    return results
+
+
 async def run_matrix(cfg: RunConfig, progress: bool = True) -> list[RequestResult]:
     timeout = aiohttp.ClientTimeout(total=cfg.timeout_s)
-    connector = aiohttp.TCPConnector(limit=0)
+    connector = aiohttp.TCPConnector(limit=0, force_close=cfg.force_close)
     url_cycle = itertools.cycle(cfg.base_urls)
     all_results: list[RequestResult] = []
     async with aiohttp.ClientSession(timeout=timeout, connector=connector) as session:
@@ -182,18 +265,26 @@ async def run_matrix(cfg: RunConfig, progress: bool = True) -> list[RequestResul
         seed = cfg.seed * 1_000_000
         # Interleave cells (prompt length outer, concurrency inner) so slow drift
         # of the machine (thermals, background jobs) does not line up with one factor.
+        levels = cfg.rates if cfg.mode == "open" else cfg.concurrency
         for target in cfg.prompt_lengths:
-            for conc in cfg.concurrency:
+            for level in levels:
                 t0 = time.perf_counter()
-                res = await run_cell(session, cfg, target, conc, url_cycle, seed)
+                if cfg.mode == "open":
+                    res = await run_open_cell(session, cfg, target, level, url_cycle, seed)
+                    label = f"rate={level:g}/s"
+                else:
+                    res = await run_cell(session, cfg, target, level, url_cycle, seed)
+                    label = f"conc={level:>2}"
                 seed += cfg.requests_per_cell
                 all_results.extend(res)
                 if progress:
                     ok = [r for r in res if r.ok]
                     p50 = sorted(r.latency_s for r in ok)[len(ok) // 2] if ok else float("nan")
+                    extra = (f" max_inflight={max(r.inflight_at_arrival for r in res) + 1}"
+                             if cfg.mode == "open" else "")
                     print(
-                        f"[{cfg.scenario}] prompt~{target:>5} conc={conc:>2} "
-                        f"ok={len(ok)}/{len(res)} p50_latency={p50:6.2f}s "
+                        f"[{cfg.scenario}] prompt~{target:>5} {label} "
+                        f"ok={len(ok)}/{len(res)} p50_latency={p50:6.2f}s{extra} "
                         f"cell_time={time.perf_counter() - t0:6.1f}s",
                         flush=True,
                     )
@@ -228,13 +319,23 @@ def _ints(s: str) -> list[int]:
     return [int(x) for x in s.split(",") if x.strip()]
 
 
+def _floats(s: str) -> list[float]:
+    return [float(x) for x in s.split(",") if x.strip()]
+
+
 def main(argv: list[str] | None = None) -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--base-url", action="append", required=True,
                    help="OpenAI-compatible base URL (repeat for client-side round robin across replicas)")
     p.add_argument("--model", required=True)
     p.add_argument("--prompt-lengths", type=_ints, default=[128, 512, 1024, 2048])
+    p.add_argument("--mode", choices=["closed", "open"], default="closed",
+                   help="closed: fixed requests in flight (--concurrency); open: Poisson arrivals at --rates req/s")
     p.add_argument("--concurrency", type=_ints, default=[1, 2, 4, 8])
+    p.add_argument("--rates", type=_floats, default=[],
+                   help="open loop only: offered arrival rates in requests/s, e.g. 0.05,0.1,0.2")
+    p.add_argument("--no-keepalive", action="store_true",
+                   help="open a new connection per request (a k8s Service balances connections, not requests)")
     p.add_argument("--requests-per-cell", type=int, default=8)
     p.add_argument("--max-tokens", type=int, default=64)
     p.add_argument("--timeout", type=float, default=600.0)
@@ -247,8 +348,11 @@ def main(argv: list[str] | None = None) -> None:
         base_urls=a.base_url, model=a.model, prompt_lengths=a.prompt_lengths,
         concurrency=a.concurrency, requests_per_cell=a.requests_per_cell,
         max_tokens=a.max_tokens, timeout_s=a.timeout, scenario=a.scenario,
-        warmup_requests=a.warmup, seed=a.seed,
+        warmup_requests=a.warmup, seed=a.seed, mode=a.mode, rates=a.rates,
+        force_close=a.no_keepalive,
     )
+    if cfg.mode == "open" and not cfg.rates:
+        p.error("--mode open needs --rates")
     results = asyncio.run(run_matrix(cfg))
     csv_path, json_path = write_results(results, cfg, Path(a.out))
     n_err = sum(not r.ok for r in results)

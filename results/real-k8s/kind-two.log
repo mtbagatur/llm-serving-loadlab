@@ -1,0 +1,17 @@
+[kind-two] prompt~  128 conc= 1 ok=8/8 p50_latency=  5.46s cell_time=  33.1s
+[kind-two] prompt~  128 conc= 2 ok=8/8 p50_latency=  4.90s cell_time=  21.9s
+[kind-two] prompt~  128 conc= 4 ok=8/8 p50_latency=  5.43s cell_time=  13.9s
+[kind-two] prompt~  128 conc= 8 ok=8/8 p50_latency=  9.05s cell_time=   9.3s
+[kind-two] prompt~  512 conc= 1 ok=8/8 p50_latency=  5.80s cell_time=  46.3s
+[kind-two] prompt~  512 conc= 2 ok=8/8 p50_latency=  8.82s cell_time=  36.8s
+[kind-two] prompt~  512 conc= 4 ok=8/8 p50_latency= 13.64s cell_time=  30.1s
+[kind-two] prompt~  512 conc= 8 ok=8/8 p50_latency= 27.48s cell_time=  27.6s
+[kind-two] prompt~ 1024 conc= 1 ok=8/8 p50_latency= 11.56s cell_time=  94.0s
+[kind-two] prompt~ 1024 conc= 2 ok=8/8 p50_latency= 16.59s cell_time=  66.4s
+[kind-two] prompt~ 1024 conc= 4 ok=8/8 p50_latency= 30.69s cell_time=  63.5s
+[kind-two] prompt~ 1024 conc= 8 ok=8/8 p50_latency= 60.05s cell_time=  60.2s
+[kind-two] prompt~ 2048 conc= 1 ok=8/8 p50_latency= 26.47s cell_time= 213.4s
+[kind-two] prompt~ 2048 conc= 2 ok=8/8 p50_latency= 33.83s cell_time= 160.7s
+[kind-two] prompt~ 2048 conc= 4 ok=8/8 p50_latency= 67.99s cell_time= 166.7s
+[kind-two] prompt~ 2048 conc= 8 ok=8/8 p50_latency=134.53s cell_time= 134.7s
+wrote results/real-k8s/kind-two.csv and results/real-k8s/kind-two.json: 128 requests, 0 errors

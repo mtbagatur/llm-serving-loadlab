@@ -1,0 +1,17 @@
+[kind-one] prompt~  128 conc= 1 ok=8/8 p50_latency=  2.75s cell_time=  19.9s
+[kind-one] prompt~  128 conc= 2 ok=8/8 p50_latency=  3.96s cell_time=  15.7s
+[kind-one] prompt~  128 conc= 4 ok=8/8 p50_latency=  6.72s cell_time=  14.1s
+[kind-one] prompt~  128 conc= 8 ok=8/8 p50_latency= 13.83s cell_time=  14.7s
+[kind-one] prompt~  512 conc= 1 ok=8/8 p50_latency=  5.62s cell_time=  45.2s
+[kind-one] prompt~  512 conc= 2 ok=8/8 p50_latency= 10.68s cell_time=  42.6s
+[kind-one] prompt~  512 conc= 4 ok=8/8 p50_latency= 20.75s cell_time=  41.4s
+[kind-one] prompt~  512 conc= 8 ok=8/8 p50_latency= 44.85s cell_time=  45.0s
+[kind-one] prompt~ 1024 conc= 1 ok=8/8 p50_latency= 11.82s cell_time=  94.7s
+[kind-one] prompt~ 1024 conc= 2 ok=8/8 p50_latency= 22.29s cell_time=  89.4s
+[kind-one] prompt~ 1024 conc= 4 ok=8/8 p50_latency= 50.99s cell_time=  96.4s
+[kind-one] prompt~ 1024 conc= 8 ok=8/8 p50_latency= 91.22s cell_time=  91.3s
+[kind-one] prompt~ 2048 conc= 1 ok=8/8 p50_latency= 27.83s cell_time= 221.8s
+[kind-one] prompt~ 2048 conc= 2 ok=8/8 p50_latency= 59.49s cell_time= 235.1s
+[kind-one] prompt~ 2048 conc= 4 ok=8/8 p50_latency=120.81s cell_time= 237.9s
+[kind-one] prompt~ 2048 conc= 8 ok=8/8 p50_latency=246.17s cell_time= 246.3s
+wrote results/real-k8s/kind-one.csv and results/real-k8s/kind-one.json: 128 requests, 0 errors
