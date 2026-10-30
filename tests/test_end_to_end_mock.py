@@ -23,6 +23,7 @@ async def test_loadgen_against_mock_server(tmp_path):
         assert 0 < r.ttft_s <= r.latency_s
         assert r.completion_tokens == 8
         assert not math.isnan(r.decode_tok_s)
+        assert 0 < r.itl_p50_s <= r.itl_p90_s <= r.latency_s  # inter-token latency is recorded
     long_ttft = [r.ttft_s for r in results if r.target_prompt_tokens == 2048 and r.concurrency == 1]
     short_ttft = [r.ttft_s for r in results if r.target_prompt_tokens == 128 and r.concurrency == 1]
     assert min(long_ttft) > max(short_ttft)  # prefill cost is visible in TTFT

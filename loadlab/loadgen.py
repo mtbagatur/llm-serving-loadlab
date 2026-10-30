@@ -42,6 +42,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 import aiohttp
+import numpy as np
 
 from .prompts import estimate_tokens, make_prompt
 
@@ -61,6 +62,10 @@ class RequestResult:
     latency_s: float = float("nan")
     decode_tok_s: float = float("nan")
     started_at: float = 0.0
+    # inter-token latency: gaps between consecutive content chunks (one chunk ~ one token on
+    # most servers; servers that batch several tokens per chunk make this an upper bound on ITL)
+    itl_p50_s: float = float("nan")
+    itl_p90_s: float = float("nan")
     # open-loop only (closed-loop rows keep the defaults)
     mode: str = "closed"
     rate_rps: float = 0.0              # offered arrival rate of the cell
@@ -110,6 +115,7 @@ async def send_one(
     ttft = None
     chunks = 0
     usage = None
+    stamps: list[float] = []
     async with session.post(url, json=payload, headers=headers) as resp:
         if resp.status != 200:
             body = await resp.text()
@@ -130,6 +136,7 @@ async def send_one(
                     if ttft is None:
                         ttft = time.perf_counter() - t0
                     chunks += 1
+                    stamps.append(time.perf_counter())
     latency = time.perf_counter() - t0
     if ttft is None:  # no content at all (e.g. immediate EOS)
         ttft = latency
@@ -137,7 +144,10 @@ async def send_one(
     prompt_tokens = (usage or {}).get("prompt_tokens") or estimate_tokens(prompt)
     decode_time = latency - ttft
     decode_tok_s = (completion_tokens - 1) / decode_time if completion_tokens > 1 and decode_time > 0 else float("nan")
+    gaps = [b - a for a, b in zip(stamps, stamps[1:])]
     return {
+        "itl_p50_s": float(np.percentile(gaps, 50)) if gaps else float("nan"),
+        "itl_p90_s": float(np.percentile(gaps, 90)) if gaps else float("nan"),
         "ttft_s": ttft,
         "latency_s": latency,
         "prompt_tokens": int(prompt_tokens),

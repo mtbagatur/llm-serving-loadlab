@@ -1,0 +1,13 @@
+[sweep-itl] prompt~  128 conc= 1 ok=4/4 p50_latency=  1.60s cell_time=   6.1s
+[sweep-itl] prompt~  128 conc= 2 ok=4/4 p50_latency=  2.76s cell_time=   5.6s
+[sweep-itl] prompt~  128 conc= 4 ok=4/4 p50_latency=  4.29s cell_time=   4.3s
+[sweep-itl] prompt~  512 conc= 1 ok=4/4 p50_latency=  3.49s cell_time=  13.4s
+[sweep-itl] prompt~  512 conc= 2 ok=4/4 p50_latency=  6.39s cell_time=  12.9s
+[sweep-itl] prompt~  512 conc= 4 ok=4/4 p50_latency= 13.78s cell_time=  13.8s
+[sweep-itl] prompt~ 1024 conc= 1 ok=4/4 p50_latency=  8.02s cell_time=  31.7s
+[sweep-itl] prompt~ 1024 conc= 2 ok=4/4 p50_latency= 16.66s cell_time=  33.1s
+[sweep-itl] prompt~ 1024 conc= 4 ok=4/4 p50_latency= 33.67s cell_time=  33.7s
+[sweep-itl] prompt~ 2048 conc= 1 ok=4/4 p50_latency= 19.36s cell_time=  77.4s
+[sweep-itl] prompt~ 2048 conc= 2 ok=4/4 p50_latency= 42.85s cell_time=  83.6s
+[sweep-itl] prompt~ 2048 conc= 4 ok=4/4 p50_latency= 83.47s cell_time=  83.5s
+wrote results/real/sweep-itl.csv and results/real/sweep-itl.json: 48 requests, 0 errors

@@ -7,3 +7,4 @@ results/scratch*/
 .kind-kubeconfig
 .kind-config.yaml
 .ollama-image.tar
+docs/WALKTHROUGH.md

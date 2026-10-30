@@ -99,6 +99,60 @@ Full per-cell table: `results/real/analysis/cell_summary.csv`. Raw requests:
 sleeps according to a parametric prefill/decode model. It exists for tests and for running the
 pipeline without a model. Its numbers are not results and are labelled MOCK in the memo.
 
+## Reading the sweep table, bottleneck check, KV cache, hop overhead
+
+**Sweep table.** `analyze` prints (and writes into `decision_memo.md`) one table per scenario,
+prompt length x concurrency: p50 TTFT, p50 total latency, per-request decode tok/s, aggregate tok/s
+(all completion tokens / cell wall time) and inter-token latency p50/p90 (ITL, from the gaps between
+streamed chunks; one chunk is about one token on most servers). Read it like this: TTFT grows with
+prompt length at concurrency 1 -> prefill cost; aggregate tok/s flat while concurrency grows -> device
+saturated; per-request decode tok/s falls and ITL p90 grows faster than p50 -> requests interfere
+in decode. CSVs from older runs (no ITL columns) still work; the ITL columns are then omitted.
+
+**Which component is the bottleneck?** Scale one component (gateway/auth replicas, a proxy) and rerun
+the same matrix as a second scenario. If tail latency changes but per-request decode tok/s and
+TTFT-vs-prompt-length stay the same, that component was not the bottleneck: it only moved queueing
+around. If decode tok/s or TTFT at a given prompt length change, it was on the critical path. The memo
+always states this rule; with two scenarios, `--component NAME` checks it on your data
+(`not-bottleneck` / `on-critical-path`; 15% relative change is treated as noise, a judgement call):
+
+```bash
+.venv/bin/python -m loadlab.analyze results/x/gw1.csv results/x/gw2.csv --out-dir results/x/analysis \
+    --baseline gw1 --component gateway
+```
+
+**KV-cache capacity.** `kv bytes/token = 2 * layers * kv_heads * head_dim * dtype_bytes`; a sequence
+needs `avg_context * that`; `max concurrent sequences = free memory / per-sequence bytes`. "Free" is what
+is left after weights, activations and runtime overhead (read it from the engine's startup log).
+Generic example (8B-class model with grouped-query attention, 40 GiB free):
+
+```bash
+.venv/bin/python -m loadlab.kvcache --layers 32 --kv-heads 8 --head-dim 128 --dtype-bytes 2 --free-gb 40 --avg-ctx 4096
+# 131072 bytes (128 KiB) of KV cache per token; 512 MiB per 4096-token sequence; 40 GiB free -> at most 80 concurrent sequences
+```
+
+The same `--kv-layers/--kv-kv-heads/--kv-head-dim/--kv-dtype-bytes/--kv-free-gb/--kv-avg-ctx` flags on
+`loadlab.analyze` add the estimate to the memo. It is an upper bound (ignores fragmentation and prefix sharing).
+If it is far below your target concurrency, memory, not compute, caps the decode batch: shorten contexts,
+quantize the KV cache, or add devices.
+
+**Per-hop overhead (gateway, auth, proxy).** `--base-url` can point at a proxy, so the cheap measurement
+is already here: run the same matrix twice, once straight to the model server (`direct`) and once through the
+hop (`via-proxy`), then `analyze ... direct.csv via-proxy.csv --baseline direct --component proxy`. The
+memo's "per-hop overhead" line is the p50 TTFT and total-latency difference at the lowest concurrency, i.e.
+what the hop costs when nothing queues. For a breakdown inside a request, propagate a trace context
+(W3C `traceparent`) through each hop, record one span per hop (gateway, auth check, upstream call, engine
+queue, prefill, decode) and compare span durations at the same prompt length; the span that grows with
+prompt length is the engine, spans that stay flat are fixed hop costs. Not implemented here; this repo
+only measures end to end.
+
+**Short sweep with ITL (real, this machine).** `results/real/sweep-itl.*`, memo and full table in
+`results/real/analysis-sweep/` (Ollama 0.6.8, `qwen2.5:0.5b`, 8 pinned CPU cores, prompts ~128-2048 tokens x
+concurrency 1/2/4, 4 requests per cell, `max_tokens=48`, 48 requests, 0 errors; small cells, treat as a trend).
+At concurrency 1, TTFT goes from 0.47 s (~146 tokens) to 17.83 s (~1882 tokens). At the longest prompt,
+concurrency 1 -> 4: aggregate tok/s 2.5 -> 2.3 (saturated), per-request decode 32.6 -> 12.6 tok/s, ITL p50 22 -> 72 ms.
+Verdict: `prefill`.
+
 ## What I'd tell the customer
 
 > We measured instead of guessing. Response time grows with how much text each request sends
@@ -285,7 +339,8 @@ During `open-kind-one` the second pod was running but received no traffic (it us
 ```
 loadlab/prompts.py      unique, length-controlled prompts (defeats prefix cache)
 loadlab/loadgen.py      async streaming load generator -> CSV/JSON
-loadlab/analyze.py      elasticities, throughput, charts, decision memo
+loadlab/analyze.py      elasticities, throughput, sweep table, bottleneck check, charts, decision memo
+loadlab/kvcache.py      KV-cache capacity estimate (pure function + CLI)
 loadlab/openloop.py     open-loop analysis: queue build-up, TTFT vs offered rate, memo
 loadlab/mock_server.py  SIMULATED OpenAI-compatible server (tests / offline demo)
 k8s/                    kustomize base, one/two replica overlays (multi-node), kind-one/kind-two
@@ -294,7 +349,6 @@ tests/                  pytest
 results/real/           real run on this machine, Docker (raw + analysis)
 results/real-k8s/       real run on kind: closed loop + open loop (raw, logs, analysis, host load log)
 results/mock/           mock demo output
-docs/WALKTHROUGH.md     design notes (Turkish)
 ```
 
 ## License

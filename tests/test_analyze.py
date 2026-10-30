@@ -67,3 +67,75 @@ def test_two_scenarios_produce_comparison(tmp_path):
     assert comp["baseline"] == "one-replica" and comp["candidate"] == "two-replicas"
     assert comp["median_speedup"] > 1.1
     assert (tmp_path / "out" / "scenario_comparison.png").exists()
+
+
+# ---- sweep table, ITL columns, component check, KV memo section
+
+from loadlab.analyze import cell_table, component_check, load_rows, sweep_table, BOTTLENECK_RULE
+
+
+def _scaled_rows(base_fn, tail_factor, decode_tok_s, scenario, ttft_share=0.8, seed=0):
+    """Rows whose p95 latency is multiplied by tail_factor for the slowest requests, decode speed fixed."""
+    rows = _rows(base_fn, ttft_share=ttft_share, scenario=scenario, seed=seed)
+    for i, r in enumerate(rows):
+        r["decode_tok_s"] = decode_tok_s
+        r["itl_p50_s"] = 1 / decode_tok_s
+        r["itl_p90_s"] = 1.5 / decode_tok_s
+        if i % 5 == 4:  # the 5th request of every cell is the tail
+            r["latency_s"] *= tail_factor
+    return rows
+
+
+def test_sweep_table_has_all_columns_and_itl(tmp_path):
+    rows = _scaled_rows(lambda p, c: 0.003 * p * (1 + 0.05 * c), 1.0, 30.0, "s")
+    cells = cell_table(load_rows([_write(rows, tmp_path / "a.csv")]))
+    table = sweep_table(cells, "s")
+    head = table.splitlines()[0]
+    for col in ("p50 TTFT", "p50 total", "decode tok/s per req", "aggregate tok/s", "ITL p50", "ITL p90"):
+        assert col in head
+    assert len(table.splitlines()) == 2 + len(LENGTHS) * len(CONCS)
+    assert all(c["aggregate_tok_s"] > 0 for c in cells)
+
+
+def test_old_csv_without_itl_columns_still_works(tmp_path):
+    rows = _rows(lambda p, c: 0.003 * p)
+    s = analyze([_write(rows, tmp_path / "a.csv")], tmp_path / "out")
+    table = sweep_table(s["cells"], "s")
+    assert "ITL" not in table.splitlines()[0]
+    assert "Sweep table" in (tmp_path / "out" / "decision_memo.md").read_text()
+
+
+def test_scaling_a_non_bottleneck_changes_tail_only():
+    fn = lambda p, c: 0.003 * p * (1 + 0.05 * c)
+    base = _scaled_rows(fn, 2.0, 30.0, "gw1", seed=0)  # slow tail from queueing
+    scaled = _scaled_rows(fn, 1.0, 30.0, "gw2", seed=1)  # tail shrinks, per-request speed identical
+    cells = cell_table(load_rows_from(base + scaled))
+    r = component_check(cells, "gw1", "gw2", "gateway")
+    assert r["verdict"] == "not-bottleneck"
+    assert r["latency_p95_ratio"] < 0.85  # the tail did change
+
+
+def test_scaling_the_real_bottleneck_is_detected():
+    base = _scaled_rows(lambda p, c: 0.003 * p * (1 + 0.05 * c), 1.0, 30.0, "r1", seed=0)
+    scaled = _scaled_rows(lambda p, c: 0.0015 * p * (1 + 0.05 * c), 1.0, 60.0, "r2", seed=1)  # prefill and decode 2x faster
+    r = component_check(cell_table(load_rows_from(base + scaled)), "r1", "r2", "model replica")
+    assert r["verdict"] == "on-critical-path"
+
+
+def test_memo_documents_rule_and_kv(tmp_path):
+    fn = lambda p, c: 0.003 * p * (1 + 0.05 * c)
+    a = _write(_scaled_rows(fn, 2.0, 30.0, "gw1"), tmp_path / "a.csv")
+    b = _write(_scaled_rows(fn, 1.0, 30.0, "gw2", seed=1), tmp_path / "b.csv")
+    kv = {"bytes_per_token": 131072, "bytes_per_sequence": 4096 * 131072, "max_sequences": 80, "free_gb": 40,
+          "avg_ctx_tokens": 4096, "block_tokens": 1}
+    s = analyze([a, b], tmp_path / "out", baseline="gw1", component="gateway", kv_cache=kv)
+    memo = (tmp_path / "out" / "decision_memo.md").read_text()
+    assert BOTTLENECK_RULE in memo
+    assert "not-bottleneck" in memo and "at most 80 concurrent sequences" in memo
+    assert s["component_check"]["component"] == "gateway"
+
+
+def load_rows_from(rows):
+    import tempfile, pathlib
+    d = pathlib.Path(tempfile.mkdtemp())
+    return load_rows([_write(rows, d / "x.csv")])
